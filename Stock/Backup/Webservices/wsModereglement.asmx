@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsModereglement.asmx.cs" Class="Stock.WS.wsModereglement" %>

@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhaparpupopmenudetail.asmx.cs" Class="Stock.WS.wsPhaparpupopmenudetail" %>

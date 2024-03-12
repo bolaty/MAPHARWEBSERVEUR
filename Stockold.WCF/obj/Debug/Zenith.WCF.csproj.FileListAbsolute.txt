@@ -1,0 +1,192 @@
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll.config
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.pdb
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.pdb
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.pdb
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.pdb
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.pdb
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+J:\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll.config
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.pdb
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+D:\PROJETS\ZENITH WEB\SERVEUR\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll.config
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.pdb
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+C:\Users\DEV\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll.config
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.pdb
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+C:\Users\DEV-PC1\Desktop\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll.config
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\log4net.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\log4net.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll.config
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\log4net.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.Common.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.DTO.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSBLL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\log4net.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\Zenith.WSDAL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\H_ZenithWeb_WCF\HT_Zenith\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WCF.dll.config
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.Common.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.DTO.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSBLL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSDAL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.Common.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.DTO.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSBLL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\log4net.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSDAL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\obj\Debug\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\Nouveau dossier\HT_ZenithWeb_WCF\Zenith.WCF\bin\log4net.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WCF.dll.config
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WCF.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\log4net.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.BOJ.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.Common.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSBLL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSDAL.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Data.v11.1.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.Common.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.BOJ.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSBLL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\log4net.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\Zenith.WSDAL.pdb
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\bin\DevExpress.Data.v11.1.xml
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\obj\Debug\Zenith.WCF.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\obj\Debug\Zenith.WCF.dll
+D:\TESTDIAS\PROJETS\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WCF\obj\Debug\Zenith.WCF.pdb

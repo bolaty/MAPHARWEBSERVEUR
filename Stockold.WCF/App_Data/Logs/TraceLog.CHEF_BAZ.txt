@@ -1,0 +1,1 @@
+2019-02-25 21:03:17,699 [10] ERROR Stock.WCF.wsEditionEtatBudget - La colonne 'VUE_MICBUDGETDETAIL.SR_LIBELLE' n'est pas valide dans la liste de selection parce qu'elle n'est pas contenue dans une fonction d'agregation ou dans la clause GROUP BY.

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{15832AC1-B508-43CF-A99F-CF8DDBA3B6D8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stock.WSDAL</RootNamespace>
+    <AssemblyName>Stock.WSDAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes edition\clsEditionEtatArticlePrestationWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatBudgetWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatBusinessPlanWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatAssuranceWSDAL .cs" />
+    <Compile Include="Classes edition\clsEditionEtatConsultationWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatClientFournisseurWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatImmobilisationWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatParametreWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatStockWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatTresorerieWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionWSDAL.cs" />
+    <Compile Include="Classes edition\clsEtatComptaAnalytiqueWSDAL.cs" />
+    <Compile Include="Classes edition\clsEtatWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatCaisseWSDAL.cs" />
+    <Compile Include="Classes edition\clsPhaparetatfactureWSDAL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatOutilsSecuriteWSDAL.cs" />
+    <Compile Include="Classes\clsActiviteWSDAL.cs" />
+    <Compile Include="Classes\clsAgenceWSDAL.cs" />
+    <Compile Include="Classes\clsBalanceinventaireWSDAL.cs" />
+    <Compile Include="Classes\clsBanqueagenceWSDAL.cs" />
+    <Compile Include="Classes\clsBanqueWSDAL.cs" />
+    <Compile Include="Classes\clsBienimmobiliseamortissementWSDAL.cs" />
+    <Compile Include="Classes\clsBienimmobilisefamilleWSDAL.cs" />
+    <Compile Include="Classes\clsBienimmobiliseparametresourcefinancementWSDAL.cs" />
+    <Compile Include="Classes\clsBienimmobiliseWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamcouleurWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamdocumentdetailfamilleWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamdocumentdetailWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamdocumentWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamformuleWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparampoliceWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparampostedetailWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparampostenatureWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamposteWSDAL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamsigneWSDAL.cs" />
+    <Compile Include="Classes\clsCliadherantsassurancecasprisenchargeWSDAL.cs" />
+    <Compile Include="Classes\clsCliparcoeficientcoutsupplementaireWSDAL.cs" />
+    <Compile Include="Classes\clsCliparcoeficientcoutWSDAL.cs" />
+    <Compile Include="Classes\clsCliparcoeficientWSDAL.cs" />
+    <Compile Include="Classes\clsCliadherantayantsdroitsWSDAL.cs" />
+    <Compile Include="Classes\clsCliadherantsassuranceWSDAL.cs" />
+    <Compile Include="Classes\clsCliassuranceproduitWSDAL.cs" />
+    <Compile Include="Classes\clsClicasprisenchargeadherantperiodiciteWSDAL.cs" />
+    <Compile Include="Classes\clsClicasprisenchargeWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationantecedantWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationconstanteWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationordonnanceWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationpreferenceWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationredactionWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationrendevousWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationresultatWSDAL.cs" />
+    <Compile Include="Classes\clsCliconsultationWSDAL.cs" />
+    <Compile Include="Classes\clsCliparametrelibelleWSDAL.cs" />
+    <Compile Include="Classes\clsCliparametrevaleurWSDAL.cs" />
+    <Compile Include="Classes\clsCliparcategorieordonnanceWSDAL.cs" />
+    <Compile Include="Classes\clsCliparmodeadmissionWSDAL.cs" />
+    <Compile Include="Classes\clsCliparmodesortieWSDAL.cs" />
+    <Compile Include="Classes\clsCliparspecialiteWSDAL.cs" />
+    <Compile Include="Classes\clsClipartitreadherantayantsdroitsWSDAL.cs" />
+    <Compile Include="Classes\clsClipartypeantecedantWSDAL.cs" />
+    <Compile Include="Classes\clsClipartypeconsultattionWSDAL.cs" />
+    <Compile Include="Classes\clsClipartypepreferenceWSDAL.cs" />
+    <Compile Include="Classes\clsClipartyperedactionWSDAL.cs" />
+    <Compile Include="Classes\clsClipartypejourfacturationWSDAL.cs" />
+    <Compile Include="Classes\clsCliparlieufacturationWSDAL.cs" />
+    <Compile Include="Classes\clsCommuneWSDAL.cs" />
+    <Compile Include="Classes\clsComptapar_plananalytiquefamilleWSDAL.cs" />
+    <Compile Include="Classes\clsComptapar_sensWSDAL.cs" />
+    <Compile Include="Classes\clsComptapar_tauxWSDAL.cs" />
+    <Compile Include="Classes\clsComptapar_taxeWSDAL.cs" />
+    <Compile Include="Classes\clsComptapar_typesautWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratayantdroitWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratcapitauxWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratchequephotoreglementcaisseWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratdemandecreationWSDAL.cs" />
+    <Compile Include="Classes\clsCtpargarentieprimerisqueWSDAL.cs" />
+    <Compile Include="Classes\clsCtpargarentieprimeWSDAL.cs" />
+    <Compile Include="Classes\clsCtparcontratstatutdemandeWSDAL.cs" />
+    <Compile Include="Classes\clsCtparsituationdossiersinistreWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinistrechequephotoWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratchequephotoWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratchequereglementcaisseWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinistrechequeWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratchequeWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratcommissionassuranceWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratecheancierWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratgarantieWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratprimeWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratquestionnaireWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratreductionWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratrendezvousclientWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratsuivieclientWSDAL.cs" />
+    <Compile Include="Classes\clsCtcontratWSDAL.cs" />
+    <Compile Include="Classes\clsCtparautocategorieWSDAL.cs" />
+    <Compile Include="Classes\clsCtparbranchecategorietarifWSDAL.cs" />
+    <Compile Include="Classes\clsCtparbrancheWSDAL.cs" />
+    <Compile Include="Classes\clsCtparcapitauxrisqueassuranceliaisonWSDAL.cs" />
+    <Compile Include="Classes\clsCtparcapitauxWSDAL.cs" />
+    <Compile Include="Classes\clsCtparconditionpermisWSDAL.cs" />
+    <Compile Include="Classes\clsCtpardesignationWSDAL.cs" />
+    <Compile Include="Classes\clsCtpardureeWSDAL.cs" />
+    <Compile Include="Classes\clsCtparenergieautoWSDAL.cs" />
+    <Compile Include="Classes\clsCtpargarantierisqueassuranceliaisonWSDAL.cs" />
+    <Compile Include="Classes\clsCtpargarantieWSDAL.cs" />
+    <Compile Include="Classes\clsCtpargenreautoWSDAL.cs" />
+    <Compile Include="Classes\clsCtparintermediaireWSDAL.cs" />
+    <Compile Include="Classes\clsCtparmainforteWSDAL.cs" />
+    <Compile Include="Classes\clsCtparnaturesinistreWSDAL.cs" />
+    <Compile Include="Classes\clsCtparprimerisqueassuranceliaisonWSDAL.cs" />
+    <Compile Include="Classes\clsCtparquestionnairedocumentrisqueassuranceliaisonWSDAL.cs" />
+    <Compile Include="Classes\clsCtparquestionnaireliaisondocumentWSDAL.cs" />
+    <Compile Include="Classes\clsCtparreductionWSDAL.cs" />
+    <Compile Include="Classes\clsCtparresumeWSDAL.cs" />
+    <Compile Include="Classes\clsCtparrisqueassuranceWSDAL.cs" />
+    <Compile Include="Classes\clsCtparstatutcontratWSDAL.cs" />
+    <Compile Include="Classes\clsCtparstatutsocioprofessionnelWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartarifWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartauxautoWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartypeaffaireWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartypeappartementWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartypecontratautoWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartypecontratsanteWSDAL.cs" />
+    <Compile Include="Classes\clsCtpartypeoccupantWSDAL.cs" />
+    <Compile Include="Classes\clsCtparusageautoWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinistrephotoWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinistresituationdossierWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinistresuivieWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinistreWSDAL.cs" />
+    <Compile Include="Classes\clsCtsinitreexpertnommeWSDAL.cs" />
+    <Compile Include="Classes\clsDeviseWSDAL.cs" />
+    <Compile Include="Classes\clsCampangeagricoleWSDAL.cs" />
+    <Compile Include="Classes\clsFormejuridiqueWSDAL.cs" />
+    <Compile Include="Classes\clsLettrageWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjetdetailWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeoperationoperateurWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeoperationprofilwebWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeschemacomptableoperateurWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeschemacomptableprofilwebWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjetwebWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjetWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetdetailhistoWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetdetailWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetparampostebudgetairedetailWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetparampostebudgetairenatureWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetparampostebudgetaireWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetparamtypedetailWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetparamtypeWSDAL.cs" />
+    <Compile Include="Classes\clsMicbudgetWSDAL.cs" />
+    <Compile Include="Classes\clsMiccomptewebmotpasseoublieWSDAL.cs" />
+    <Compile Include="Classes\clsMicparametrelisteproduitsousproduitvaleurWSDAL.cs" />
+    <Compile Include="Classes\clsMicparametrelisteWSDAL.cs" />
+    <Compile Include="Classes\clsMouvementcomptableanalytiqueWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurdroitagenceWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurdroitCompteTresorerieWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurdroitdetailWSDAL.cs" />
+    <Compile Include="Classes\clsPhachangementchambrehistorisationWSDAL.cs" />
+    <Compile Include="Classes\clsPhaecheancierWSDAL.cs" />
+    <Compile Include="Classes\clsPhaentrevehiculeWSDAL.cs" />
+    <Compile Include="Classes\clsPhafamilleoperationWSDAL.cs" />
+    <Compile Include="Classes\clsPhainputmodedegestionWSDAL.cs" />
+    <Compile Include="Classes\clsPhainputWSDAL.cs" />
+    <Compile Include="Classes\clsPhainventairedetailWSDAL.cs" />
+    <Compile Include="Classes\clsPhainventaireraisonWSDAL.cs" />
+    <Compile Include="Classes\clsPhainventaireWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockcommandefactureWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockexpirationWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockm1WSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockm2WSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstocklivraisonWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockphaparqualiteWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockphaparretenueWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementchequeWSDAL.cs" />
+    <Compile Include="Classes\clsExerciceWSDAL.cs" />
+    <Compile Include="Classes\clsJournalWSDAL.cs" />
+    <Compile Include="Classes\clsJourneeTravailWSDAL.cs" />
+    <Compile Include="Classes\clsMessagesWSDAL.cs" />
+    <Compile Include="Classes\clsModereglementWSDAL.cs" />
+    <Compile Include="Classes\clsMouchardWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurDroitWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurphotoWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurWSDAL.cs" />
+    <Compile Include="Classes\clsParametreWSDAL.cs" />
+    <Compile Include="Classes\clsPaysWSDAL.cs" />
+    <Compile Include="Classes\clsPhachauffeurWSDAL.cs" />
+    <Compile Include="Classes\clsPhaclientphotoWSDAL.cs" />
+    <Compile Include="Classes\clsPhaclientWSDAL.cs" />
+    <Compile Include="Classes\clsPhacommercialWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockaccessoireWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockcommandeaccessoireWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockcommandeWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockdetailcommandeWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockdetailWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementcommercialWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementnatureoperationtypeWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementnatureoperationWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementrepartitionWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementWSDAL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockWSDAL.cs" />
+    <Compile Include="Classes\clsPhanaturefamilleoperationWSDAL.cs" />
+    <Compile Include="Classes\clsPhapararticleaccessoireWSDAL.cs" />
+    <Compile Include="Classes\clsPhapararticlecompteplancomptableWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparassureurWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpathologieWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypetiersnatureWSDAL.cs" />
+    <Compile Include="Classes\clsPhaplantationPhotoWSDAL.cs" />
+    <Compile Include="Classes\clsPhapararticlephotoWSDAL.cs" />
+    <Compile Include="Classes\clsPhapararticleWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparcasutilisationtiersWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparchassisWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparcodeWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparcontactWSDAL.cs" />
+    <Compile Include="Classes\clsPhapardestinationarticleWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparemballageWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparfabricantWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparformeWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparfournisseurWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparingredientWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparlibelleWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparlocaleWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparmarqueWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparmatierepremiereWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparmodeinjectionWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparmodelWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparmoteurWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparnatureoperationWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparnaturetiersWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparnaturetypearticleWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparoperationWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparparametreWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpneuWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparprestationserviceWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparprixprestationWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparprixpromotionWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparprixtypeclientWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparprixtypefournisseurWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenudetailWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenuecranmodecalculeparamWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenuecranWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumenuprincipallibelleparametreWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumenuprincipalmodedegestionWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumodegestionlibelleparametreWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumodegestionWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenuWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparqualiteWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparquantitemaximiniarticleentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparrayonWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparretenueWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparribWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartableauWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartaxestatutWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartaxeWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypearticlecompteplancomptablemodelWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypearticlecompteplancomptableWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleoperationlibellecompteWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleoperationparametreWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleoperationWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypeboiteWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypeclientWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypecontactWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypefournisseurWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypepersonneWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypepneuWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypeprestationserviceWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypequantitedetailWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypequantiteWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartyperemisedetailWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartyperemiseWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypetierscompterattacheadditionnelWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparuniteWSDAL.cs" />
+    <Compile Include="Classes\clsPhaplantationWSDAL.cs" />
+    <Compile Include="Classes\clsPharparpresentationproduitWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparsectiontiersWSDAL.cs" />
+    <Compile Include="Classes\clsPhatiersgroupeWSDAL.cs" />
+    <Compile Include="Classes\clsOrgProspectsWSDAL.cs" />
+    <Compile Include="Classes\clsOrgProspectsPhotoWSDAL.cs" />
+    <Compile Include="Classes\clsMobileSouscriptionWSDAL.cs" />
+    <Compile Include="Classes\clsPhazdecaisseWSDAL.cs" />
+    <Compile Include="Classes\clsPha_attributionchambreWSDAL.cs" />
+    <Compile Include="Classes\clsPh_fournisseurbonWSDAL.cs" />
+    <Compile Include="Classes\clsPieceidentiteWSDAL.cs" />
+    <Compile Include="Classes\clsPlancomptablecomptetiersrattacheWSDAL.cs" />
+    <Compile Include="Classes\clsPlancomptablenaturecomptemodereglementWSDAL.cs" />
+    <Compile Include="Classes\clsPlancomptablenaturecompteWSDAL.cs" />
+    <Compile Include="Classes\clsPlanComptableWSDAL.cs" />
+    <Compile Include="Classes\clsPlan_analytiqueWSDAL.cs" />
+    <Compile Include="Classes\clsPlan_rerportingWSDAL.cs" />
+    <Compile Include="Classes\clsProfessionWSDAL.cs" />
+    <Compile Include="Classes\clsProfildroitagenceWSDAL.cs" />
+    <Compile Include="Classes\clsProfildroitdetailWSDAL.cs" />
+    <Compile Include="Classes\clsProfildroitWSDAL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitagenceWSDAL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitsaisieentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitWSDAL.cs" />
+    <Compile Include="Classes\clsProfilwebWSDAL.cs" />
+    <Compile Include="Classes\clsProfilWSDAL.cs" />
+    <Compile Include="Classes\clsQuartierWSDAL.cs" />
+    <Compile Include="Classes\clsRegimeimpositionWSDAL.cs" />
+    <Compile Include="Classes\clsRemorqueWSDAL.cs" />
+    <Compile Include="Classes\clsServiceWSDAL.cs" />
+    <Compile Include="Classes\clsSexeWSDAL.cs" />
+    <Compile Include="Classes\clsSituationmatrimonialeWSDAL.cs" />
+    <Compile Include="Classes\clsSmsgatewayWSDAL.cs" />
+    <Compile Include="Classes\clsSmsinWSDAL.cs" />
+    <Compile Include="Classes\clsSmsoutWSDAL.cs" />
+    <Compile Include="Classes\clsSmsparametretypeoperationWSDAL.cs" />
+    <Compile Include="Classes\clsSocieteWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparametreWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparamexploitationWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparamformuleWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparamnaturepostetresorerieWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparampostetresoreriedetailWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparampostetresorerieWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparamrubriquetresorerieWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieparamtvaWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieplantresoreriedetailWSDAL.cs" />
+    <Compile Include="Classes\clsTresorerieplantresorerieWSDAL.cs" />
+    <Compile Include="Classes\clsTypeamortissementWSDAL.cs" />
+    <Compile Include="Classes\clsTypejournalWSDAL.cs" />
+    <Compile Include="Classes\clsTypeoperateurWSDAL.cs" />
+    <Compile Include="Classes\clsTypevehiculeWSDAL.cs" />
+    <Compile Include="Classes\clsType_planWSDAL.cs" />
+    <Compile Include="Classes\clsUtilisateursapisWSDAL.cs" />
+    <Compile Include="Classes\clsVehiculeWSDAL.cs" />
+    <Compile Include="Classes\clsVilleWSDAL.cs" />
+    <Compile Include="Classes\clsCertificatpriseenchargeWSDAL.cs" />
+    <Compile Include="Classes\clsPhatiersphotoWSDAL.cs" />
+    <Compile Include="Classes\clsPhatiersWSDAL.cs" />
+    <Compile Include="Classes\clsPhapartypetieresWSDAL.cs" />
+    <Compile Include="Classes\clsPhaTransporteurWSDAL.cs" />
+    <Compile Include="Classes\clsPhaparsectionWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurdroitphaparentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeoperationprofilWSDAL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeschemacomptableprofilWSDAL.cs" />
+    <Compile Include="Classes\clsProfildroitentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsOperateurdroitsaisiephaparentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsProfildroitsaisieentrepotWSDAL.cs" />
+    <Compile Include="Classes\clsZoneautoWSDAL.cs" />
+    <Compile Include="Classes\clsZonemaladieWSDAL.cs" />
+    <Compile Include="Classes\clsZonevoyageWSDAL.cs" />
+    <Compile Include="Interfaces\ITableDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock.BOJ\Stock.BOJ.csproj">
+      <Project>{5C5B2EB5-9AEC-49E6-996B-6AA0BEEE5002}</Project>
+      <Name>Stock.BOJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSTOOLS\Stock.WSTOOLS.csproj">
+      <Project>{0BC9E1E5-081A-4B62-9E66-42D45396192F}</Project>
+      <Name>Stock.WSTOOLS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock\Stock.Common\Stock.Common.csproj">
+      <Project>{d5880f55-4880-47e5-98d8-db70dfe07872}</Project>
+      <Name>Stock.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

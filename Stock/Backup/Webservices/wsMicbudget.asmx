@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsMicbudget.asmx.cs" Class="Stock.WS.wsMicbudget" %>

@@ -1,0 +1,5 @@
+2018-10-18 14:15:08,459 [10] ERROR Zenith.WCF.wsActivite - La procedure ou fonction 'PE_ACTIVITE' attend le parametre '@TYPEOPERATION', qui n'a pas ete fourni.
+2018-10-18 16:24:46,556 [14] ERROR Zenith.WCF.wsActivite - Trop d'arguments sont specifies pour la procedure ou la fonction PE_ACTIVITE.
+2018-10-18 16:28:44,911 [10] ERROR Zenith.WCF.wsActivite - Trop d'arguments sont specifies pour la procedure ou la fonction PE_ACTIVITE.
+2018-10-18 16:31:42,775 [10] ERROR Zenith.WCF.wsActivite - Trop d'arguments sont specifies pour la procedure ou la fonction PE_ACTIVITE.
+2018-10-18 16:33:59,905 [11] ERROR Zenith.WCF.wsActivite - Trop d'arguments sont specifies pour la procedure ou la fonction PE_ACTIVITE.

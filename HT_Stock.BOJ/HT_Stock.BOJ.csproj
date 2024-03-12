@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D12BF489-523A-445F-BAE0-4108D62E1C6C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HT_Stock.BOJ</RootNamespace>
+    <AssemblyName>HT_Stock.BOJ</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataContractEdition\clsEdition.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatStock.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatAssurance.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatBudget.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatBusinessPlan.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatCaisse.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatClientFournisseur.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatConsultation.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatImmobilisation.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatOutilsSecurite.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatParametre.cs" />
+    <Compile Include="DataContractEdition\clsEditionEtatTresorerie.cs" />
+    <Compile Include="DataContractEdition\clsEtat.cs" />
+    <Compile Include="DataContractEdition\clsEtatComptaAnalytique.cs" />
+    <Compile Include="DataContractEdition\clsPhaparetatfacture.cs" />
+    <Compile Include="DataContract\clsCommissioncinetpay.cs" />
+    <Compile Include="DataContract\clsCtcontratdemandecreation.cs" />
+    <Compile Include="DataContract\clsCtparcontratstatutdemande.cs" />
+    <Compile Include="DataContract\clsLogicielobjettypeoperationprofilweb.cs" />
+    <Compile Include="DataContract\clsLogicielobjettypeschemacomptableprofilweb.cs" />
+    <Compile Include="DataContract\clsLogicielobjetweb.cs" />
+    <Compile Include="DataContract\clsProfilweb.cs" />
+    <Compile Include="DataContract\clsProfilwebdroit.cs" />
+    <Compile Include="DataContract\clsProfilwebdroitagence.cs" />
+    <Compile Include="DataContract\clsProfilwebdroitentrepot.cs" />
+    <Compile Include="DataContract\clsProfilwebdroitsaisieentrepot.cs" />
+    <Compile Include="DataContract\clsStatutCompte.cs" />
+    <Compile Include="DataContract\clsTypeCompte.cs" />
+    <Compile Include="DataContract\clsCtpargarentieprime.cs" />
+    <Compile Include="DataContract\clsCtpargarentieprimerisque.cs" />
+    <Compile Include="DataContract\clsCtparsituationdossiersinistre.cs" />
+    <Compile Include="DataContract\clsCtsinistresituationdossier.cs" />
+    <Compile Include="DataContract\clsStatutgrandlivre.cs" />
+    <Compile Include="DataContract\clsCinetpay.cs" />
+    <Compile Include="DataContract\clsCinetpayContact.cs" />
+    <Compile Include="DataContract\clsCinetpayMoneyContac.cs" />
+    <Compile Include="DataContract\clsCinetpaytoken.cs" />
+    <Compile Include="DataContract\clsDataContact.cs" />
+    <Compile Include="DataContract\clsDataToken.cs" />
+    <Compile Include="DataContract\clsDataTransfert.cs" />
+    <Compile Include="DataContract\clsMiccomptewebResultat.cs" />
+    <Compile Include="DataContract\clsMiccomptewebUserNewPassword.cs" />
+    <Compile Include="DataContract\clsMobileSouscription.cs" />
+    <Compile Include="DataContract\clsCtcontratMobileEnvoi.cs" />
+    <Compile Include="DataContract\clsCtcontratMobileRetours.cs" />
+    <Compile Include="DataContract\clsGrandLivre.cs" />
+    <Compile Include="DataContract\clsOption.cs" />
+    <Compile Include="DataContract\clsReedition.cs" />
+    <Compile Include="DataContract\clsResultat.cs" />
+    <Compile Include="DataContract\clsSENS.cs" />
+    <Compile Include="DataContract\clsClientexoneretaxe.cs" />
+    <Compile Include="DataContract\clsCtcontratcapitaux.cs" />
+    <Compile Include="DataContract\clsCtsinistrecheque.cs" />
+    <Compile Include="DataContract\clsCtsinistrechequephoto.cs" />
+    <Compile Include="DataContract\clsCtcontratchequereglementcheque.cs" />
+    <Compile Include="DataContract\clsCtcontratchequephotoreglementcheque.cs" />
+    <Compile Include="DataContract\clsCtcontratquestionnaire.cs" />
+    <Compile Include="DataContract\clsCtparbranchecategorietarif.cs" />
+    <Compile Include="DataContract\clsCtparcapitaux.cs" />
+    <Compile Include="DataContract\clsCtparcapitauxrisqueassuranceliaison.cs" />
+    <Compile Include="DataContract\clsCtparquestionnairedocumentrisqueassuranceliaison.cs" />
+    <Compile Include="DataContract\clsCtparquestionnaireliaisondocument.cs" />
+    <Compile Include="DataContract\clsCtparstatutcontrat.cs" />
+    <Compile Include="DataContract\clsCtpartauxauto.cs" />
+    <Compile Include="DataContract\clsEscompte.cs" />
+    <Compile Include="DataContract\clsCtcontratchequephoto.cs" />
+    <Compile Include="DataContract\clsCtcontratrendezvousclient.cs" />
+    <Compile Include="DataContract\clsTVA.cs" />
+    <Compile Include="DataContract\clsASDI.cs" />
+    <Compile Include="DataContract\clsActivite.cs" />
+    <Compile Include="DataContract\clsAgence.cs" />
+    <Compile Include="DataContract\clsBalanceinventaire.cs" />
+    <Compile Include="DataContract\clsBanque.cs" />
+    <Compile Include="DataContract\clsBanqueagence.cs" />
+    <Compile Include="DataContract\clsBienimmobilise.cs" />
+    <Compile Include="DataContract\clsBienimmobiliseamortissement.cs" />
+    <Compile Include="DataContract\clsBienimmobilisefamille.cs" />
+    <Compile Include="DataContract\clsBienimmobiliseparametresourcefinancement.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamcouleur.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamdocument.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamdocumentdetail.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamdocumentdetailfamille.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamformule.cs" />
+    <Compile Include="DataContract\clsBusinessplanparampolice.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamposte.cs" />
+    <Compile Include="DataContract\clsBusinessplanparampostedetail.cs" />
+    <Compile Include="DataContract\clsBusinessplanparampostenature.cs" />
+    <Compile Include="DataContract\clsBusinessplanparamsigne.cs" />
+    <Compile Include="DataContract\clsCampangeagricole.cs" />
+    <Compile Include="DataContract\clsCertificatpriseencharge.cs" />
+    <Compile Include="DataContract\clsCliadherantayantsdroits.cs" />
+    <Compile Include="DataContract\clsCliadherantsassurance.cs" />
+    <Compile Include="DataContract\clsCliadherantsassurancecasprisencharge.cs" />
+    <Compile Include="DataContract\clsCliassuranceproduit.cs" />
+    <Compile Include="DataContract\clsClicasprisencharge.cs" />
+    <Compile Include="DataContract\clsClicasprisenchargeadherantperiodicite.cs" />
+    <Compile Include="DataContract\clsCliconsultation.cs" />
+    <Compile Include="DataContract\clsCliconsultationantecedant.cs" />
+    <Compile Include="DataContract\clsCliconsultationconstante.cs" />
+    <Compile Include="DataContract\clsCliconsultationordonnance.cs" />
+    <Compile Include="DataContract\clsCliconsultationpreference.cs" />
+    <Compile Include="DataContract\clsCliconsultationredaction.cs" />
+    <Compile Include="DataContract\clsCliconsultationrendevous.cs" />
+    <Compile Include="DataContract\clsCliconsultationresultat.cs" />
+    <Compile Include="DataContract\clsCliparametrelibelle.cs" />
+    <Compile Include="DataContract\clsCliparametrevaleur.cs" />
+    <Compile Include="DataContract\clsCliparcategorieordonnance.cs" />
+    <Compile Include="DataContract\clsCliparcoeficient.cs" />
+    <Compile Include="DataContract\clsCliparcoeficientcout.cs" />
+    <Compile Include="DataContract\clsCliparcoeficientcoutsupplementaire.cs" />
+    <Compile Include="DataContract\clsCliparlieufacturation.cs" />
+    <Compile Include="DataContract\clsCliparmodeadmission.cs" />
+    <Compile Include="DataContract\clsCliparmodesortie.cs" />
+    <Compile Include="DataContract\clsCliparspecialite.cs" />
+    <Compile Include="DataContract\clsClipartitreadherantayantsdroits.cs" />
+    <Compile Include="DataContract\clsClipartypeantecedant.cs" />
+    <Compile Include="DataContract\clsClipartypeconsultattion.cs" />
+    <Compile Include="DataContract\clsClipartypejourfacturation.cs" />
+    <Compile Include="DataContract\clsClipartypepreference.cs" />
+    <Compile Include="DataContract\clsClipartyperedaction.cs" />
+    <Compile Include="DataContract\clsCommune.cs" />
+    <Compile Include="DataContract\clsComptapar_plananalytiquefamille.cs" />
+    <Compile Include="DataContract\clsComptapar_sens.cs" />
+    <Compile Include="DataContract\clsComptapar_taux.cs" />
+    <Compile Include="DataContract\clsComptapar_taxe.cs" />
+    <Compile Include="DataContract\clsComptapar_typesaut.cs" />
+    <Compile Include="DataContract\clsCtcontrat.cs" />
+    <Compile Include="DataContract\clsCtcontratayantdroit.cs" />
+    <Compile Include="DataContract\clsCtcontratcheque.cs" />
+    <Compile Include="DataContract\clsCtcontratcommissionassurance.cs" />
+    <Compile Include="DataContract\clsCtcontratecheancier.cs" />
+    <Compile Include="DataContract\clsCtcontratgarantie.cs" />
+    <Compile Include="DataContract\clsCtcontratprime.cs" />
+    <Compile Include="DataContract\clsCtcontratreduction.cs" />
+    <Compile Include="DataContract\clsCtcontratsuivieclient.cs" />
+    <Compile Include="DataContract\clsCtparautocategorie.cs" />
+    <Compile Include="DataContract\clsCtparbranche.cs" />
+    <Compile Include="DataContract\clsCtparconditionpermis.cs" />
+    <Compile Include="DataContract\clsCtpardesignation.cs" />
+    <Compile Include="DataContract\clsCtparduree.cs" />
+    <Compile Include="DataContract\clsCtparenergieauto.cs" />
+    <Compile Include="DataContract\clsCtpargarantie.cs" />
+    <Compile Include="DataContract\clsCtpargarantierisqueassuranceliaison.cs" />
+    <Compile Include="DataContract\clsCtpargenreauto.cs" />
+    <Compile Include="DataContract\clsCtparintermediaire.cs" />
+    <Compile Include="DataContract\clsCtparmainforte.cs" />
+    <Compile Include="DataContract\clsCtparnaturesinistre.cs" />
+    <Compile Include="DataContract\clsCtparprimerisqueassuranceliaison.cs" />
+    <Compile Include="DataContract\clsCtparreduction.cs" />
+    <Compile Include="DataContract\clsCtparresume.cs" />
+    <Compile Include="DataContract\clsCtparrisqueassurance.cs" />
+    <Compile Include="DataContract\clsCtparstatutsocioprofessionnel.cs" />
+    <Compile Include="DataContract\clsCtpartarif.cs" />
+    <Compile Include="DataContract\clsCtpartypeaffaire.cs" />
+    <Compile Include="DataContract\clsCtpartypeappartement.cs" />
+    <Compile Include="DataContract\clsCtpartypecontratauto.cs" />
+    <Compile Include="DataContract\clsCtpartypecontratsante.cs" />
+    <Compile Include="DataContract\clsCtpartypeoccupant.cs" />
+    <Compile Include="DataContract\clsCtparusageauto.cs" />
+    <Compile Include="DataContract\clsCtsinistre.cs" />
+    <Compile Include="DataContract\clsCtsinistrephoto.cs" />
+    <Compile Include="DataContract\clsCtsinistresuivie.cs" />
+    <Compile Include="DataContract\clsCtsinitreexpertnomme.cs" />
+    <Compile Include="DataContract\clsDevise.cs" />
+    <Compile Include="DataContract\clsExercice.cs" />
+    <Compile Include="DataContract\clsFacturationTiers.cs" />
+    <Compile Include="DataContract\clsFacturationTiersReductionEscompte.cs" />
+    <Compile Include="DataContract\clsFacturationTiersTotatale.cs" />
+    <Compile Include="DataContract\clsFormejuridique.cs" />
+    <Compile Include="DataContract\clsJournal.cs" />
+    <Compile Include="DataContract\clsJourneeTravail.cs" />
+    <Compile Include="DataContract\clsLettrage.cs" />
+    <Compile Include="DataContract\clsLogiciel.cs" />
+    <Compile Include="DataContract\clsLogicielobjet.cs" />
+    <Compile Include="DataContract\clsLogicielobjetdetail.cs" />
+    <Compile Include="DataContract\clsLogicielobjettypeoperationoperateur.cs" />
+    <Compile Include="DataContract\clsLogicielobjettypeoperationprofil.cs" />
+    <Compile Include="DataContract\clsLogicielobjettypeschemacomptableoperateur.cs" />
+    <Compile Include="DataContract\clsLogicielobjettypeschemacomptableprofil.cs" />
+    <Compile Include="DataContract\clsMessages.cs" />
+    <Compile Include="DataContract\clsMicbudget.cs" />
+    <Compile Include="DataContract\clsMicbudgetdetail.cs" />
+    <Compile Include="DataContract\clsMicbudgetdetailhisto.cs" />
+    <Compile Include="DataContract\clsMicbudgetparampostebudgetaire.cs" />
+    <Compile Include="DataContract\clsMicbudgetparampostebudgetairedetail.cs" />
+    <Compile Include="DataContract\clsMicbudgetparampostebudgetairenature.cs" />
+    <Compile Include="DataContract\clsMicbudgetparamtype.cs" />
+    <Compile Include="DataContract\clsMicbudgetparamtypedetail.cs" />
+    <Compile Include="DataContract\clsMiccomptewebmotpasseoublie.cs" />
+    <Compile Include="DataContract\clsMicparametreliste.cs" />
+    <Compile Include="DataContract\clsMicparametrelisteproduitsousproduitvaleur.cs" />
+    <Compile Include="DataContract\clsModereglement.cs" />
+    <Compile Include="DataContract\clsMouchard.cs" />
+    <Compile Include="DataContract\clsMouvementcomptableanalytique.cs" />
+    <Compile Include="DataContract\clsObjetEnvoi.cs" />
+    <Compile Include="DataContract\clsObjetRetour.cs" />
+    <Compile Include="DataContract\clsOperateur.cs" />
+    <Compile Include="DataContract\clsOperateurDroit.cs" />
+    <Compile Include="DataContract\clsOperateurdroitagence.cs" />
+    <Compile Include="DataContract\clsOperateurdroitCompteTresorerie.cs" />
+    <Compile Include="DataContract\clsOperateurdroitdetail.cs" />
+    <Compile Include="DataContract\clsOperateurdroitphaparentrepot.cs" />
+    <Compile Include="DataContract\clsOperateurdroitsaisiephaparentrepot.cs" />
+    <Compile Include="DataContract\clsOperateurphoto.cs" />
+    <Compile Include="DataContract\clsOrgProspects.cs" />
+    <Compile Include="DataContract\clsOrgProspectsPhoto.cs" />
+    <Compile Include="DataContract\clsParametre.cs" />
+    <Compile Include="DataContract\clsParametreAppelApi.cs" />
+    <Compile Include="DataContract\clsParams.cs" />
+    <Compile Include="DataContract\clsPays.cs" />
+    <Compile Include="DataContract\clsPhachangementchambrehistorisation.cs" />
+    <Compile Include="DataContract\clsPhaChauffeur.cs" />
+    <Compile Include="DataContract\clsPhaClient.cs" />
+    <Compile Include="DataContract\clsPhaClientPhoto.cs" />
+    <Compile Include="DataContract\clsPhaCommercial.cs" />
+    <Compile Include="DataContract\clsPhaCommercialPhoto.cs" />
+    <Compile Include="DataContract\clsPhaecheancier.cs" />
+    <Compile Include="DataContract\clsPhaentrevehicule.cs" />
+    <Compile Include="DataContract\clsPhafamilleoperation.cs" />
+    <Compile Include="DataContract\clsPhainput.cs" />
+    <Compile Include="DataContract\clsPhainputmodedegestion.cs" />
+    <Compile Include="DataContract\clsPhainventaire.cs" />
+    <Compile Include="DataContract\clsPhainventairedetail.cs" />
+    <Compile Include="DataContract\clsPhainventaireraison.cs" />
+    <Compile Include="DataContract\clsPhaMouvementStock.cs" />
+    <Compile Include="DataContract\clsPhaMouvementStockAccessoire.cs" />
+    <Compile Include="DataContract\clsPhaMouvementStockCommande.cs" />
+    <Compile Include="DataContract\clsPhaMouvementStockCommandeAccessoire.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockcommandefacture.cs" />
+    <Compile Include="DataContract\clsPhaMouvementStockDetail.cs" />
+    <Compile Include="DataContract\clsPhaMouvementStockDetailCommande.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockfiltragedestock.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockfiltragedestockexpiration.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockfiltragedestockm1.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockfiltragedestockm2.cs" />
+    <Compile Include="DataContract\clsPhamouvementstocklivraison.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockphaparqualite.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockphaparretenue.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockreglement.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockreglementcheque.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockreglementcommercial.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockreglementnatureoperation.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockreglementnatureoperationtype.cs" />
+    <Compile Include="DataContract\clsPhamouvementstockreglementrepartition.cs" />
+    <Compile Include="DataContract\clsPhanaturefamilleoperation.cs" />
+    <Compile Include="DataContract\clsPhaParArticle.cs" />
+    <Compile Include="DataContract\clsPhaParArticleAccessoire.cs" />
+    <Compile Include="DataContract\clsPhapararticlecompteplancomptable.cs" />
+    <Compile Include="DataContract\clsPhaParArticlePhoto.cs" />
+    <Compile Include="DataContract\clsPhaparassureur.cs" />
+    <Compile Include="DataContract\clsPhaparcasutilisationtiers.cs" />
+    <Compile Include="DataContract\clsPhaparchassis.cs" />
+    <Compile Include="DataContract\clsPhaparcode.cs" />
+    <Compile Include="DataContract\clsPhaparcontact.cs" />
+    <Compile Include="DataContract\clsPhaParDestinationArticle.cs" />
+    <Compile Include="DataContract\clsPhaparemballage.cs" />
+    <Compile Include="DataContract\clsPhaParEntrepot.cs" />
+    <Compile Include="DataContract\clsPhaParFabricant.cs" />
+    <Compile Include="DataContract\clsPhaParForme.cs" />
+    <Compile Include="DataContract\clsPhaParFournisseur.cs" />
+    <Compile Include="DataContract\clsPhaparingredient.cs" />
+    <Compile Include="DataContract\clsPhaParLibelle.cs" />
+    <Compile Include="DataContract\clsPhaparlocale.cs" />
+    <Compile Include="DataContract\clsPhaParMarque.cs" />
+    <Compile Include="DataContract\clsPhaparmatierepremiere.cs" />
+    <Compile Include="DataContract\clsPhaparmodeinjection.cs" />
+    <Compile Include="DataContract\clsPhaParModel.cs" />
+    <Compile Include="DataContract\clsPhaparmoteur.cs" />
+    <Compile Include="DataContract\clsPhaParNatureOperation.cs" />
+    <Compile Include="DataContract\clsPhaparnaturetiers.cs" />
+    <Compile Include="DataContract\clsPhaparnaturetypearticle.cs" />
+    <Compile Include="DataContract\clsPhaParOperation.cs" />
+    <Compile Include="DataContract\clsPhaParParametre.cs" />
+    <Compile Include="DataContract\clsPhaparpathologie.cs" />
+    <Compile Include="DataContract\clsPhaparpneu.cs" />
+    <Compile Include="DataContract\clsPhaParPrestationService.cs" />
+    <Compile Include="DataContract\clsPhaParPrixPrestation.cs" />
+    <Compile Include="DataContract\clsPhaparprixpromotion.cs" />
+    <Compile Include="DataContract\clsPhaParPrixTypeClient.cs" />
+    <Compile Include="DataContract\clsPhaParPrixTypeFournisseur.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenu.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenudetail.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenuecran.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenuecranmodecalculeparam.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenumenuprincipallibelleparametre.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenumenuprincipalmodedegestion.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenumodegestion.cs" />
+    <Compile Include="DataContract\clsPhaparpupopmenumodegestionlibelleparametre.cs" />
+    <Compile Include="DataContract\clsPhaparqualite.cs" />
+    <Compile Include="DataContract\clsPhaparquantitemaximiniarticleentrepot.cs" />
+    <Compile Include="DataContract\clsPhaParRayon.cs" />
+    <Compile Include="DataContract\clsPhaparretenue.cs" />
+    <Compile Include="DataContract\clsPhaparrib.cs" />
+    <Compile Include="DataContract\clsPhaParSection.cs" />
+    <Compile Include="DataContract\clsPhaparsectiontiers.cs" />
+    <Compile Include="DataContract\clsPhaParTableau.cs" />
+    <Compile Include="DataContract\clsPhapartaxe.cs" />
+    <Compile Include="DataContract\clsPhapartaxestatut.cs" />
+    <Compile Include="DataContract\clsPhaParTypeArticle.cs" />
+    <Compile Include="DataContract\clsPhapartypearticlecompteplancomptable.cs" />
+    <Compile Include="DataContract\clsPhapartypearticlecompteplancomptablemodel.cs" />
+    <Compile Include="DataContract\clsPhapartypearticleoperation.cs" />
+    <Compile Include="DataContract\clsPhapartypearticleoperationlibellecompte.cs" />
+    <Compile Include="DataContract\clsPhapartypearticleoperationparametre.cs" />
+    <Compile Include="DataContract\clsPhapartypeboite.cs" />
+    <Compile Include="DataContract\clsPhaParTypeClient.cs" />
+    <Compile Include="DataContract\clsPhapartypecontact.cs" />
+    <Compile Include="DataContract\clsPhaParTypeFournisseur.cs" />
+    <Compile Include="DataContract\clsPhapartypepersonne.cs" />
+    <Compile Include="DataContract\clsPhapartypepneu.cs" />
+    <Compile Include="DataContract\clsPhaParTypePrestationService.cs" />
+    <Compile Include="DataContract\clsPhapartypequantite.cs" />
+    <Compile Include="DataContract\clsPhapartypequantitedetail.cs" />
+    <Compile Include="DataContract\clsPhapartyperemise.cs" />
+    <Compile Include="DataContract\clsPhapartyperemisedetail.cs" />
+    <Compile Include="DataContract\clsPhaParTypeTiers.cs" />
+    <Compile Include="DataContract\clsPhapartypetierscompterattacheadditionnel.cs" />
+    <Compile Include="DataContract\clsPhapartypetiersnature.cs" />
+    <Compile Include="DataContract\clsPhaParUnite.cs" />
+    <Compile Include="DataContract\clsPhaplantation.cs" />
+    <Compile Include="DataContract\clsPhaplantationPhoto.cs" />
+    <Compile Include="DataContract\clsPharparpresentationproduit.cs" />
+    <Compile Include="DataContract\clsPhaTiers.cs" />
+    <Compile Include="DataContract\clsPhatiersgroupe.cs" />
+    <Compile Include="DataContract\clsPhaTiersPhoto.cs" />
+    <Compile Include="DataContract\clsPhaTransporteur.cs" />
+    <Compile Include="DataContract\clsPhazdecaisse.cs" />
+    <Compile Include="DataContract\clsPha_attributionchambre.cs" />
+    <Compile Include="DataContract\clsPh_fournisseurbon.cs" />
+    <Compile Include="DataContract\clsPieceidentite.cs" />
+    <Compile Include="DataContract\clsPlancomptable.cs" />
+    <Compile Include="DataContract\clsPlancomptablecomptetiersrattache.cs" />
+    <Compile Include="DataContract\clsPlancomptablenaturecompte.cs" />
+    <Compile Include="DataContract\clsPlancomptablenaturecomptemodereglement.cs" />
+    <Compile Include="DataContract\clsPlan_analytique.cs" />
+    <Compile Include="DataContract\clsPlan_rerporting.cs" />
+    <Compile Include="DataContract\clsProfession.cs" />
+    <Compile Include="DataContract\clsProfil.cs" />
+    <Compile Include="DataContract\clsProfildroit.cs" />
+    <Compile Include="DataContract\clsProfildroitagence.cs" />
+    <Compile Include="DataContract\clsProfildroitdetail.cs" />
+    <Compile Include="DataContract\clsProfildroitentrepot.cs" />
+    <Compile Include="DataContract\clsProfildroitsaisieentrepot.cs" />
+    <Compile Include="DataContract\clsQuartier.cs" />
+    <Compile Include="DataContract\clsRegimeimposition.cs" />
+    <Compile Include="DataContract\clsRemorque.cs" />
+    <Compile Include="DataContract\clsService.cs" />
+    <Compile Include="DataContract\clsSexe.cs" />
+    <Compile Include="DataContract\clsSituationmatrimoniale.cs" />
+    <Compile Include="DataContract\clsSmsgateway.cs" />
+    <Compile Include="DataContract\clsSmsin.cs" />
+    <Compile Include="DataContract\clsSmsout.cs" />
+    <Compile Include="DataContract\clsSmsparametretypeoperation.cs" />
+    <Compile Include="DataContract\clsSociete.cs" />
+    <Compile Include="DataContract\clsTresorerieparametre.cs" />
+    <Compile Include="DataContract\clsTresorerieparamexploitation.cs" />
+    <Compile Include="DataContract\clsTresorerieparamformule.cs" />
+    <Compile Include="DataContract\clsTresorerieparamnaturepostetresorerie.cs" />
+    <Compile Include="DataContract\clsTresorerieparampostetresorerie.cs" />
+    <Compile Include="DataContract\clsTresorerieparampostetresoreriedetail.cs" />
+    <Compile Include="DataContract\clsTresorerieparamrubriquetresorerie.cs" />
+    <Compile Include="DataContract\clsTresorerieparamtva.cs" />
+    <Compile Include="DataContract\clsTresorerieplantresorerie.cs" />
+    <Compile Include="DataContract\clsTresorerieplantresoreriedetail.cs" />
+    <Compile Include="DataContract\clsTypeamortissement.cs" />
+    <Compile Include="DataContract\clsTypeBalance.cs" />
+    <Compile Include="DataContract\clsTypeEtat.cs" />
+    <Compile Include="DataContract\clsTypejournal.cs" />
+    <Compile Include="DataContract\clsTypeListe.cs" />
+    <Compile Include="DataContract\clsTypeoperateur.cs" />
+    <Compile Include="DataContract\clsTypevehicule.cs" />
+    <Compile Include="DataContract\clsType_plan.cs" />
+    <Compile Include="DataContract\clsUserNewPassword.cs" />
+    <Compile Include="DataContract\clsUtilisateursapis.cs" />
+    <Compile Include="DataContract\clsVehicule.cs" />
+    <Compile Include="DataContract\clsVille.cs" />
+    <Compile Include="DataContract\clsZoneauto.cs" />
+    <Compile Include="DataContract\clsZonemaladie.cs" />
+    <Compile Include="DataContract\clsZonevoyage.cs" />
+    <Compile Include="Enumeres\TypeOperation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock\Stock.Common\Stock.Common.csproj">
+      <Project>{d5880f55-4880-47e5-98d8-db70dfe07872}</Project>
+      <Name>Stock.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

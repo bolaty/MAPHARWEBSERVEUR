@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhaparmodeinjection.asmx.cs" Class="Stock.WS.wsPhaparmodeinjection" %>

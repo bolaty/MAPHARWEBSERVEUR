@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EAB4C46-C545-448D-ADCE-809D68253006}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stock.TOOLS</RootNamespace>
+    <AssemblyName>Stock.TOOLS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Design.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.OfficeSkins.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=95fc6c5621878f0a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v11.1.Core, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Tutorials.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Simples\clsApisms.cs" />
+    <Compile Include="Classes\Simples\clsChaineCaractere.cs" />
+    <Compile Include="Classes\Simples\clsColor.cs" />
+    <Compile Include="Classes\Simples\clsConfigFile.cs" />
+    <Compile Include="Classes\Simples\clsControl.cs" />
+    <Compile Include="Classes\Simples\clsDate.cs" />
+    <Compile Include="Classes\Simples\clsDeclaration.cs" />
+    <Compile Include="Classes\Simples\clsDesign.cs" />
+    <Compile Include="Classes\Simples\clsDroitUtilisateur.cs" />
+    <Compile Include="Classes\Simples\clsEffets.cs" />
+    <Compile Include="Classes\Simples\clsFichier.cs" />
+    <Compile Include="Classes\Simples\clsFileINI.cs" />
+    <Compile Include="Classes\Simples\clsFTP.cs" />
+    <Compile Include="Classes\Simples\clsInitialisation.cs" />
+    <Compile Include="Classes\Simples\clsLicenceUtilisation.cs" />
+    <Compile Include="Classes\Simples\clsLicenceUtilisation1.cs" />
+    <Compile Include="Classes\Simples\clsNombreMontant.cs" />
+    <Compile Include="Classes\Simples\clsNombreMontant1.cs" />
+    <Compile Include="Classes\Simples\clsPatienteur.cs" />
+    <Compile Include="Classes\Simples\clsReporting.cs" />
+    <Compile Include="Classes\Simples\clsReseaux.cs" />
+    <Compile Include="Classes\Simples\clsReseaux1.cs" />
+    <Compile Include="Classes\Traitements objets\clsDictionnaire.cs" />
+    <Compile Include="Classes\Traitements objets\clsObjetXtraGrid.cs" />
+    <Compile Include="Composants DevExpress\Bouton\cpsDevBouton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\ComboBox\cpsDevCheckedComboBoxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\ComboBox\cpsDevComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\ComboBox\cpsDevLookUpEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\Date\cpsDevDateEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\Form\cpsDevForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\Grid\cpsDevGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\Group\cpsDevGroup.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\Label\cpsDevLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\MemoEdit\cpsDevMemoEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\Panel\cpsDevPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TabControl\cpsDevTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevCheckEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxD.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxDA.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxDC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxDV.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxP3.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxT.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxTE.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxTEL.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxTELINTER.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxTES.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants DevExpress\TextBox\cpsDevTextBoxTM.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants Windows\DatagridView\cpsDatagridview.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants Windows\PictureBox\cpsPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Composants Windows\TextBox\CustomTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmVisionneuse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisionneuse.designer.cs">
+      <DependentUpon>FrmVisionneuse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Composants DevExpress\Bouton\cpsDevBouton.resx">
+      <DependentUpon>cpsDevBouton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\ComboBox\cpsDevCheckedComboBoxEdit.resx">
+      <DependentUpon>cpsDevCheckedComboBoxEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\ComboBox\cpsDevComboBox.resx">
+      <DependentUpon>cpsDevComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\ComboBox\cpsDevLookUpEdit.resx">
+      <DependentUpon>cpsDevLookUpEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\Form\cpsDevForm.resx">
+      <DependentUpon>cpsDevForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\Grid\cpsDevGrid.resx">
+      <DependentUpon>cpsDevGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\Group\cpsDevGroup.resx">
+      <DependentUpon>cpsDevGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\Label\cpsDevLabel.resx">
+      <DependentUpon>cpsDevLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\Panel\cpsDevPanel.resx">
+      <DependentUpon>cpsDevPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Composants DevExpress\TextBox\cpsDevTextBoxTEL.resx">
+      <DependentUpon>cpsDevTextBoxTEL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisionneuse.resx">
+      <DependentUpon>FrmVisionneuse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icone.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

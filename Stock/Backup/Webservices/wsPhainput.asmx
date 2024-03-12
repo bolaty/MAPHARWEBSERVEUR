@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhainput.asmx.cs" Class="Stock.WS.wsPhainput" %>

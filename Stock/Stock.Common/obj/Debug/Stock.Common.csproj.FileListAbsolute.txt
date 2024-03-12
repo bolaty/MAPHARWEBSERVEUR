@@ -1,0 +1,25 @@
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock\Stock.Common\bin\Debug\Stock.Common.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.pdb
+D:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\bin\Debug\Stock.Common.dll
+D:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
+D:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.dll
+D:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\bin\Debug\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\Stock\Stock.Common\obj\Debug\Stock.Common.csprojResolveAssemblyReference.cache
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.pdb

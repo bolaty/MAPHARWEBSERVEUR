@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsSmsparametretypeoperation.asmx.cs" Class="Stock.WS.wsSmsparametretypeoperation" %>

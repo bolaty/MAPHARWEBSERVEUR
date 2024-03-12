@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsLogicielobjet.asmx.cs" Class="Stock.WS.wsLogicielobjet" %>

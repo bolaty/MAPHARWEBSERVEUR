@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhamouvementStockcommandeaccessoire.asmx.cs" Class="Stock.WS.wsPhamouvementStockcommandeaccessoire" %>

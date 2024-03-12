@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Stock.Common;
+using System.Runtime.Serialization;
+using Stock.BOJ;
+using Stock.WSBLL;
+using Stock.WSTOOLS;
+
+namespace Stock.WCF
+{
+	public partial class wsMicbudgetparamtype
+	{
+        public List<HT_Stock.BOJ.clsMicbudgetparamtype> TestContrainte(HT_Stock.BOJ.clsMicbudgetparamtype Objet)
+
+        {
+            List<HT_Stock.BOJ.clsMicbudgetparamtype> clsMicbudgetparamtypes = new List<HT_Stock.BOJ.clsMicbudgetparamtype>();
+            HT_Stock.BOJ.clsMicbudgetparamtype clsMicbudgetparamtype = new HT_Stock.BOJ.clsMicbudgetparamtype();
+            clsMicbudgetparamtype.clsObjetRetour = new Common.clsObjetRetour();
+            clsMicbudgetparamtype.clsObjetRetour.SL_CODEMESSAGE = "";
+            clsMicbudgetparamtype.clsObjetRetour.SL_RESULTAT = "TRUE";
+            clsMicbudgetparamtype.clsObjetRetour.SL_MESSAGE = "";
+            clsMicbudgetparamtypes.Add(clsMicbudgetparamtype);
+            return clsMicbudgetparamtypes;
+        }
+
+        public List<HT_Stock.BOJ.clsMicbudgetparamtype> TestTestContrainteListe(HT_Stock.BOJ.clsMicbudgetparamtype Objet)
+        {
+            List<HT_Stock.BOJ.clsMicbudgetparamtype> clsMicbudgetparamtypes = new List<HT_Stock.BOJ.clsMicbudgetparamtype>();
+            HT_Stock.BOJ.clsMicbudgetparamtype clsMicbudgetparamtype = new HT_Stock.BOJ.clsMicbudgetparamtype();
+            clsMicbudgetparamtype.clsObjetRetour = new Common.clsObjetRetour();
+            clsMicbudgetparamtype.clsObjetRetour.SL_CODEMESSAGE = "";
+            clsMicbudgetparamtype.clsObjetRetour.SL_RESULTAT = "TRUE";
+            clsMicbudgetparamtype.clsObjetRetour.SL_MESSAGE = "";
+            clsMicbudgetparamtypes.Add(clsMicbudgetparamtype);
+            return clsMicbudgetparamtypes;
+        }
+        public List<HT_Stock.BOJ.clsMicbudgetparamtype> TestChampObligatoireUpdate(HT_Stock.BOJ.clsMicbudgetparamtype Objet)
+        {
+            List<HT_Stock.BOJ.clsMicbudgetparamtype> clsMicbudgetparamtypes = new List<HT_Stock.BOJ.clsMicbudgetparamtype>();
+            HT_Stock.BOJ.clsMicbudgetparamtype clsMicbudgetparamtype = new HT_Stock.BOJ.clsMicbudgetparamtype();
+            clsMicbudgetparamtype.clsObjetRetour = new Common.clsObjetRetour();
+            clsMicbudgetparamtype.clsObjetRetour.SL_CODEMESSAGE = "";
+            clsMicbudgetparamtype.clsObjetRetour.SL_RESULTAT = "TRUE";
+            clsMicbudgetparamtype.clsObjetRetour.SL_MESSAGE = "";
+            clsMicbudgetparamtypes.Add(clsMicbudgetparamtype);
+            return clsMicbudgetparamtypes;
+        }
+        public List<HT_Stock.BOJ.clsMicbudgetparamtype> TestChampObligatoireDelete(HT_Stock.BOJ.clsMicbudgetparamtype Objet)
+        {
+            List<HT_Stock.BOJ.clsMicbudgetparamtype> clsMicbudgetparamtypes = new List<HT_Stock.BOJ.clsMicbudgetparamtype>();
+            HT_Stock.BOJ.clsMicbudgetparamtype clsMicbudgetparamtype = new HT_Stock.BOJ.clsMicbudgetparamtype();
+            clsMicbudgetparamtype.clsObjetRetour = new Common.clsObjetRetour();
+            clsMicbudgetparamtype.clsObjetRetour.SL_CODEMESSAGE = "";
+            clsMicbudgetparamtype.clsObjetRetour.SL_RESULTAT = "TRUE";
+            clsMicbudgetparamtype.clsObjetRetour.SL_MESSAGE = "";
+            clsMicbudgetparamtypes.Add(clsMicbudgetparamtype);
+            return clsMicbudgetparamtypes;
+        }
+
+        public List<HT_Stock.BOJ.clsMicbudgetparamtype> TestChampObligatoireInsert(HT_Stock.BOJ.clsMicbudgetparamtype Objet)
+        {
+            List<HT_Stock.BOJ.clsMicbudgetparamtype> clsMicbudgetparamtypes = new List<HT_Stock.BOJ.clsMicbudgetparamtype>();
+            HT_Stock.BOJ.clsMicbudgetparamtype clsMicbudgetparamtype = new HT_Stock.BOJ.clsMicbudgetparamtype();
+            clsMicbudgetparamtype.clsObjetRetour = new Common.clsObjetRetour();
+            clsMicbudgetparamtype.clsObjetRetour.SL_CODEMESSAGE = "";
+            clsMicbudgetparamtype.clsObjetRetour.SL_RESULTAT = "TRUE";
+            clsMicbudgetparamtype.clsObjetRetour.SL_MESSAGE = "";
+            clsMicbudgetparamtypes.Add(clsMicbudgetparamtype);
+            return clsMicbudgetparamtypes;
+        }
+    }
+}

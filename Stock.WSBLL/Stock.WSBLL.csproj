@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CA6B2DA-742B-4F3B-8D28-54E90D6B6568}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stock.WSBLL</RootNamespace>
+    <AssemblyName>Stock.WSBLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes edition\clsEditionEtatArticlePrestationWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatBudgetWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatBusinessPlanWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatAssuranceWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatConsultationWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatClientFournisseurWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatImmobilisationWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatParametreWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatStockWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatTresorerieWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionWSBLL.cs" />
+    <Compile Include="Classes edition\clsEtatComptaAnalytiqueWSBLL.cs" />
+    <Compile Include="Classes edition\clsEtatWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatCaisseWSBLL.cs" />
+    <Compile Include="Classes edition\clsPhaparetatfactureWSBLL.cs" />
+    <Compile Include="Classes edition\clsEditionEtatOutilsSecuriteWSBLL.cs" />
+    <Compile Include="Classes\clsActiviteWSBLL.cs" />
+    <Compile Include="Classes\clsAgenceWSBLL.cs" />
+    <Compile Include="Classes\clsBalanceinventaireWSBLL.cs" />
+    <Compile Include="Classes\clsBanqueagenceWSBLL.cs" />
+    <Compile Include="Classes\clsBanqueWSBLL.cs" />
+    <Compile Include="Classes\clsBienimmobiliseamortissementWSBLL.cs" />
+    <Compile Include="Classes\clsBienimmobilisefamilleWSBLL.cs" />
+    <Compile Include="Classes\clsBienimmobiliseparametresourcefinancementWSBLL.cs" />
+    <Compile Include="Classes\clsBienimmobiliseWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamcouleurWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamdocumentdetailfamilleWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamdocumentdetailWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamdocumentWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamformuleWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparampoliceWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparampostedetailWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparampostenatureWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamposteWSBLL.cs" />
+    <Compile Include="Classes\clsBusinessplanparamsigneWSBLL.cs" />
+    <Compile Include="Classes\clsCliadherantsassurancecasprisenchargeWSBLL.cs" />
+    <Compile Include="Classes\clsCliparcoeficientcoutsupplementaireWSBLL.cs" />
+    <Compile Include="Classes\clsCliparcoeficientcoutWSBLL.cs" />
+    <Compile Include="Classes\clsCliparcoeficientWSBLL.cs" />
+    <Compile Include="Classes\clsCliadherantayantsdroitsWSBLL.cs" />
+    <Compile Include="Classes\clsCliadherantsassuranceWSBLL.cs" />
+    <Compile Include="Classes\clsCliassuranceproduitWSBLL.cs" />
+    <Compile Include="Classes\clsClicasprisenchargeadherantperiodiciteWSBLL.cs" />
+    <Compile Include="Classes\clsClicasprisenchargeWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationantecedantWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationconstanteWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationordonnanceWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationpreferenceWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationredactionWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationrendevousWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationresultatWSBLL.cs" />
+    <Compile Include="Classes\clsCliconsultationWSBLL.cs" />
+    <Compile Include="Classes\clsCliparametrelibelleWSBLL.cs" />
+    <Compile Include="Classes\clsCliparametrevaleurWSBLL.cs" />
+    <Compile Include="Classes\clsCliparcategorieordonnanceWSBLL.cs" />
+    <Compile Include="Classes\clsCliparmodeadmissionWSBLL.cs" />
+    <Compile Include="Classes\clsCliparmodesortieWSBLL.cs" />
+    <Compile Include="Classes\clsCliparspecialiteWSBLL.cs" />
+    <Compile Include="Classes\clsClipartitreadherantayantsdroitsWSBLL.cs" />
+    <Compile Include="Classes\clsClipartypeantecedantWSBLL.cs" />
+    <Compile Include="Classes\clsClipartypeconsultattionWSBLL.cs" />
+    <Compile Include="Classes\clsClipartypepreferenceWSBLL.cs" />
+    <Compile Include="Classes\clsClipartyperedactionWSBLL.cs" />
+    <Compile Include="Classes\clsClipartypejourfacturationWSBLL.cs" />
+    <Compile Include="Classes\clsCliparlieufacturationWSBLL.cs" />
+    <Compile Include="Classes\clsCommuneWSBLL.cs" />
+    <Compile Include="Classes\clsComptapar_plananalytiquefamilleWSBLL.cs" />
+    <Compile Include="Classes\clsComptapar_sensWSBLL.cs" />
+    <Compile Include="Classes\clsComptapar_tauxWSBLL.cs" />
+    <Compile Include="Classes\clsComptapar_taxeWSBLL.cs" />
+    <Compile Include="Classes\clsComptapar_typesautWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratayantdroitWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratcapitauxWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratchequephotoreglementcaisseWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratdemandecreationWSBLL.cs" />
+    <Compile Include="Classes\clsCtpargarentieprimerisqueWSBLL.cs" />
+    <Compile Include="Classes\clsCtpargarentieprimeWSBLL.cs" />
+    <Compile Include="Classes\clsCtparcontratstatutdemandeWSBLL.cs" />
+    <Compile Include="Classes\clsCtparsituationdossiersinistreWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinistrechequephotoWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratchequephotoWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratchequereglementcaisseWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinistrechequeWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratchequeWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratcommissionassuranceWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratecheancierWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratgarantieWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratprimeWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratquestionnaireWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratreductionWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratrendezvousclientWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratsuivieclientWSBLL.cs" />
+    <Compile Include="Classes\clsCtcontratWSBLL.cs" />
+    <Compile Include="Classes\clsCtparautocategorieWSBLL.cs" />
+    <Compile Include="Classes\clsCtparbranchecategorietarifWSBLL.cs" />
+    <Compile Include="Classes\clsCtparbrancheWSBLL.cs" />
+    <Compile Include="Classes\clsCtparcapitauxrisqueassuranceliaisonWSBLL.cs" />
+    <Compile Include="Classes\clsCtparcapitauxWSBLL.cs" />
+    <Compile Include="Classes\clsCtparconditionpermisWSBLL.cs" />
+    <Compile Include="Classes\clsCtpardesignationWSBLL.cs" />
+    <Compile Include="Classes\clsCtpardureeWSBLL.cs" />
+    <Compile Include="Classes\clsCtparenergieautoWSBLL.cs" />
+    <Compile Include="Classes\clsCtpargarantierisqueassuranceliaisonWSBLL.cs" />
+    <Compile Include="Classes\clsCtpargarantieWSBLL.cs" />
+    <Compile Include="Classes\clsCtpargenreautoWSBLL.cs" />
+    <Compile Include="Classes\clsCtparintermediaireWSBLL.cs" />
+    <Compile Include="Classes\clsCtparmainforteWSBLL.cs" />
+    <Compile Include="Classes\clsCtparnaturesinistreWSBLL.cs" />
+    <Compile Include="Classes\clsCtparprimerisqueassuranceliaisonWSBLL.cs" />
+    <Compile Include="Classes\clsCtparquestionnairedocumentrisqueassuranceliaisonWSBLL.cs" />
+    <Compile Include="Classes\clsCtparquestionnaireliaisondocumentWSBLL.cs" />
+    <Compile Include="Classes\clsCtparreductionWSBLL.cs" />
+    <Compile Include="Classes\clsCtparresumeWSBLL.cs" />
+    <Compile Include="Classes\clsCtparrisqueassuranceWSBLL.cs" />
+    <Compile Include="Classes\clsCtparstatutcontratWSBLL.cs" />
+    <Compile Include="Classes\clsCtparstatutsocioprofessionnelWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartarifWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartauxautoWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartypeaffaireWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartypeappartementWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartypecontratautoWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartypecontratsanteWSBLL.cs" />
+    <Compile Include="Classes\clsCtpartypeoccupantWSBLL.cs" />
+    <Compile Include="Classes\clsCtparusageautoWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinistrephotoWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinistresituationdossierWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinistresuivieWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinistreWSBLL.cs" />
+    <Compile Include="Classes\clsCtsinitreexpertnommeWSBLL.cs" />
+    <Compile Include="Classes\clsDeviseWSBLL.cs" />
+    <Compile Include="Classes\clsCampangeagricoleWSBLL.cs" />
+    <Compile Include="Classes\clsFormejuridiqueWSBLL.cs" />
+    <Compile Include="Classes\clsLettrageWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjetdetailWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeoperationoperateurWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeoperationprofilwebWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeschemacomptableoperateurWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeschemacomptableprofilwebWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjetwebWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjetWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetdetailhistoWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetdetailWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetparampostebudgetairedetailWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetparampostebudgetairenatureWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetparampostebudgetaireWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetparamtypedetailWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetparamtypeWSBLL.cs" />
+    <Compile Include="Classes\clsMicbudgetWSBLL.cs" />
+    <Compile Include="Classes\clsMiccomptewebmotpasseoublieWSBLL.cs" />
+    <Compile Include="Classes\clsMicparametrelisteproduitsousproduitvaleurWSBLL.cs" />
+    <Compile Include="Classes\clsMicparametrelisteWSBLL.cs" />
+    <Compile Include="Classes\clsMouvementcomptableanalytiqueWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurdroitagenceWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurdroitCompteTresorerieWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurdroitdetailWSBLL.cs" />
+    <Compile Include="Classes\clsPhachangementchambrehistorisationWSBLL.cs" />
+    <Compile Include="Classes\clsPhaecheancierWSBLL.cs" />
+    <Compile Include="Classes\clsPhaentrevehiculeWSBLL.cs" />
+    <Compile Include="Classes\clsPhafamilleoperationWSBLL.cs" />
+    <Compile Include="Classes\clsPhainputmodedegestionWSBLL.cs" />
+    <Compile Include="Classes\clsPhainputWSBLL.cs" />
+    <Compile Include="Classes\clsPhainventairedetailWSBLL.cs" />
+    <Compile Include="Classes\clsPhainventaireraisonWSBLL.cs" />
+    <Compile Include="Classes\clsPhainventaireWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockcommandefactureWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockexpirationWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockm1WSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockm2WSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockfiltragedestockWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstocklivraisonWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockphaparqualiteWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockphaparretenueWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementchequeWSBLL.cs" />
+    <Compile Include="Classes\clsExerciceWSBLL.cs" />
+    <Compile Include="Classes\clsJournalWSBLL.cs" />
+    <Compile Include="Classes\clsJourneeTravailWSBLL.cs" />
+    <Compile Include="Classes\clsMessagesWSBLL.cs" />
+    <Compile Include="Classes\clsModereglementWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurDroitWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurphotoWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurWSBLL.cs" />
+    <Compile Include="Classes\clsParametreWSBLL.cs" />
+    <Compile Include="Classes\clsPaysWSBLL.cs" />
+    <Compile Include="Classes\clsPhachauffeurWSBLL.cs" />
+    <Compile Include="Classes\clsPhaclientphotoWSBLL.cs" />
+    <Compile Include="Classes\clsPhaclientWSBLL.cs" />
+    <Compile Include="Classes\clsPhacommercialWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockaccessoireWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockcommandeaccessoireWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockcommandeWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockdetailcommandeWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockdetailWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementcommercialWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementnatureoperationtypeWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementnatureoperationWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementrepartitionWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockreglementWSBLL.cs" />
+    <Compile Include="Classes\clsPhamouvementstockWSBLL.cs" />
+    <Compile Include="Classes\clsPhanaturefamilleoperationWSBLL.cs" />
+    <Compile Include="Classes\clsPhapararticleaccessoireWSBLL.cs" />
+    <Compile Include="Classes\clsPhapararticlecompteplancomptableWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparassureurWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpathologieWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypetiersnatureWSBLL.cs" />
+    <Compile Include="Classes\clsPhaplantationPhotoWSBLL.cs" />
+    <Compile Include="Classes\clsPhapararticlephotoWSBLL.cs" />
+    <Compile Include="Classes\clsPhapararticleWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparcasutilisationtiersWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparchassisWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparcodeWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparcontactWSBLL.cs" />
+    <Compile Include="Classes\clsPhapardestinationarticleWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparemballageWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparfabricantWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparformeWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparfournisseurWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparingredientWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparlibelleWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparlocaleWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparmarqueWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparmatierepremiereWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparmodeinjectionWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparmodelWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparmoteurWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparnatureoperationWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparnaturetiersWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparnaturetypearticleWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparoperationWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparparametreWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpneuWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparprestationserviceWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparprixprestationWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparprixpromotionWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparprixtypeclientWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparprixtypefournisseurWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenudetailWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenuecranmodecalculeparamWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenuecranWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumenuprincipallibelleparametreWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumenuprincipalmodedegestionWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumodegestionlibelleparametreWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenumodegestionWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparpupopmenuWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparqualiteWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparquantitemaximiniarticleentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparrayonWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparretenueWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparribWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartableauWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartaxestatutWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartaxeWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypearticlecompteplancomptablemodelWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypearticlecompteplancomptableWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleoperationlibellecompteWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleoperationparametreWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleoperationWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypearticleWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypeboiteWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypeclientWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypecontactWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypefournisseurWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypepersonneWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypepneuWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypeprestationserviceWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypequantitedetailWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypequantiteWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartyperemisedetailWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartyperemiseWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypetierscompterattacheadditionnelWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparuniteWSBLL.cs" />
+    <Compile Include="Classes\clsPhaplantationWSBLL.cs" />
+    <Compile Include="Classes\clsPharparpresentationproduitWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparsectiontiersWSBLL.cs" />
+    <Compile Include="Classes\clsPhatiersgroupeWSBLL.cs" />
+    <Compile Include="Classes\clsOrgProspectsWSBLL.cs" />
+    <Compile Include="Classes\clsOrgProspectsPhotoWSBLL.cs" />
+    <Compile Include="Classes\clsMobileSouscriptionWSBLL.cs" />
+    <Compile Include="Classes\clsPhazdecaisseWSBLL.cs" />
+    <Compile Include="Classes\clsPha_attributionchambreWSBLL.cs" />
+    <Compile Include="Classes\clsPh_fournisseurbonWSBLL.cs" />
+    <Compile Include="Classes\clsPieceidentiteWSBLL.cs" />
+    <Compile Include="Classes\clsPlancomptablecomptetiersrattacheWSBLL.cs" />
+    <Compile Include="Classes\clsPlancomptablenaturecomptemodereglementWSBLL.cs" />
+    <Compile Include="Classes\clsPlancomptablenaturecompteWSBLL.cs" />
+    <Compile Include="Classes\clsPlanComptableWSBLL.cs" />
+    <Compile Include="Classes\clsPlan_analytiqueWSBLL.cs" />
+    <Compile Include="Classes\clsPlan_rerportingWSBLL.cs" />
+    <Compile Include="Classes\clsProfessionWSBLL.cs" />
+    <Compile Include="Classes\clsProfildroitagenceWSBLL.cs" />
+    <Compile Include="Classes\clsProfildroitdetailWSBLL.cs" />
+    <Compile Include="Classes\clsProfildroitWSBLL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitagenceWSBLL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitsaisieentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsProfilwebdroitWSBLL.cs" />
+    <Compile Include="Classes\clsProfilwebWSBLL.cs" />
+    <Compile Include="Classes\clsProfilWSBLL.cs" />
+    <Compile Include="Classes\clsQuartierWSBLL.cs" />
+    <Compile Include="Classes\clsRegimeimpositionWSBLL.cs" />
+    <Compile Include="Classes\clsRemorqueWSBLL.cs" />
+    <Compile Include="Classes\clsServiceWSBLL.cs" />
+    <Compile Include="Classes\clsSexeWSBLL.cs" />
+    <Compile Include="Classes\clsSituationmatrimonialeWSBLL.cs" />
+    <Compile Include="Classes\clsSmsgatewayWSBLL.cs" />
+    <Compile Include="Classes\clsSmsinWSBLL.cs" />
+    <Compile Include="Classes\clsSmsoutWSBLL.cs" />
+    <Compile Include="Classes\clsSmsparametretypeoperationWSBLL.cs" />
+    <Compile Include="Classes\clsSocieteWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparametreWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparamexploitationWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparamformuleWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparamnaturepostetresorerieWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparampostetresoreriedetailWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparampostetresorerieWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparamrubriquetresorerieWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieparamtvaWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieplantresoreriedetailWSBLL.cs" />
+    <Compile Include="Classes\clsTresorerieplantresorerieWSBLL.cs" />
+    <Compile Include="Classes\clsTypeamortissementWSBLL.cs" />
+    <Compile Include="Classes\clsTypejournalWSBLL.cs" />
+    <Compile Include="Classes\clsTypeoperateurWSBLL.cs" />
+    <Compile Include="Classes\clsTypevehiculeWSBLL.cs" />
+    <Compile Include="Classes\clsType_planWSBLL.cs" />
+    <Compile Include="Classes\clsUtilisateursapisWSBLL.cs" />
+    <Compile Include="Classes\clsVehiculeWSBLL.cs" />
+    <Compile Include="Classes\clsVilleWSBLL.cs" />
+    <Compile Include="Classes\clsCertificatpriseenchargeWSBLL.cs" />
+    <Compile Include="Classes\clsPhapartypetiersWSBLL.cs" />
+    <Compile Include="Classes\clsPhatiersWSBLL.cs" />
+    <Compile Include="Classes\clsPhatiersphotoWSBLL.cs" />
+    <Compile Include="Classes\clsPhaTransporteurWSBLL.cs" />
+    <Compile Include="Classes\clsPhaparsectionWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurdroitphaparentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeoperationprofilWSBLL.cs" />
+    <Compile Include="Classes\clsLogicielobjettypeschemacomptableprofilWSBLL.cs" />
+    <Compile Include="Classes\clsProfildroitentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsOperateurdroitsaisiephaparentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsProfildroitsaisieentrepotWSBLL.cs" />
+    <Compile Include="Classes\clsZoneautoWSBLL.cs" />
+    <Compile Include="Classes\clsZonemaladieWSBLL.cs" />
+    <Compile Include="Classes\clsZonevoyageWSBLL.cs" />
+    <Compile Include="Interfaces\IObjetWSBLL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock.BOJ\Stock.BOJ.csproj">
+      <Project>{5C5B2EB5-9AEC-49E6-996B-6AA0BEEE5002}</Project>
+      <Name>Stock.BOJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSDAL\Stock.WSDAL.csproj">
+      <Project>{15832AC1-B508-43CF-A99F-CF8DDBA3B6D8}</Project>
+      <Name>Stock.WSDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSTOOLS\Stock.WSTOOLS.csproj">
+      <Project>{0BC9E1E5-081A-4B62-9E66-42D45396192F}</Project>
+      <Name>Stock.WSTOOLS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock\Stock.Common\Stock.Common.csproj">
+      <Project>{d5880f55-4880-47e5-98d8-db70dfe07872}</Project>
+      <Name>Stock.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

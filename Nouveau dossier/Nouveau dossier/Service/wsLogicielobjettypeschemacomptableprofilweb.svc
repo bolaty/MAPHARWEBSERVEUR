@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Stock.WCF.wsLogicielobjettypeschemacomptableprofilweb" CodeBehind="wsLogicielobjettypeschemacomptableprofilweb.svc.cs" %>

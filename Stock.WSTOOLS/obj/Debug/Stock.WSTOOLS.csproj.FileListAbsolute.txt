@@ -1,0 +1,59 @@
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.csprojResolveAssemblyReference.cache
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.xml
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\bin\Debug\log4net.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\Stock.WSTOOLS.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.xml
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb

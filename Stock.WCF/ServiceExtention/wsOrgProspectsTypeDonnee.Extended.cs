@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Runtime.Serialization;
+using Stock.BOJ;
+using Stock.WSBLL;
+using Stock.WSTOOLS;
+using Stock.Common;
+namespace Stock.WCF
+{
+	public partial class wsOrgProspects
+	{
+        public List<HT_Stock.BOJ.clsOrgProspects> TestTypeDonnee(HT_Stock.BOJ.clsOrgProspects Objet)
+
+        {
+
+
+            List<HT_Stock.BOJ.clsOrgProspects> clsOrgProspectss = new List<HT_Stock.BOJ.clsOrgProspects>();
+            HT_Stock.BOJ.clsOrgProspects clsOrgProspects = new HT_Stock.BOJ.clsOrgProspects();
+            clsOrgProspects.clsObjetRetour = new Common.clsObjetRetour();
+            clsOrgProspects.clsObjetRetour.SL_CODEMESSAGE = "";
+            clsOrgProspects.clsObjetRetour.SL_RESULTAT = "TRUE";
+            clsOrgProspects.clsObjetRetour.SL_MESSAGE = "";
+            clsOrgProspectss.Add(clsOrgProspects);
+            return clsOrgProspectss;
+
+
+        }
+
+    }
+}

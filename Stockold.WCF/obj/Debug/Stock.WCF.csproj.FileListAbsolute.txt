@@ -1,0 +1,236 @@
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll.config
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WCF.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BLL.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BOJ.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Shared.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Windows.Forms.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportSource.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\stdole.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BLL.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BOJ.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.csprojResolveAssemblyReference.cache
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll.config
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WCF.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\HT_Stock.BOJ.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\log4net.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BLL.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BOJ.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.Common.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Shared.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Windows.Forms.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportSource.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\FlashControlV71.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\stdole.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\ShockwaveFlashObjects.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\HT_Stock.BOJ.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BLL.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.BOJ.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.Common.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\log4net.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll.config
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WCF.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\HT_Stock.BOJ.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\log4net.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BLL.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BOJ.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.Common.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Shared.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Windows.Forms.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportSource.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\FlashControlV71.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\stdole.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\ShockwaveFlashObjects.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\HT_Stock.BOJ.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BLL.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BOJ.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.Common.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\log4net.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.csprojResolveAssemblyReference.cache
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll.config
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WCF.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WCF.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\HT_Stock.BOJ.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\log4net.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BLL.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BOJ.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Shared.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.Windows.Forms.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Printing.v11.1.Core.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportSource.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\FlashControlV71.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\stdole.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\ShockwaveFlashObjects.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\HT_Stock.BOJ.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BLL.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.BOJ.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSBLL.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\log4net.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.TOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraGrid.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\Stock.WSDAL.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraEditors.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Utils.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.Data.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\bin\DevExpress.XtraLayout.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WCF\obj\Debug\Stock.WCF.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WCF.dll.config
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WCF.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WCF.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\HT_Stock.BOJ.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\log4net.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.BOJ.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WSBLL.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WSDAL.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\HT_Stock.BOJ.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.BOJ.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WSBLL.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\log4net.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\bin\Stock.WSDAL.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\obj\Debug\Stock.WCF.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\obj\Debug\Stock.WCF.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WCF\obj\Debug\Stock.WCF.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WCF.dll.config
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WCF.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WCF.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\HT_Stock.BOJ.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\log4net.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.BOJ.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.Common.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WSBLL.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WSTOOLS.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WSDAL.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\HT_Stock.BOJ.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.BOJ.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WSBLL.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WSTOOLS.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.Common.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\log4net.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\bin\Stock.WSDAL.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\obj\Debug\Stock.WCF.csprojResolveAssemblyReference.cache
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\obj\Debug\Stock.WCF.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WCF\obj\Debug\Stock.WCF.pdb

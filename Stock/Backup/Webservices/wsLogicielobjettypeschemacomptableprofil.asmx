@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsLogicielobjettypeschemacomptableprofil.asmx.cs" Class="Stock.WS.wsLogicielobjettypeschemacomptableprofil" %>

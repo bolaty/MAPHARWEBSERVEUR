@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhainputmodedegestion.asmx.cs" Class="Stock.WS.wsPhainputmodedegestion" %>

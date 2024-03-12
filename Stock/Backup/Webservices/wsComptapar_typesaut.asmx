@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsComptapar_typesaut.asmx.cs" Class="Stock.WS.wsComptapar_typesaut" %>

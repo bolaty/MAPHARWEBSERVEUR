@@ -1,0 +1,137 @@
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.Common.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.Common.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.Common.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.Common.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+D:\Projets\WinForm\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\bin\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+F:\Projets\WinForm\HT_STOCK\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.Common.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.Common.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.Common.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.Common.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSDAL.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSDAL.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.BOJ.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.Common.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Newtonsoft.Json.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.BOJ.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.WSTOOLS.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\bin\Debug\Stock.Common.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.csprojResolveAssemblyReference.cache
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.dll
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSDAL\obj\Debug\Stock.WSDAL.pdb

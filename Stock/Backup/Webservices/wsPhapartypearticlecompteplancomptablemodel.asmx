@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhapartypearticlecompteplancomptablemodel.asmx.cs" Class="Stock.WS.wsPhapartypearticlecompteplancomptablemodel" %>

@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B02B6F77-E5D0-4313-A784-AE89EDD1D7B9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stockold.WCF</RootNamespace>
+    <AssemblyName>Stockold.WCF</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\HT_TIERNO\H_ZenithWeb_WCF\HT_ZenithWeb_WCF\Zenith.WSDAL\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ServiceEdition\wsEditionEtatStock.svc" />
+    <Content Include="ServiceEdition\wsEditionEtatCaisse.svc" />
+    <Content Include="ServiceEdition\wsEditionEtatImmobilisation.svc" />
+    <Content Include="ServiceEdition\wsEditionEtatBudget.svc" />
+    <Content Include="ServiceEdition\wsEdition.svc" />
+    <Content Include="ServiceEdition\wsEditionEtatClientFournisseur.svc" />
+    <Content Include="ServiceEdition\wsEditionEtatAssurance.svc" />
+    <Content Include="ServiceEdition\wsEditionEtatParametre.svc" />
+    <Content Include="ServiceEdition\wsEtat.svc" />
+    <Content Include="Service\wsMobileSouscription.svc" />
+    <Content Include="Service\wsClipartypejourfacturation.svc" />
+    <Content Include="Service\wsCompteAmortissement.svc" />
+    <Content Include="Service\wsGrandLivre.svc" />
+    <Content Include="Service\wsLieuFacturation.svc" />
+    <Content Include="Service\wsNatureOperation.svc" />
+    <Content Include="Service\wsNumeroDebut.svc" />
+    <Content Include="Service\wsOption.svc" />
+    <Content Include="Service\wsPhamouvementstockfiltragedestock.svc" />
+    <Content Include="Service\wsPhamouvementstockfiltragedestockexpiration.svc" />
+    <Content Include="Service\wsPhaParTypeBudget.svc" />
+    <Content Include="Service\wsPhapartypefournisseur.svc" />
+    <Content Include="Service\wsRisque.svc" />
+    <Content Include="Service\wsRisqueassurance.svc" />
+    <Content Include="Service\wsCliparmodesortie.svc" />
+    <Content Include="Service\wsCliparmodeadmission.svc" />
+    <Content Include="Service\wsClipartypeconsultattion.svc" />
+    <Content Include="Service\wsCliconsultation.svc" />
+    <Content Include="Service\wsLogiciel.svc" />
+    <Content Include="Service\wsJourneetravail.svc" />
+    <Content Include="Service\wsLogicielobjettypeschemacomptableprofil.svc" />
+    <Content Include="Service\wsSection.svc" />
+    <Content Include="Service\wsSENS.svc" />
+    <Content Include="Service\wsOperateurdroitCompteTresorerie.svc" />
+    <Content Include="Service\wsLogicielobjettypeschemacomptableoperateur.svc" />
+    <Content Include="Service\wsPhafamilleoperation.svc" />
+    <Content Include="Service\wsLogicielobjettypeoperationoperateur.svc" />
+    <Content Include="Service\wsPhanaturefamilleoperation.svc" />
+    <Content Include="Service\wsJournal.svc" />
+    <Content Include="Service\wsOperateurdroitsaisiephaparentrepot.svc" />
+    <Content Include="Service\wsOperateurdroitphaparentrepot.svc" />
+    <Content Include="Service\wsOperateurdroitagence.svc" />
+    <Content Include="Service\wsPhamouvementStock.svc" />
+    <Content Include="Service\wsPhapararticle.svc" />
+    <Content Include="Service\wsPhapartypearticle.svc" />
+    <Content Include="Service\wsCtsinistrechequephoto.svc" />
+    <Content Include="Service\wsCtsinistrecheque.svc" />
+    <Content Include="Service\wsPhaparnaturetypearticle.svc" />
+    <Content Include="Service\wsPlancomptablenaturecomptemodereglement.svc" />
+    <Content Include="Service\wsModereglement.svc" />
+    <Content Include="Service\wsCtcontratchequephoto.svc" />
+    <Content Include="Service\wsCtparcapitauxrisqueassuranceliaison.svc" />
+    <Content Include="Service\wsCtpartauxauto.svc" />
+    <Content Include="Service\wsCtparbranchecategorietarif.svc" />
+    <Content Include="Service\wsCtparquestionnairedocumentrisqueassuranceliaison.svc" />
+    <Content Include="Service\wsPhamouvementstockreglement.svc" />
+    <Content Include="Service\wsProfil.svc" />
+    <Content Include="Service\wsStatutContrat.svc" />
+    <Content Include="Service\wsTypeBalance.svc" />
+    <Content Include="Service\wsTypeEtat.svc" />
+    <Content Include="Service\wsTypeListe.svc" />
+    <Content Include="Service\wsTypeoperateur.svc" />
+    <Content Include="Service\wsService.svc" />
+    <Content Include="Service\wsPhaparentrepot.svc" />
+    <Content Include="Service\wsCtparquestionnaireliaisondocument.svc" />
+    <Content Include="Service\wsCtcontratquestionnaire.svc" />
+    <Content Include="Service\wsPlancomptable.svc" />
+    <Content Include="Service\wsClientexoneretaxe.svc" />
+    <Content Include="Service\wsLogicielobjet.svc" />
+    <Content Include="Service\wsOperateurdroit.svc" />
+    <Content Include="Service\wsEscompte.svc" />
+    <Content Include="Service\wsPhaparnaturetiers.svc" />
+    <Content Include="Service\wsCtcontratrendezvousclient.svc" />
+    <Content Include="Service\wsBanqueagence.svc" />
+    <Content Include="Service\wsBanque.svc" />
+    <Content Include="Service\wsTVA.svc" />
+    <Content Include="Service\wsASDI.svc" />
+    <Content Include="Service\wsPhapartypetiers.svc" />
+    <Content Include="Service\wsPhapartypetierscompterattacheadditionnel.svc" />
+    <Content Include="Service\wsRegimeimposition.svc" />
+    <Content Include="Service\wsPhaparcasutilisationtiers.svc" />
+    <Content Include="Service\wsActivite.svc" />
+    <Content Include="Service\wsPhatiersgroupe.svc" />
+    <Content Include="Service\wsProfession.svc" />
+    <Content Include="Service\wsSexe.svc" />
+    <Content Include="Service\wsCliparspecialite.svc" />
+    <Content Include="Service\wsPhatiersphoto.svc" />
+    <Content Include="Service\wsCtparnaturesinistre.svc" />
+    <Content Include="Service\wsCtcontratsuivieclient.svc" />
+    <Content Include="Service\wsCtcontratecheancier.svc" />
+    <Content Include="Service\wsCtcontratcheque.svc" />
+    <Content Include="Service\wsCtsinitreexpertnomme.svc" />
+    <Content Include="Service\wsCtsinistresuivie.svc" />
+    <Content Include="Service\wsCtsinistrephoto.svc" />
+    <Content Include="Service\wsCtsinistre.svc" />
+    <Content Include="Service\wsCtparintermediaire.svc" />
+    <Content Include="Service\wsCtpardesignation.svc" />
+    <Content Include="Service\wsPays.svc" />
+    <Content Include="Service\wsCommune.svc" />
+    <Content Include="Service\wsCtpargarantierisqueassuranceliaison.svc" />
+    <Content Include="Service\wsCtparprimerisqueassuranceliaison.svc" />
+    <Content Include="Service\wsCtcontrat.svc" />
+    <Content Include="Service\wsCtpartypeaffaire.svc" />
+    <Content Include="Service\wsCtpargenreauto.svc" />
+    <Content Include="Service\wsCtparenergieauto.svc" />
+    <Content Include="Service\wsCtparautocategorie.svc" />
+    <Content Include="Service\wsCtparbranche.svc" />
+    <Content Include="Service\wsCtparduree.svc" />
+    <Content Include="Service\wsCtpartarif.svc" />
+    <Content Include="Service\wsCtpartypeappartement.svc" />
+    <Content Include="Service\wsCtpartypecontratsante.svc" />
+    <Content Include="Service\wsCtpartypeoccupant.svc" />
+    <Content Include="Service\wsCtparusageauto.svc" />
+    <Content Include="Service\wsCtparconditionpermis.svc" />
+    <Content Include="Service\wsCtparstatutsocioprofessionnel.svc" />
+    <Content Include="Service\wsMiccomptewebmotpasseoublie.svc" />
+    <Content Include="Service\wsClipartitreadherantayantsdroits.svc" />
+    <Content Include="Service\wsCtparmainforte.svc" />
+    <Content Include="Service\wsZonemaladie.svc" />
+    <Content Include="Service\wsZonevoyage.svc" />
+    <Content Include="Service\wsTypevehicule.svc" />
+    <Content Include="Service\wsZoneauto.svc" />
+    <Content Include="Service\wsPhaparrayon.svc" />
+    <Content Include="Service\wsCtpartypecontratauto.svc" />
+    <Content Include="Service\wsCtparreduction.svc" />
+    <Content Include="Service\wsOperateur.svc" />
+    <Content Include="Service\wsVille.svc" />
+    <Content Include="Service\wsPhatiers.svc" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsLog.cs" />
+    <Compile Include="ServiceContract\IwsMobileSouscription.cs" />
+    <Compile Include="ServiceContract\IwsClipartypejourfacturation.cs" />
+    <Compile Include="ServiceContract\IwsCompteAmortissement.cs" />
+    <Compile Include="ServiceContract\IwsGrandLivre.cs" />
+    <Compile Include="ServiceContract\IwsLieuFacturation.cs" />
+    <Compile Include="ServiceContract\IwsNatureOperation.cs" />
+    <Compile Include="ServiceContract\IwsNumeroDebut.cs" />
+    <Compile Include="ServiceContract\IwsNumeroDebutFin.cs" />
+    <Compile Include="ServiceContract\IwsNumeroDebutFinTiers.cs" />
+    <Compile Include="ServiceContract\IwsOption.cs" />
+    <Compile Include="ServiceContract\IwsPhamouvementstockfiltragedestock.cs" />
+    <Compile Include="ServiceContract\IwsPhamouvementstockfiltragedestockexpiration.cs" />
+    <Compile Include="ServiceContract\IwsPhaParTypeBudget.cs" />
+    <Compile Include="ServiceContract\IwsPhapartypefournisseur.cs" />
+    <Compile Include="ServiceContract\IwsRisque.cs" />
+    <Compile Include="ServiceContract\IwsRisqueassurance.cs" />
+    <Compile Include="ServiceContract\IwsSection.cs" />
+    <Compile Include="ServiceContract\IwsStatutContrat.cs" />
+    <Compile Include="ServiceContract\IwsTypeBalance.cs" />
+    <Compile Include="ServiceContract\IwsTypeEtat.cs" />
+    <Compile Include="ServiceContract\IwsTypeListe.cs" />
+    <Compile Include="ServiceContratEdition\IwsEdition.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatStock.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatCaisse.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatImmobilisation.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatAssurance.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatParametre.cs" />
+    <Compile Include="ServiceContratEdition\IwsEtat.cs" />
+    <Compile Include="ServiceContract\IwsCliparmodesortie.cs" />
+    <Compile Include="ServiceContract\IwsCliparmodeadmission.cs" />
+    <Compile Include="ServiceContract\IwsClipartypeconsultattion.cs" />
+    <Compile Include="ServiceContract\IwsCliconsultation.cs" />
+    <Compile Include="ServiceContract\IwsLogiciel.cs" />
+    <Compile Include="ServiceContract\IwsJourneetravail.cs" />
+    <Compile Include="ServiceContract\IwsLogicielobjettypeschemacomptableprofil.cs" />
+    <Compile Include="ServiceContract\IwsSENS.cs" />
+    <Compile Include="ServiceContract\IwsOperateurdroitCompteTresorerie.cs" />
+    <Compile Include="ServiceContract\IwsLogicielobjettypeschemacomptableoperateur.cs" />
+    <Compile Include="ServiceContract\IwsPhafamilleoperation.cs" />
+    <Compile Include="ServiceContract\IwsLogicielobjettypeoperationoperateur.cs" />
+    <Compile Include="ServiceContract\IwsPhanaturefamilleoperation.cs" />
+    <Compile Include="ServiceContract\IwsJournal.cs" />
+    <Compile Include="ServiceContract\IwsOperateurdroitsaisiephaparentrepot.cs" />
+    <Compile Include="ServiceContract\IwsOperateurdroitphaparentrepot.cs" />
+    <Compile Include="ServiceContract\IwsOperateurdroitagence.cs" />
+    <Compile Include="ServiceContract\IwsPhamouvementStock.cs" />
+    <Compile Include="ServiceContract\IwsPhapararticle.cs" />
+    <Compile Include="ServiceContract\IwsPhapartypearticle.cs" />
+    <Compile Include="ServiceContract\IwsCtsinistrechequephoto.cs" />
+    <Compile Include="ServiceContract\IwsCtsinistrecheque.cs" />
+    <Compile Include="ServiceContract\IwsPhaparnaturetypearticle.cs" />
+    <Compile Include="ServiceContract\IwsPlancomptablenaturecomptemodereglement.cs" />
+    <Compile Include="ServiceContract\IwsModereglement.cs" />
+    <Compile Include="ServiceContract\IwsCtparcapitauxrisqueassuranceliaison.cs" />
+    <Compile Include="ServiceContract\IwsCtpartauxauto.cs" />
+    <Compile Include="ServiceContract\IwsCtparbranchecategorietarif.cs" />
+    <Compile Include="ServiceContract\IwsCtparquestionnairedocumentrisqueassuranceliaison.cs" />
+    <Compile Include="ServiceContract\IwsPhamouvementstockreglement.cs" />
+    <Compile Include="ServiceContract\IwsProfil.cs" />
+    <Compile Include="ServiceContract\IwsTypeoperateur.cs" />
+    <Compile Include="ServiceContract\IwsService.cs" />
+    <Compile Include="ServiceContract\IwsPhaparentrepot.cs" />
+    <Compile Include="ServiceContract\IwsCtparquestionnaireliaisondocument.cs" />
+    <Compile Include="ServiceContract\IwsCtcontratquestionnaire.cs" />
+    <Compile Include="ServiceContract\IwsPlancomptable.cs" />
+    <Compile Include="ServiceContract\IwsClientexoneretaxe.cs" />
+    <Compile Include="ServiceContract\IwsLogicielobjet.cs" />
+    <Compile Include="ServiceContract\IwsOperateurdroit.cs" />
+    <Compile Include="ServiceContract\IwsEscompte.cs" />
+    <Compile Include="ServiceContract\IwsPhaparnaturetiers.cs" />
+    <Compile Include="ServiceContract\IwsCtcontratchequephoto.cs" />
+    <Compile Include="ServiceContract\IwsCtcontratrendezvousclient.cs" />
+    <Compile Include="ServiceContract\IwsBanqueagence.cs" />
+    <Compile Include="ServiceContract\IwsBanque.cs" />
+    <Compile Include="ServiceContract\IwsTVA.cs" />
+    <Compile Include="ServiceContract\IwsASDI.cs" />
+    <Compile Include="ServiceContract\IwsPhapartypetiers.cs" />
+    <Compile Include="ServiceContract\IwsPhapartypetierscompterattacheadditionnel.cs" />
+    <Compile Include="ServiceContract\IwsRegimeimposition.cs" />
+    <Compile Include="ServiceContract\IwsPhaparcasutilisationtiers.cs" />
+    <Compile Include="ServiceContract\IwsActivite.cs" />
+    <Compile Include="ServiceContract\IwsPhatiersgroupe.cs" />
+    <Compile Include="ServiceContract\IwsProfession.cs" />
+    <Compile Include="ServiceContract\IwsSexe.cs" />
+    <Compile Include="ServiceContract\IwsCliparspecialite.cs" />
+    <Compile Include="ServiceContract\IwsPhatiersphoto.cs" />
+    <Compile Include="ServiceContract\IwsCtparnaturesinistre.cs" />
+    <Compile Include="ServiceContract\IwsCtcontratsuivieclient.cs" />
+    <Compile Include="ServiceContract\IwsCtcontratecheancier.cs" />
+    <Compile Include="ServiceContract\IwsCtcontratcheque.cs" />
+    <Compile Include="ServiceContract\IwsCtsinitreexpertnomme.cs" />
+    <Compile Include="ServiceContract\IwsCtsinistresuivie.cs" />
+    <Compile Include="ServiceContract\IwsCtsinistrephoto.cs" />
+    <Compile Include="ServiceContract\IwsCtsinistre.cs" />
+    <Compile Include="ServiceContract\IwsCtparintermediaire.cs" />
+    <Compile Include="ServiceContract\IwsCtpardesignation.cs" />
+    <Compile Include="ServiceContract\IwsPays.cs" />
+    <Compile Include="ServiceContract\IwsCommune.cs" />
+    <Compile Include="ServiceContract\IwsCtpargarantierisqueassuranceliaison.cs" />
+    <Compile Include="ServiceContract\IwsCtparprimerisqueassuranceliaison.cs" />
+    <Compile Include="ServiceContract\IwsCtcontrat.cs" />
+    <Compile Include="ServiceContract\IwsCtpartypeaffaire.cs" />
+    <Compile Include="ServiceContract\IwsCtpargenreauto.cs" />
+    <Compile Include="ServiceContract\IwsCtparenergieauto.cs" />
+    <Compile Include="ServiceContract\IwsCtparautocategorie.cs" />
+    <Compile Include="ServiceContract\IwsCtparbranche.cs" />
+    <Compile Include="ServiceContract\IwsCtparduree.cs" />
+    <Compile Include="ServiceContract\IwsCtpartarif.cs" />
+    <Compile Include="ServiceContract\IwsCtpartypeappartement.cs" />
+    <Compile Include="ServiceContract\IwsCtpartypecontratsante.cs" />
+    <Compile Include="ServiceContract\IwsCtpartypeoccupant.cs" />
+    <Compile Include="ServiceContract\IwsCtparusageauto.cs" />
+    <Compile Include="ServiceContract\IwsCtparconditionpermis.cs" />
+    <Compile Include="ServiceContract\IwsCtparstatutsocioprofessionnel.cs" />
+    <Compile Include="ServiceContract\IwsMiccomptewebmotpasseoublie.cs" />
+    <Compile Include="ServiceContract\IwsClipartitreadherantayantsdroits.cs" />
+    <Compile Include="ServiceContract\IwsCtparmainforte.cs" />
+    <Compile Include="ServiceContract\IwsZonevoyage.cs" />
+    <Compile Include="ServiceContract\IwsTypevehicule.cs" />
+    <Compile Include="ServiceContract\IwsZonemaladie.cs" />
+    <Compile Include="ServiceContract\IwsZoneauto.cs" />
+    <Compile Include="ServiceContract\IwsPhaparrayon.cs" />
+    <Compile Include="ServiceContract\IwsCtpartypecontratauto.cs" />
+    <Compile Include="ServiceContract\IwsCtparreduction.cs" />
+    <Compile Include="ServiceContract\IwsOperateur.cs" />
+    <Compile Include="ServiceContract\IwsVille.cs" />
+    <Compile Include="ServiceContract\IwsPhatiers.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatClientFournisseur.cs" />
+    <Compile Include="ServiceContratEdition\IwsEditionEtatBudget.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatStockChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatCaisseChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatStockTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatCaisseTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatStockTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatCaisseTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatImmobilisationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatImmobilisationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatImmobilisationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatBudgetChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatBudgetTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatBudgetTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatClientFournisseurChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatClientFournisseurTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatClientFournisseurTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatAssuranceChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatAssuranceTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatAssuranceTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatParametreChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatParametreTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEditionEtatParametreTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEdition\wsEditionEtatStock.svc.cs">
+      <DependentUpon>wsEditionEtatStock.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEdition\wsEditionEtatCaisse.svc.cs">
+      <DependentUpon>wsEditionEtatCaisse.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEdition\wsEditionEtatImmobilisation.svc.cs">
+      <DependentUpon>wsEditionEtatImmobilisation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEdition\wsEditionEtatBudget.svc.cs">
+      <DependentUpon>wsEditionEtatBudget.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEditionExtended\wsEtatChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEtatTestContrainte.Extended.cs" />
+    <Compile Include="ServiceEditionExtended\wsEtatTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEdition\wsEdition.svc.cs">
+      <DependentUpon>wsEdition.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEdition\wsEditionEtatClientFournisseur.svc.cs">
+      <DependentUpon>wsEditionEtatClientFournisseur.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEdition\wsEditionEtatAssurance.svc.cs">
+      <DependentUpon>wsEditionEtatAssurance.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceEdition\wsEditionEtatParametre.svc.cs">
+      <DependentUpon>wsEditionEtatParametre.svc</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceExtention\wsClipartypejourfacturationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartypejourfacturationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartypejourfacturationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCompteAmortissementChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCompteAmortissementTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCompteAmortissementTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparstatutcontratChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparstatutcontratTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparstatutcontratTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLieuFacturationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLieuFacturationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLieuFacturationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsNumeroDebutChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsNumeroDebutTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsNumeroDebutTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOptionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockfiltragedestockChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockfiltragedestockexpirationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockfiltragedestockexpirationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockfiltragedestockexpirationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockfiltragedestockTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockfiltragedestockTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaParTypeBudgetChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaParTypeBudgetTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaParTypeBudgetTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRisqueassuranceChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRisqueassuranceTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRisqueassuranceTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparmodesortieChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparmodesortieTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparmodesortieTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparmodeadmissionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparmodeadmissionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparmodeadmissionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartypeconsultattionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartypeconsultattionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartypeconsultattionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliconsultationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliconsultationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliconsultationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsJourneetravailChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsJourneetravailTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsJourneetravailTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeschemacomptableprofilChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeschemacomptableprofilTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeschemacomptableprofilTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitCompteTresorerieChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeschemacomptableoperateurChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitCompteTresorerieTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeschemacomptableoperateurTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitCompteTresorerieTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeschemacomptableoperateurTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhafamilleoperationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhafamilleoperationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhafamilleoperationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeoperationoperateurChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeoperationoperateurTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjettypeoperationoperateurTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhanaturefamilleoperationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhanaturefamilleoperationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhanaturefamilleoperationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsJournalChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsJournalTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsJournalTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitsaisiephaparentrepotChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitphaparentrepotChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitagenceChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitsaisiephaparentrepotTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitphaparentrepotTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitagenceTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitsaisiephaparentrepotTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitphaparentrepotTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitagenceTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementStockChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementStockTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementStockTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapararticleChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapararticleTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapararticleTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypearticleChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypearticleTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypearticleTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrechequephotoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrechequephotoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrechequephotoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrechequeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrechequeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrechequeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparnaturetypearticleChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparnaturetypearticleTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparnaturetypearticleTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPlancomptablenaturecomptemodereglementTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPlancomptablenaturecomptemodereglementTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPlancomptablenaturecomptemodereglementChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsModereglementTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsModereglementTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsModereglementChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparcapitauxrisqueassuranceliaisonChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparcapitauxrisqueassuranceliaisonTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparcapitauxrisqueassuranceliaisonTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartauxautoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartauxautoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartauxautoTypeDonnee.Extend.cs" />
+    <Compile Include="ServiceExtention\wsCtparbranchecategorietarifTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparbranchecategorietarifTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparbranchecategorietarifChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparquestionnairedocumentrisqueassuranceliaisonTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparquestionnairedocumentrisqueassuranceliaisonTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparquestionnairedocumentrisqueassuranceliaisonChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockreglementChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockreglementTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhamouvementstockreglementTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsProfilTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsProfilTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsProfilChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRisqueChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRisqueTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRisqueTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsSectionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsSectionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsSectionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsTypeoperateurTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsTypeoperateurChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsServiceTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsServiceTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsServiceChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparentrepotTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparentrepotTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparentrepotChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparquestionnaireliaisondocumentTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparquestionnaireliaisondocumentTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparquestionnaireliaisondocumentChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratquestionnaireTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratquestionnaireTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratquestionnaireChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPlancomptableTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPlancomptableTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPlancomptableChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjetTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjetTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsLogicielobjetChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurdroitChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparnaturetiersChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparnaturetiersTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparnaturetiersTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratchequephotoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratchequephotoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratchequephotoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratrendezvousclientChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratrendezvousclientTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratrendezvousclientTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsBanqueagenceChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsBanqueagenceTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsBanqueagenceTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsBanqueChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsBanqueTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsBanqueTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypetiersChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypetiersTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypetiersTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypetierscompterattacheadditionnelChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypetierscompterattacheadditionnelTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhapartypetierscompterattacheadditionnelTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRegimeimpositionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRegimeimpositionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsRegimeimpositionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparcasutilisationtiersChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsActiviteChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparcasutilisationtiersTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsActiviteTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparcasutilisationtiersTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsActiviteTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersgroupeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersgroupeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersgroupeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsProfessionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsProfessionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsProfessionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsSexeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparspecialiteChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsSexeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparspecialiteTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsSexeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCliparspecialiteTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersphotoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersphotoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersphotoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparnaturesinistreChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparnaturesinistreTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparnaturesinistreTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratsuivieclientChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratsuivieclientTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratsuivieclientTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratecheancierChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratecheancierTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratecheancierTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratchequeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratchequeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratchequeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinitreexpertnommeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinitreexpertnommeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinitreexpertnommeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistresuivieChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistresuivieTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistresuivieTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrephotoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrephotoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistrephotoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistreChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistreTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtsinistreTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparintermediaireChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpardesignationChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparintermediaireTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparintermediaireTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPaysChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpardesignationTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPaysTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpardesignationTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPaysTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCommuneChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCommuneTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCommuneTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpargarantierisqueassuranceliaisonChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpargarantierisqueassuranceliaisonTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpargarantierisqueassuranceliaisonTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparprimerisqueassuranceliaisonChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparprimerisqueassuranceliaisonTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparprimerisqueassuranceliaisonTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtcontratTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeaffaireChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeaffaireTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeaffaireTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpargenreautoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparenergieautoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparautocategorieChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparbrancheChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpardureeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartarifChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeappartementChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypecontratsanteChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeoccupantChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparusageautoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparconditionpermisChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparconditionpermisTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparconditionpermisTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparstatutsocioprofessionnelChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparstatutsocioprofessionnelTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparstatutsocioprofessionnelTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsMiccomptewebmotpasseoublieChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsMiccomptewebmotpasseoublieTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsMiccomptewebmotpasseoublieTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartitreadherantayantsdroitsChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartitreadherantayantsdroitsTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsClipartitreadherantayantsdroitsTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparmainforteChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparmainforteTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparmainforteTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZonevoyageChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZonevoyageTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZonevoyageTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsTypevehiculeChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsTypevehiculeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsTypevehiculeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZonemaladieChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZonemaladieTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZonemaladieTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZoneautoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparrayonChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpargenreautoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparenergieautoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparautocategorieTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparbrancheTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpardureeTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartarifTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeappartementTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypecontratsanteTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\CtpartypeoccupantTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparusageautoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZoneautoTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparrayonTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpargenreautoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparenergieautoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparautocategorieTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparbrancheTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpardureeTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartarifTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeappartementTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypecontratsanteTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypeoccupantTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparusageautoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsZoneautoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhaparrayonTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypecontratautoChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypecontratautoContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtpartypecontratautoTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparreductionChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparreductionTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsCtparreductionTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsOperateurTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsVilleTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceExtention\wsVilleTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsVilleChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersChampObligatoire.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersTestContrainte.Extended.cs" />
+    <Compile Include="ServiceExtention\wsPhatiersTypeDonnee.Extended.cs" />
+    <Compile Include="ServiceEdition\wsEtat.svc.cs">
+      <DependentUpon>wsEtat.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsMobileSouscription.svc.cs">
+      <DependentUpon>wsMobileSouscription.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsClipartypejourfacturation.svc.cs">
+      <DependentUpon>wsClipartypejourfacturation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCompteAmortissement.svc.cs">
+      <DependentUpon>wsCompteAmortissement.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsGrandLivre.svc.cs">
+      <DependentUpon>wsGrandLivre.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsLieuFacturation.svc.cs">
+      <DependentUpon>wsLieuFacturation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsNatureOperation.svc.cs">
+      <DependentUpon>wsNatureOperation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsNumeroDebut.svc.cs">
+      <DependentUpon>wsNumeroDebut.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOption.svc.cs">
+      <DependentUpon>wsOption.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhamouvementstockfiltragedestock.svc.cs">
+      <DependentUpon>wsPhamouvementstockfiltragedestock.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhamouvementstockfiltragedestockexpiration.svc.cs">
+      <DependentUpon>wsPhamouvementstockfiltragedestockexpiration.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhaParTypeBudget.svc.cs">
+      <DependentUpon>wsPhaParTypeBudget.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhapartypefournisseur.svc.cs">
+      <DependentUpon>wsPhapartypefournisseur.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsRisque.svc.cs">
+      <DependentUpon>wsRisque.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsRisqueassurance.svc.cs">
+      <DependentUpon>wsRisqueassurance.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCliparmodesortie.svc.cs">
+      <DependentUpon>wsCliparmodesortie.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCliparmodeadmission.svc.cs">
+      <DependentUpon>wsCliparmodeadmission.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsClipartypeconsultattion.svc.cs">
+      <DependentUpon>wsClipartypeconsultattion.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCliconsultation.svc.cs">
+      <DependentUpon>wsCliconsultation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsLogiciel.svc.cs">
+      <DependentUpon>wsLogiciel.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsJourneetravail.svc.cs">
+      <DependentUpon>wsJourneetravail.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsLogicielobjettypeschemacomptableprofil.svc.cs">
+      <DependentUpon>wsLogicielobjettypeschemacomptableprofil.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsSection.svc.cs">
+      <DependentUpon>wsSection.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsSENS.svc.cs">
+      <DependentUpon>wsSENS.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOperateurdroitCompteTresorerie.svc.cs">
+      <DependentUpon>wsOperateurdroitCompteTresorerie.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsLogicielobjettypeschemacomptableoperateur.svc.cs">
+      <DependentUpon>wsLogicielobjettypeschemacomptableoperateur.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhafamilleoperation.svc.cs">
+      <DependentUpon>wsPhafamilleoperation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsLogicielobjettypeoperationoperateur.svc.cs">
+      <DependentUpon>wsLogicielobjettypeoperationoperateur.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhanaturefamilleoperation.svc.cs">
+      <DependentUpon>wsPhanaturefamilleoperation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsJournal.svc.cs">
+      <DependentUpon>wsJournal.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOperateurdroitsaisiephaparentrepot.svc.cs">
+      <DependentUpon>wsOperateurdroitsaisiephaparentrepot.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOperateurdroitphaparentrepot.svc.cs">
+      <DependentUpon>wsOperateurdroitphaparentrepot.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOperateurdroitagence.svc.cs">
+      <DependentUpon>wsOperateurdroitagence.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhamouvementStock.svc.cs">
+      <DependentUpon>wsPhamouvementStock.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhapararticle.svc.cs">
+      <DependentUpon>wsPhapararticle.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhapartypearticle.svc.cs">
+      <DependentUpon>wsPhapartypearticle.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtsinistrechequephoto.svc.cs">
+      <DependentUpon>wsCtsinistrechequephoto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtsinistrecheque.svc.cs">
+      <DependentUpon>wsCtsinistrecheque.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhaparnaturetypearticle.svc.cs">
+      <DependentUpon>wsPhaparnaturetypearticle.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPlancomptablenaturecomptemodereglement.svc.cs">
+      <DependentUpon>wsPlancomptablenaturecomptemodereglement.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsModereglement.svc.cs">
+      <DependentUpon>wsModereglement.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontratchequephoto.svc.cs">
+      <DependentUpon>wsCtcontratchequephoto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparcapitauxrisqueassuranceliaison.svc.cs">
+      <DependentUpon>wsCtparcapitauxrisqueassuranceliaison.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartauxauto.svc.cs">
+      <DependentUpon>wsCtpartauxauto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparbranchecategorietarif.svc.cs">
+      <DependentUpon>wsCtparbranchecategorietarif.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparquestionnairedocumentrisqueassuranceliaison.svc.cs">
+      <DependentUpon>wsCtparquestionnairedocumentrisqueassuranceliaison.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhamouvementstockreglement.svc.cs">
+      <DependentUpon>wsPhamouvementstockreglement.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsProfil.svc.cs">
+      <DependentUpon>wsProfil.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsStatutContrat.svc.cs">
+      <DependentUpon>wsStatutContrat.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsTypeBalance.svc.cs">
+      <DependentUpon>wsTypeBalance.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsTypeEtat.svc.cs">
+      <DependentUpon>wsTypeEtat.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsTypeListe.svc.cs">
+      <DependentUpon>wsTypeListe.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsTypeoperateur.svc.cs">
+      <DependentUpon>wsTypeoperateur.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsService.svc.cs">
+      <DependentUpon>wsService.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhaparentrepot.svc.cs">
+      <DependentUpon>wsPhaparentrepot.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparquestionnaireliaisondocument.svc.cs">
+      <DependentUpon>wsCtparquestionnaireliaisondocument.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontratquestionnaire.svc.cs">
+      <DependentUpon>wsCtcontratquestionnaire.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPlancomptable.svc.cs">
+      <DependentUpon>wsPlancomptable.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsClientexoneretaxe.svc.cs">
+      <DependentUpon>wsClientexoneretaxe.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsLogicielobjet.svc.cs">
+      <DependentUpon>wsLogicielobjet.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOperateurdroit.svc.cs">
+      <DependentUpon>wsOperateurdroit.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsEscompte.svc.cs">
+      <DependentUpon>wsEscompte.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhaparnaturetiers.svc.cs">
+      <DependentUpon>wsPhaparnaturetiers.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontratrendezvousclient.svc.cs">
+      <DependentUpon>wsCtcontratrendezvousclient.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsBanqueagence.svc.cs">
+      <DependentUpon>wsBanqueagence.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsBanque.svc.cs">
+      <DependentUpon>wsBanque.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsTVA.svc.cs">
+      <DependentUpon>wsTVA.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsASDI.svc.cs">
+      <DependentUpon>wsASDI.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhapartypetiers.svc.cs">
+      <DependentUpon>wsPhapartypetiers.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhapartypetierscompterattacheadditionnel.svc.cs">
+      <DependentUpon>wsPhapartypetierscompterattacheadditionnel.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsRegimeimposition.svc.cs">
+      <DependentUpon>wsRegimeimposition.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhaparcasutilisationtiers.svc.cs">
+      <DependentUpon>wsPhaparcasutilisationtiers.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsActivite.svc.cs">
+      <DependentUpon>wsActivite.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhatiersgroupe.svc.cs">
+      <DependentUpon>wsPhatiersgroupe.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsProfession.svc.cs">
+      <DependentUpon>wsProfession.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsSexe.svc.cs">
+      <DependentUpon>wsSexe.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCliparspecialite.svc.cs">
+      <DependentUpon>wsCliparspecialite.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhatiersphoto.svc.cs">
+      <DependentUpon>wsPhatiersphoto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparnaturesinistre.svc.cs">
+      <DependentUpon>wsCtparnaturesinistre.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontratsuivieclient.svc.cs">
+      <DependentUpon>wsCtcontratsuivieclient.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontratecheancier.svc.cs">
+      <DependentUpon>wsCtcontratecheancier.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontratcheque.svc.cs">
+      <DependentUpon>wsCtcontratcheque.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtsinitreexpertnomme.svc.cs">
+      <DependentUpon>wsCtsinitreexpertnomme.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtsinistresuivie.svc.cs">
+      <DependentUpon>wsCtsinistresuivie.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtsinistrephoto.svc.cs">
+      <DependentUpon>wsCtsinistrephoto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtsinistre.svc.cs">
+      <DependentUpon>wsCtsinistre.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparintermediaire.svc.cs">
+      <DependentUpon>wsCtparintermediaire.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpardesignation.svc.cs">
+      <DependentUpon>wsCtpardesignation.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPays.svc.cs">
+      <DependentUpon>wsPays.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCommune.svc.cs">
+      <DependentUpon>wsCommune.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpargarantierisqueassuranceliaison.svc.cs">
+      <DependentUpon>wsCtpargarantierisqueassuranceliaison.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparprimerisqueassuranceliaison.svc.cs">
+      <DependentUpon>wsCtparprimerisqueassuranceliaison.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtcontrat.svc.cs">
+      <DependentUpon>wsCtcontrat.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartypeaffaire.svc.cs">
+      <DependentUpon>wsCtpartypeaffaire.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpargenreauto.svc.cs">
+      <DependentUpon>wsCtpargenreauto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparenergieauto.svc.cs">
+      <DependentUpon>wsCtparenergieauto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparautocategorie.svc.cs">
+      <DependentUpon>wsCtparautocategorie.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparbranche.svc.cs">
+      <DependentUpon>wsCtparbranche.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparduree.svc.cs">
+      <DependentUpon>wsCtparduree.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartarif.svc.cs">
+      <DependentUpon>wsCtpartarif.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartypeappartement.svc.cs">
+      <DependentUpon>wsCtpartypeappartement.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartypecontratsante.svc.cs">
+      <DependentUpon>wsCtpartypecontratsante.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartypeoccupant.svc.cs">
+      <DependentUpon>wsCtpartypeoccupant.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparusageauto.svc.cs">
+      <DependentUpon>wsCtparusageauto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparconditionpermis.svc.cs">
+      <DependentUpon>wsCtparconditionpermis.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparstatutsocioprofessionnel.svc.cs">
+      <DependentUpon>wsCtparstatutsocioprofessionnel.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsMiccomptewebmotpasseoublie.svc.cs">
+      <DependentUpon>wsMiccomptewebmotpasseoublie.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsClipartitreadherantayantsdroits.svc.cs">
+      <DependentUpon>wsClipartitreadherantayantsdroits.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparmainforte.svc.cs">
+      <DependentUpon>wsCtparmainforte.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsZonemaladie.svc.cs">
+      <DependentUpon>wsZonemaladie.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsZonevoyage.svc.cs">
+      <DependentUpon>wsZonevoyage.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsTypevehicule.svc.cs">
+      <DependentUpon>wsTypevehicule.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsZoneauto.svc.cs">
+      <DependentUpon>wsZoneauto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhaparrayon.svc.cs">
+      <DependentUpon>wsPhaparrayon.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtpartypecontratauto.svc.cs">
+      <DependentUpon>wsCtpartypecontratauto.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsCtparreduction.svc.cs">
+      <DependentUpon>wsCtparreduction.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsOperateur.svc.cs">
+      <DependentUpon>wsOperateur.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsVille.svc.cs">
+      <DependentUpon>wsVille.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Service\wsPhatiers.svc.cs">
+      <DependentUpon>wsPhatiers.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Verifications\wsVerificationUsages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HT_Stock.BOJ\HT_Stock.BOJ.csproj">
+      <Project>{d12bf489-523a-445f-bae0-4108d62e1c6c}</Project>
+      <Name>HT_Stock.BOJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.BOJ\Stock.BOJ.csproj">
+      <Project>{5c5b2eb5-9aec-49e6-996b-6aa0beee5002}</Project>
+      <Name>Stock.BOJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSBLL\Stock.WSBLL.csproj">
+      <Project>{9CA6B2DA-742B-4F3B-8D28-54E90D6B6568}</Project>
+      <Name>Stock.WSBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSTOOLS\Stock.WSTOOLS.csproj">
+      <Project>{0BC9E1E5-081A-4B62-9E66-42D45396192F}</Project>
+      <Name>Stock.WSTOOLS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock\Stock.Common\Stock.Common.csproj">
+      <Project>{d5880f55-4880-47e5-98d8-db70dfe07872}</Project>
+      <Name>Stock.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2723</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2723/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

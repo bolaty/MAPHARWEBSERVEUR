@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhamouvementstockreglementrepartition.asmx.cs" Class="Stock.WS.wsPhamouvementstockreglementrepartition" %>

@@ -1,0 +1,1053 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3E2AB313-D29D-420A-8D8C-070071CE8C4A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stock.WS</RootNamespace>
+    <AssemblyName>Stock.WS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraRichEdit.v11.1, Version=11.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Webservicesedition\wsEditionEtatOutilsSecurite.asmx" />
+    <Content Include="Webservicesedition\wsEditionEtatBudget.asmx" />
+    <Content Include="Webservicesedition\wsEditionEtatCaisse.asmx" />
+    <Content Include="Webservicesedition\wsEdition.asmx" />
+    <Content Include="Webservicesedition\wsEditionEtatArticlePrestation.asmx" />
+    <Content Include="Webservicesedition\wsEditionEtatClientFournisseur.asmx" />
+    <Content Include="Webservicesedition\wsEditionEtatParametre.asmx" />
+    <Content Include="Webservicesedition\wsEditionEtatStock.asmx" />
+    <Content Include="Webservicesedition\wsEtat.asmx" />
+    <Content Include="Webservicesedition\wsEtatComptaAnalytique.asmx" />
+    <Content Include="Webservicesedition\wsPhaparetatfacture.asmx" />
+    <Content Include="Webservices\wsMouvementcomptableanalytique.asmx" />
+    <Content Include="Webservices\wsPhapartypetierscompterattacheadditionnel.asmx" />
+    <Content Include="Webservices\wsProfildroitsaisieentrepot.asmx" />
+    <Content Include="Webservices\wsOperateurdroitsaisiephaparentrepot.asmx" />
+    <Content Include="Webservices\wsProfildroitentrepot.asmx" />
+    <Content Include="Webservices\wsLogicielobjettypeschemacomptableprofil.asmx" />
+    <Content Include="Webservices\wsLogicielobjettypeoperationprofil.asmx" />
+    <Content Include="Webservices\wsCommune.asmx" />
+    <Content Include="Webservices\wsComptapar_plananalytiquefamille.asmx" />
+    <Content Include="Webservices\wsComptapar_sens.asmx" />
+    <Content Include="Webservices\wsComptapar_taux.asmx" />
+    <Content Include="Webservices\wsComptapar_taxe.asmx" />
+    <Content Include="Webservices\wsComptapar_typesaut.asmx" />
+    <Content Include="Webservices\wsDevise.asmx" />
+    <Content Include="Webservices\wsCampangeagricole.asmx" />
+    <Content Include="Webservices\wsLogicielobjettypeoperationoperateur.asmx" />
+    <Content Include="Webservices\wsLogicielobjettypeschemacomptableoperateur.asmx" />
+    <Content Include="Webservices\wsOperateurdroitphaparentrepot.asmx" />
+    <Content Include="Webservices\wsMicbudget.asmx" />
+    <Content Include="Webservices\wsMicbudgetdetail.asmx" />
+    <Content Include="Webservices\wsMicbudgetparampostebudgetaire.asmx" />
+    <Content Include="Webservices\wsMicbudgetparampostebudgetairedetail.asmx" />
+    <Content Include="Webservices\wsMicbudgetparampostebudgetairenature.asmx" />
+    <Content Include="Webservices\wsMicbudgetparamtype.asmx" />
+    <Content Include="Webservices\wsMicbudgetparamtypedetail.asmx" />
+    <Content Include="Webservices\wsOperateurdroitagence.asmx" />
+    <Content Include="Webservices\wsPhachangementchambrehistorisation.asmx" />
+    <Content Include="Webservices\wsPhaentrevehicule.asmx" />
+    <Content Include="Webservices\wsPhainputmodedegestion.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockphaparqualite.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockphaparretenue.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockreglementcommercial.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockreglementrepartition.asmx" />
+    <Content Include="Webservices\wsPhapararticlecompteplancomptable.asmx" />
+    <Content Include="Webservices\wsPhaparcasutilisationtiers.asmx" />
+    <Content Include="Webservices\wsPhaparchassis.asmx" />
+    <Content Include="Webservices\wsPhaparcode.asmx" />
+    <Content Include="Webservices\wsPhaparcontact.asmx" />
+    <Content Include="Webservices\wsPhaparingredient.asmx" />
+    <Content Include="Webservices\wsPhaparlocale.asmx" />
+    <Content Include="Webservices\wsPhaparmodeinjection.asmx" />
+    <Content Include="Webservices\wsPhaparmoteur.asmx" />
+    <Content Include="Webservices\wsPhaparpneu.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenu.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenudetail.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenuecran.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenuecranmodecalculeparam.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenumenuprincipallibelleparametre.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenumenuprincipalmodedegestion.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenumodegestion.asmx" />
+    <Content Include="Webservices\wsPhaparpupopmenumodegestionlibelleparametre.asmx" />
+    <Content Include="Webservices\wsPhaparqualite.asmx" />
+    <Content Include="Webservices\wsPhaparquantitemaximiniarticleentrepot.asmx" />
+    <Content Include="Webservices\wsPhaparretenue.asmx" />
+    <Content Include="Webservices\wsPhaparrib.asmx" />
+    <Content Include="Webservices\wsPhaparsection.asmx" />
+    <Content Include="Webservices\wsPhaparsectiontiers.asmx" />
+    <Content Include="Webservices\wsPhapartaxe.asmx" />
+    <Content Include="Webservices\wsPhapartaxestatut.asmx" />
+    <Content Include="Webservices\wsPhapartypearticlecompteplancomptablemodel.asmx" />
+    <Content Include="Webservices\wsPhapartypeboite.asmx" />
+    <Content Include="Webservices\wsPhapartypecontact.asmx" />
+    <Content Include="Webservices\wsPhapartypepersonne.asmx" />
+    <Content Include="Webservices\wsPhapartypepneu.asmx" />
+    <Content Include="Webservices\wsPhatiersgroupe.asmx" />
+    <Content Include="Webservices\wsPhaTransporteur.asmx" />
+    <Content Include="Webservices\wsPhaparemballage.asmx" />
+    <Content Include="Webservices\wsPhaparnaturetiers.asmx" />
+    <Content Include="Webservices\wsPhapartypearticlecompteplancomptable.asmx" />
+    <Content Include="Webservices\wsPhapartypearticleoperation.asmx" />
+    <Content Include="Webservices\wsPhapartypearticleoperationlibellecompte.asmx" />
+    <Content Include="Webservices\wsPhapartypearticleoperationparametre.asmx" />
+    <Content Include="Webservices\wsPharparpresentationproduit.asmx" />
+    <Content Include="Webservices\wsPhatiers.asmx" />
+    <Content Include="Webservices\wsPhatiersphoto.asmx" />
+    <Content Include="Webservices\wsPhapartypetiers.asmx" />
+    <Content Include="Webservices\wsCertificatpriseencharge.asmx" />
+    <Content Include="Webservices\wsActivite.asmx" />
+    <Content Include="Webservices\wsAgence.asmx" />
+    <Content Include="Webservices\wsBanque.asmx" />
+    <Content Include="Webservices\wsBanqueagence.asmx" />
+    <Content Include="Webservices\wsLogiciel.asmx" />
+    <Content Include="Webservices\wsLogicielobjet.asmx" />
+    <Content Include="Webservices\wsLogicielobjetdetail.asmx" />
+    <Content Include="Webservices\wsOperateurdroitdetail.asmx" />
+    <Content Include="Webservices\wsPhaecheancier.asmx" />
+    <Content Include="Webservices\wsPhafamilleoperation.asmx" />
+    <Content Include="Webservices\wsPhainput.asmx" />
+    <Content Include="Webservices\wsPhainventaire.asmx" />
+    <Content Include="Webservices\wsPhainventairedetail.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockcommandefacture.asmx" />
+    <Content Include="Webservices\wsPhamouvementstocklivraison.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockreglementcheque.asmx" />
+    <Content Include="Webservices\wsExercice.asmx" />
+    <Content Include="Webservices\wsJournal.asmx" />
+    <Content Include="Webservices\wsJourneetravail.asmx" />
+    <Content Include="Webservices\wsMessages.asmx" />
+    <Content Include="Webservices\wsModereglement.asmx" />
+    <Content Include="Webservices\wsOperateur.asmx" />
+    <Content Include="Webservices\wsOperateurdroit.asmx" />
+    <Content Include="Webservices\wsOperateurphoto.asmx" />
+    <Content Include="Webservices\wsParametre.asmx" />
+    <Content Include="Webservices\wsPays.asmx" />
+    <Content Include="Webservices\wsPhachauffeur.asmx" />
+    <Content Include="Webservices\wsPhaclient.asmx" />
+    <Content Include="Webservices\wsPhaclientphoto.asmx" />
+    <Content Include="Webservices\wsPhacommercial.asmx" />
+    <Content Include="Webservices\wsPhamouvementstock.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockaccessoire.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockcommande.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockcommandeaccessoire.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockdetail.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockdetailcommande.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockreglement.asmx" />
+    <Content Include="Webservices\wsPhamouvementstockreglementnatureoperation.asmx" />
+    <Content Include="Webservices\wsPhapararticle.asmx" />
+    <Content Include="Webservices\wsPhapararticleaccessoire.asmx" />
+    <Content Include="Webservices\wsPhapararticlephoto.asmx" />
+    <Content Include="Webservices\wsPhapardestinationarticle.asmx" />
+    <Content Include="Webservices\wsPhaparentrepot.asmx" />
+    <Content Include="Webservices\wsPhaparfabricant.asmx" />
+    <Content Include="Webservices\wsPhaparforme.asmx" />
+    <Content Include="Webservices\wsPhaparfournisseur.asmx" />
+    <Content Include="Webservices\wsPhaparlibelle.asmx" />
+    <Content Include="Webservices\wsPhaparmarque.asmx" />
+    <Content Include="Webservices\wsPhaparmatierepremiere.asmx" />
+    <Content Include="Webservices\wsPhaparmodel.asmx" />
+    <Content Include="Webservices\wsPhaparnatureoperation.asmx" />
+    <Content Include="Webservices\wsPhaparnaturetypearticle.asmx" />
+    <Content Include="Webservices\wsPhaparoperation.asmx" />
+    <Content Include="Webservices\wsPhaparparametre.asmx" />
+    <Content Include="Webservices\wsPhaparprestationservice.asmx" />
+    <Content Include="Webservices\wsPhaparprixprestation.asmx" />
+    <Content Include="Webservices\wsPhaparprixpromotion.asmx" />
+    <Content Include="Webservices\wsPhaparprixtypeclient.asmx" />
+    <Content Include="Webservices\wsPhaparprixtypefournisseur.asmx" />
+    <Content Include="Webservices\wsPhaparrayon.asmx" />
+    <Content Include="Webservices\wsPhapartableau.asmx" />
+    <Content Include="Webservices\wsPhapartypearticle.asmx" />
+    <Content Include="Webservices\wsPhapartypeclient.asmx" />
+    <Content Include="Webservices\wsPhapartypefournisseur.asmx" />
+    <Content Include="Webservices\wsPhapartypeprestationservice.asmx" />
+    <Content Include="Webservices\wsPhapartypequantite.asmx" />
+    <Content Include="Webservices\wsPhapartypequantitedetail.asmx" />
+    <Content Include="Webservices\wsPhapartyperemise.asmx" />
+    <Content Include="Webservices\wsPhapartyperemisedetail.asmx" />
+    <Content Include="Webservices\wsPhaparunite.asmx" />
+    <Content Include="Webservices\wsPhazdecaisse.asmx" />
+    <Content Include="Webservices\wsPha_attributionchambre.asmx" />
+    <Content Include="Webservices\wsPh_fournisseurbon.asmx" />
+    <Content Include="Webservices\wsPieceidentite.asmx" />
+    <Content Include="Webservices\wsPlancomptable.asmx" />
+    <Content Include="Webservices\wsPlancomptablenaturecompte.asmx" />
+    <Content Include="Webservices\wsPlancomptablenaturecomptemodereglement.asmx" />
+    <Content Include="Webservices\wsPlan_analytique.asmx" />
+    <Content Include="Webservices\wsPlan_rerporting.asmx" />
+    <Content Include="Webservices\wsProfession.asmx" />
+    <Content Include="Webservices\wsProfil.asmx" />
+    <Content Include="Webservices\wsProfildroit.asmx" />
+    <Content Include="Webservices\wsProfildroitagence.asmx" />
+    <Content Include="Webservices\wsProfildroitdetail.asmx" />
+    <Content Include="Webservices\wsRemorque.asmx" />
+    <Content Include="Webservices\wsService.asmx" />
+    <Content Include="Webservices\wsSexe.asmx" />
+    <Content Include="Webservices\wsSituationmatrimoniale.asmx" />
+    <Content Include="Webservices\wsSmsgateway.asmx" />
+    <Content Include="Webservices\wsSmsin.asmx" />
+    <Content Include="Webservices\wsSmsout.asmx" />
+    <Content Include="Webservices\wsSmsparametretypeoperation.asmx" />
+    <Content Include="Webservices\wsSociete.asmx" />
+    <Content Include="Webservices\wsTypejournal.asmx" />
+    <Content Include="Webservices\wsTypeoperateur.asmx" />
+    <Content Include="Webservices\wsTypevehicule.asmx" />
+    <Content Include="Webservices\wsType_plan.asmx" />
+    <Content Include="Webservices\wsVehicule.asmx" />
+    <Content Include="Webservices\wsVille.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\Iasmx.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatOutilsSecurite.asmx.cs">
+      <DependentUpon>wsEditionEtatOutilsSecurite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatBudget.asmx.cs">
+      <DependentUpon>wsEditionEtatBudget.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatCaisse.asmx.cs">
+      <DependentUpon>wsEditionEtatCaisse.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEdition.asmx.cs">
+      <DependentUpon>wsEdition.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatArticlePrestation.asmx.cs">
+      <DependentUpon>wsEditionEtatArticlePrestation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatClientFournisseur.asmx.cs">
+      <DependentUpon>wsEditionEtatClientFournisseur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatParametre.asmx.cs">
+      <DependentUpon>wsEditionEtatParametre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEditionEtatStock.asmx.cs">
+      <DependentUpon>wsEditionEtatStock.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEtat.asmx.cs">
+      <DependentUpon>wsEtat.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsEtatComptaAnalytique.asmx.cs">
+      <DependentUpon>wsEtatComptaAnalytique.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservicesedition\wsPhaparetatfacture.asmx.cs">
+      <DependentUpon>wsPhaparetatfacture.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMouvementcomptableanalytique.asmx.cs">
+      <DependentUpon>wsMouvementcomptableanalytique.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypetierscompterattacheadditionnel.asmx.cs">
+      <DependentUpon>wsPhapartypetierscompterattacheadditionnel.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfildroitsaisieentrepot.asmx.cs">
+      <DependentUpon>wsProfildroitsaisieentrepot.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateurdroitsaisiephaparentrepot.asmx.cs">
+      <DependentUpon>wsOperateurdroitsaisiephaparentrepot.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfildroitentrepot.asmx.cs">
+      <DependentUpon>wsProfildroitentrepot.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogicielobjettypeschemacomptableprofil.asmx.cs">
+      <DependentUpon>wsLogicielobjettypeschemacomptableprofil.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogicielobjettypeoperationprofil.asmx.cs">
+      <DependentUpon>wsLogicielobjettypeoperationprofil.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsCommune.asmx.cs">
+      <DependentUpon>wsCommune.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsComptapar_plananalytiquefamille.asmx.cs">
+      <DependentUpon>wsComptapar_plananalytiquefamille.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsComptapar_sens.asmx.cs">
+      <DependentUpon>wsComptapar_sens.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsComptapar_taux.asmx.cs">
+      <DependentUpon>wsComptapar_taux.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsComptapar_taxe.asmx.cs">
+      <DependentUpon>wsComptapar_taxe.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsComptapar_typesaut.asmx.cs">
+      <DependentUpon>wsComptapar_typesaut.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsDevise.asmx.cs">
+      <DependentUpon>wsDevise.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsCampangeagricole.asmx.cs">
+      <DependentUpon>wsCampangeagricole.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogicielobjettypeoperationoperateur.asmx.cs">
+      <DependentUpon>wsLogicielobjettypeoperationoperateur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogicielobjettypeschemacomptableoperateur.asmx.cs">
+      <DependentUpon>wsLogicielobjettypeschemacomptableoperateur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateurdroitphaparentrepot.asmx.cs">
+      <DependentUpon>wsOperateurdroitphaparentrepot.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudget.asmx.cs">
+      <DependentUpon>wsMicbudget.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudgetdetail.asmx.cs">
+      <DependentUpon>wsMicbudgetdetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudgetparampostebudgetaire.asmx.cs">
+      <DependentUpon>wsMicbudgetparampostebudgetaire.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudgetparampostebudgetairedetail.asmx.cs">
+      <DependentUpon>wsMicbudgetparampostebudgetairedetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudgetparampostebudgetairenature.asmx.cs">
+      <DependentUpon>wsMicbudgetparampostebudgetairenature.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudgetparamtype.asmx.cs">
+      <DependentUpon>wsMicbudgetparamtype.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMicbudgetparamtypedetail.asmx.cs">
+      <DependentUpon>wsMicbudgetparamtypedetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateurdroitagence.asmx.cs">
+      <DependentUpon>wsOperateurdroitagence.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhachangementchambrehistorisation.asmx.cs">
+      <DependentUpon>wsPhachangementchambrehistorisation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaentrevehicule.asmx.cs">
+      <DependentUpon>wsPhaentrevehicule.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhainputmodedegestion.asmx.cs">
+      <DependentUpon>wsPhainputmodedegestion.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockphaparqualite.asmx.cs">
+      <DependentUpon>wsPhamouvementstockphaparqualite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockphaparretenue.asmx.cs">
+      <DependentUpon>wsPhamouvementstockphaparretenue.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockreglementcommercial.asmx.cs">
+      <DependentUpon>wsPhamouvementstockreglementcommercial.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockreglementrepartition.asmx.cs">
+      <DependentUpon>wsPhamouvementstockreglementrepartition.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapararticlecompteplancomptable.asmx.cs">
+      <DependentUpon>wsPhapararticlecompteplancomptable.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparcasutilisationtiers.asmx.cs">
+      <DependentUpon>wsPhaparcasutilisationtiers.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparchassis.asmx.cs">
+      <DependentUpon>wsPhaparchassis.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparcode.asmx.cs">
+      <DependentUpon>wsPhaparcode.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparcontact.asmx.cs">
+      <DependentUpon>wsPhaparcontact.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparingredient.asmx.cs">
+      <DependentUpon>wsPhaparingredient.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparlocale.asmx.cs">
+      <DependentUpon>wsPhaparlocale.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparmodeinjection.asmx.cs">
+      <DependentUpon>wsPhaparmodeinjection.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparmoteur.asmx.cs">
+      <DependentUpon>wsPhaparmoteur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpneu.asmx.cs">
+      <DependentUpon>wsPhaparpneu.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenu.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenu.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenudetail.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenudetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenuecran.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenuecran.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenuecranmodecalculeparam.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenuecranmodecalculeparam.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenumenuprincipallibelleparametre.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenumenuprincipallibelleparametre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenumenuprincipalmodedegestion.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenumenuprincipalmodedegestion.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenumodegestion.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenumodegestion.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparpupopmenumodegestionlibelleparametre.asmx.cs">
+      <DependentUpon>wsPhaparpupopmenumodegestionlibelleparametre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparqualite.asmx.cs">
+      <DependentUpon>wsPhaparqualite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparquantitemaximiniarticleentrepot.asmx.cs">
+      <DependentUpon>wsPhaparquantitemaximiniarticleentrepot.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparretenue.asmx.cs">
+      <DependentUpon>wsPhaparretenue.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparrib.asmx.cs">
+      <DependentUpon>wsPhaparrib.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparsection.asmx.cs">
+      <DependentUpon>wsPhaparsection.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparsectiontiers.asmx.cs">
+      <DependentUpon>wsPhaparsectiontiers.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartaxe.asmx.cs">
+      <DependentUpon>wsPhapartaxe.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartaxestatut.asmx.cs">
+      <DependentUpon>wsPhapartaxestatut.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypearticlecompteplancomptablemodel.asmx.cs">
+      <DependentUpon>wsPhapartypearticlecompteplancomptablemodel.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypeboite.asmx.cs">
+      <DependentUpon>wsPhapartypeboite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypecontact.asmx.cs">
+      <DependentUpon>wsPhapartypecontact.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypepersonne.asmx.cs">
+      <DependentUpon>wsPhapartypepersonne.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypepneu.asmx.cs">
+      <DependentUpon>wsPhapartypepneu.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhatiersgroupe.asmx.cs">
+      <DependentUpon>wsPhatiersgroupe.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaTransporteur.asmx.cs">
+      <DependentUpon>wsPhaTransporteur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparemballage.asmx.cs">
+      <DependentUpon>wsPhaparemballage.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparnaturetiers.asmx.cs">
+      <DependentUpon>wsPhaparnaturetiers.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypearticlecompteplancomptable.asmx.cs">
+      <DependentUpon>wsPhapartypearticlecompteplancomptable.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypearticleoperation.asmx.cs">
+      <DependentUpon>wsPhapartypearticleoperation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypearticleoperationlibellecompte.asmx.cs">
+      <DependentUpon>wsPhapartypearticleoperationlibellecompte.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypearticleoperationparametre.asmx.cs">
+      <DependentUpon>wsPhapartypearticleoperationparametre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPharparpresentationproduit.asmx.cs">
+      <DependentUpon>wsPharparpresentationproduit.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhatiers.asmx.cs">
+      <DependentUpon>wsPhatiers.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhatiersphoto.asmx.cs">
+      <DependentUpon>wsPhatiersphoto.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypetiers.asmx.cs">
+      <DependentUpon>wsPhapartypetiers.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsCertificatpriseencharge.asmx.cs">
+      <DependentUpon>wsCertificatpriseencharge.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsActivite.asmx.cs">
+      <DependentUpon>wsActivite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsAgence.asmx.cs">
+      <DependentUpon>wsAgence.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsBanque.asmx.cs">
+      <DependentUpon>wsBanque.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsBanqueagence.asmx.cs">
+      <DependentUpon>wsBanqueagence.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogiciel.asmx.cs">
+      <DependentUpon>wsLogiciel.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogicielobjet.asmx.cs">
+      <DependentUpon>wsLogicielobjet.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsLogicielobjetdetail.asmx.cs">
+      <DependentUpon>wsLogicielobjetdetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateurdroitdetail.asmx.cs">
+      <DependentUpon>wsOperateurdroitdetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaecheancier.asmx.cs">
+      <DependentUpon>wsPhaecheancier.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhafamilleoperation.asmx.cs">
+      <DependentUpon>wsPhafamilleoperation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhainput.asmx.cs">
+      <DependentUpon>wsPhainput.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhainventaire.asmx.cs">
+      <DependentUpon>wsPhainventaire.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhainventairedetail.asmx.cs">
+      <DependentUpon>wsPhainventairedetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockcommandefacture.asmx.cs">
+      <DependentUpon>wsPhamouvementstockcommandefacture.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstocklivraison.asmx.cs">
+      <DependentUpon>wsPhamouvementstocklivraison.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockreglementcheque.asmx.cs">
+      <DependentUpon>wsPhamouvementstockreglementcheque.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsExercice.asmx.cs">
+      <DependentUpon>wsExercice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsJournal.asmx.cs">
+      <DependentUpon>wsJournal.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsJourneetravail.asmx.cs">
+      <DependentUpon>wsJourneetravail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsMessages.asmx.cs">
+      <DependentUpon>wsMessages.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsModereglement.asmx.cs">
+      <DependentUpon>wsModereglement.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateur.asmx.cs">
+      <DependentUpon>wsOperateur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateurdroit.asmx.cs">
+      <DependentUpon>wsOperateurdroit.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsOperateurphoto.asmx.cs">
+      <DependentUpon>wsOperateurphoto.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsParametre.asmx.cs">
+      <DependentUpon>wsParametre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPays.asmx.cs">
+      <DependentUpon>wsPays.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhachauffeur.asmx.cs">
+      <DependentUpon>wsPhachauffeur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaclient.asmx.cs">
+      <DependentUpon>wsPhaclient.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaclientphoto.asmx.cs">
+      <DependentUpon>wsPhaclientphoto.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhacommercial.asmx.cs">
+      <DependentUpon>wsPhacommercial.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstock.asmx.cs">
+      <DependentUpon>wsPhamouvementstock.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockaccessoire.asmx.cs">
+      <DependentUpon>wsPhamouvementstockaccessoire.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockcommande.asmx.cs">
+      <DependentUpon>wsPhamouvementstockcommande.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockcommandeaccessoire.asmx.cs">
+      <DependentUpon>wsPhamouvementstockcommandeaccessoire.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockdetail.asmx.cs">
+      <DependentUpon>wsPhamouvementstockdetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockdetailcommande.asmx.cs">
+      <DependentUpon>wsPhamouvementstockdetailcommande.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockreglement.asmx.cs">
+      <DependentUpon>wsPhamouvementstockreglement.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhamouvementstockreglementnatureoperation.asmx.cs">
+      <DependentUpon>wsPhamouvementstockreglementnatureoperation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapararticle.asmx.cs">
+      <DependentUpon>wsPhapararticle.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapararticleaccessoire.asmx.cs">
+      <DependentUpon>wsPhapararticleaccessoire.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapararticlephoto.asmx.cs">
+      <DependentUpon>wsPhapararticlephoto.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapardestinationarticle.asmx.cs">
+      <DependentUpon>wsPhapardestinationarticle.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparentrepot.asmx.cs">
+      <DependentUpon>wsPhaparentrepot.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparfabricant.asmx.cs">
+      <DependentUpon>wsPhaparfabricant.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparforme.asmx.cs">
+      <DependentUpon>wsPhaparforme.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparfournisseur.asmx.cs">
+      <DependentUpon>wsPhaparfournisseur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparlibelle.asmx.cs">
+      <DependentUpon>wsPhaparlibelle.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparmarque.asmx.cs">
+      <DependentUpon>wsPhaparmarque.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparmatierepremiere.asmx.cs">
+      <DependentUpon>wsPhaparmatierepremiere.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparmodel.asmx.cs">
+      <DependentUpon>wsPhaparmodel.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparnatureoperation.asmx.cs">
+      <DependentUpon>wsPhaparnatureoperation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparnaturetypearticle.asmx.cs">
+      <DependentUpon>wsPhaparnaturetypearticle.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparoperation.asmx.cs">
+      <DependentUpon>wsPhaparoperation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparparametre.asmx.cs">
+      <DependentUpon>wsPhaparparametre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparprestationservice.asmx.cs">
+      <DependentUpon>wsPhaparprestationservice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparprixprestation.asmx.cs">
+      <DependentUpon>wsPhaparprixprestation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparprixpromotion.asmx.cs">
+      <DependentUpon>wsPhaparprixpromotion.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparprixtypeclient.asmx.cs">
+      <DependentUpon>wsPhaparprixtypeclient.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparprixtypefournisseur.asmx.cs">
+      <DependentUpon>wsPhaparprixtypefournisseur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparrayon.asmx.cs">
+      <DependentUpon>wsPhaparrayon.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartableau.asmx.cs">
+      <DependentUpon>wsPhapartableau.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypearticle.asmx.cs">
+      <DependentUpon>wsPhapartypearticle.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypeclient.asmx.cs">
+      <DependentUpon>wsPhapartypeclient.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypefournisseur.asmx.cs">
+      <DependentUpon>wsPhapartypefournisseur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypeprestationservice.asmx.cs">
+      <DependentUpon>wsPhapartypeprestationservice.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypequantite.asmx.cs">
+      <DependentUpon>wsPhapartypequantite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartypequantitedetail.asmx.cs">
+      <DependentUpon>wsPhapartypequantitedetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartyperemise.asmx.cs">
+      <DependentUpon>wsPhapartyperemise.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhapartyperemisedetail.asmx.cs">
+      <DependentUpon>wsPhapartyperemisedetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhaparunite.asmx.cs">
+      <DependentUpon>wsPhaparunite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPhazdecaisse.asmx.cs">
+      <DependentUpon>wsPhazdecaisse.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPha_attributionchambre.asmx.cs">
+      <DependentUpon>wsPha_attributionchambre.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPh_fournisseurbon.asmx.cs">
+      <DependentUpon>wsPh_fournisseurbon.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPieceidentite.asmx.cs">
+      <DependentUpon>wsPieceidentite.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPlancomptable.asmx.cs">
+      <DependentUpon>wsPlancomptable.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPlancomptablenaturecompte.asmx.cs">
+      <DependentUpon>wsPlancomptablenaturecompte.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPlancomptablenaturecomptemodereglement.asmx.cs">
+      <DependentUpon>wsPlancomptablenaturecomptemodereglement.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPlan_analytique.asmx.cs">
+      <DependentUpon>wsPlan_analytique.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsPlan_rerporting.asmx.cs">
+      <DependentUpon>wsPlan_rerporting.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfession.asmx.cs">
+      <DependentUpon>wsProfession.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfil.asmx.cs">
+      <DependentUpon>wsProfil.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfildroit.asmx.cs">
+      <DependentUpon>wsProfildroit.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfildroitagence.asmx.cs">
+      <DependentUpon>wsProfildroitagence.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsProfildroitdetail.asmx.cs">
+      <DependentUpon>wsProfildroitdetail.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsRemorque.asmx.cs">
+      <DependentUpon>wsRemorque.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsService.asmx.cs">
+      <DependentUpon>wsService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsSexe.asmx.cs">
+      <DependentUpon>wsSexe.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsSituationmatrimoniale.asmx.cs">
+      <SubType>Component</SubType>
+      <DependentUpon>wsSituationmatrimoniale.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="Webservices\wsSmsgateway.asmx.cs">
+      <DependentUpon>wsSmsgateway.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsSmsin.asmx.cs">
+      <DependentUpon>wsSmsin.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsSmsout.asmx.cs">
+      <DependentUpon>wsSmsout.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsSmsparametretypeoperation.asmx.cs">
+      <DependentUpon>wsSmsparametretypeoperation.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsSociete.asmx.cs">
+      <DependentUpon>wsSociete.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsTypejournal.asmx.cs">
+      <DependentUpon>wsTypejournal.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsTypeoperateur.asmx.cs">
+      <DependentUpon>wsTypeoperateur.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsTypevehicule.asmx.cs">
+      <DependentUpon>wsTypevehicule.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsType_plan.asmx.cs">
+      <DependentUpon>wsType_plan.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsVehicule.asmx.cs">
+      <DependentUpon>wsVehicule.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Webservices\wsVille.asmx.cs">
+      <DependentUpon>wsVille.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock.BOJ\Stock.BOJ.csproj">
+      <Project>{5C5B2EB5-9AEC-49E6-996B-6AA0BEEE5002}</Project>
+      <Name>Stock.BOJ</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSBLL\Stock.WSBLL.csproj">
+      <Project>{9CA6B2DA-742B-4F3B-8D28-54E90D6B6568}</Project>
+      <Name>Stock.WSBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.WSTOOLS\Stock.WSTOOLS.csproj">
+      <Project>{0BC9E1E5-081A-4B62-9E66-42D45396192F}</Project>
+      <Name>Stock.WSTOOLS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34163</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

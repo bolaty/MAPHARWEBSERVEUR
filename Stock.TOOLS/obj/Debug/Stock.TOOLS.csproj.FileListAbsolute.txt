@@ -1,0 +1,475 @@
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+D:\4ME\TERRE PROMISE\AUTRES\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\ResolveAssemblyReference.cache
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+D:\PROJETS\PROJET STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+D:\PROJETS\PROJET STOCK\Stock en cours\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\bin\Debug\stdole.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+E:\Home technologie\Projet stock\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Design.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.OfficeSkins.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Tutorials.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\VSLangProj.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.DemoData.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\stdole.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.xml
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+D:\TESTDIAS\PROJETS\MAJ STOCK 09-05-2018\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportSource.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.Shared.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.VSDesigner.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.Web.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CRVsPackageLib.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\VSLangProj.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\FlashControlV71.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\stdole.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\ShockwaveFlashObjects.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+O:\PROJET 2019\PROJET WINFORM\DIARRASSOUBA\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\VSLangProj.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\stdole.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+D:\PROJETS\WINFORM\HT_STOCK\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\VSLangProj.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\stdole.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Design.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.OfficeSkins.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Tutorials.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.DemoData.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.dll
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.xml
+D:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Design.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.OfficeSkins.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Tutorials.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\VSLangProj.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.DemoData.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\stdole.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.xml
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+F:\Projets\WinForm\HT_STOCK\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Design.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.OfficeSkins.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Tutorials.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\EnvDTE.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\VSLangProj.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.DemoData.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\stdole.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.OLE.Interop.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.Designer.Interfaces.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+C:\Users\DEV 7\Desktop\MAPHAR GIT\HT_Maphar\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\Stock.TOOLS.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\Stock.TOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Design.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.OfficeSkins.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Printing.v11.1.Core.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Tutorials.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\EnvDTE.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\VSLangProj.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\VsWebSite.Interop.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\EnvDTE80.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.DemoData.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\stdole.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.MSXML.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Data.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.Utils.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraBars.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraEditors.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraGrid.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraPrinting.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraNavBar.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraLayout.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraVerticalGrid.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraRichEdit.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.XtraTreeList.v11.1.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\DevExpress.RichEdit.v11.1.Core.xml
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevBouton.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevCheckedComboBoxEdit.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevComboBox.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLookUpEdit.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevForm.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGrid.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevGroup.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevLabel.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevPanel.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.cpsDevTextBoxTEL.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.FrmVisionneuse.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.Properties.Resources.resources
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.csproj.GenerateResource.Cache
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll.licenses
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.pdb
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.CrystalReports.Design.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.Shared.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.VSDesigner.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.Web.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CRVsPackageLib.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\FlashControlV71.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\bin\Debug\ShockwaveFlashObjects.dll
+F:\Projets\WinForm\HT_STOCK\ProjetServeur\Stock.TOOLS\obj\Debug\Stock.TOOLS.csprojResolveAssemblyReference.cache

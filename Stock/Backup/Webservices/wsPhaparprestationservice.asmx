@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhaparprestationservice.asmx.cs" Class="Stock.WS.wsPhaparprestationservice" %>

@@ -1,0 +1,8 @@
+ERROR PVGUSERLOGIN
+PERIODE: 30/04/2021 09:46:24 
+MESSAGE: Appel de la procédure de connexion
+
+ERROR PVGUSERLOGIN
+PERIODE: 30/04/2021 09:47:53
+MESSAGE: Appel de la procédure de connexion 
+

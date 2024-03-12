@@ -1,0 +1,92 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.Serialization;
+using System.ServiceModel;
+using System.Text;
+using System.ServiceModel.Web;
+using  Stock.BOJ;
+using  Stock.Common;
+
+namespace Stock.WCF
+{
+
+	// REMARQUE : vous pouvez utiliser la commande Renommer du menu Refactoriser pour changer le nom d'interface "IwsPhaparentrepot" à la fois dans le code et le fichier de configuration.
+	[ServiceContract]
+	public interface IwsPhaparentrepot
+	{
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsPhaparentrepot.svc/pvgAjouter
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodePhaparentrepot": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEPhaparentrepot}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgAjouter", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsPhaparentrepot> pvgAjouter(List<HT_Stock.BOJ.clsPhaparentrepot> Objet);
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsPhaparentrepot.svc/pvgModifier
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodePhaparentrepot": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEPhaparentrepot}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgModifier", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsPhaparentrepot> pvgModifier(List<HT_Stock.BOJ.clsPhaparentrepot> Objet);
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsPhaparentrepot.svc/pvgSupprimer
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodePhaparentrepot": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEPhaparentrepot}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgSupprimer", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsPhaparentrepot> pvgSupprimer(List<HT_Stock.BOJ.clsPhaparentrepot> Objet);
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsPhaparentrepot.svc/pvgChargerDansDataSet
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodePhaparentrepot": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEPhaparentrepot}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgChargerDansDataSet", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsPhaparentrepot> pvgChargerDansDataSet(List<HT_Stock.BOJ.clsPhaparentrepot> Objet);
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsPhaparentrepot.svc/pvgChargerDansDataSetPourCombo
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodePhaparentrepot": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEPhaparentrepot}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgChargerDansDataSetPourCombo", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsPhaparentrepot> pvgChargerDansDataSetPourCombo(List<HT_Stock.BOJ.clsPhaparentrepot> Objet);
+
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsPhaparentrepot.svc/pvgChargerDansDataSetPourComboEdition
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodePhaparentrepot": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEPhaparentrepot}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgChargerDansDataSetPourComboEdition", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsPhaparentrepot> pvgChargerDansDataSetPourComboEdition(List<HT_Stock.BOJ.clsPhaparentrepot> Objet);
+
+    }
+}

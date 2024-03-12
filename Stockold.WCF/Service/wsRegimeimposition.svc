@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Stock.WCF.wsRegimeimposition" CodeBehind="wsRegimeimposition.svc.cs" %>

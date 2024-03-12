@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsPhamouvementstockreglementnatureoperation.asmx.cs" Class="Stock.WS.wsPhamouvementstockreglementnatureoperation" %>

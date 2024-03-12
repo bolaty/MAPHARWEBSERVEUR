@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C5B2EB5-9AEC-49E6-996B-6AA0BEEE5002}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Stock.BOJ</RootNamespace>
+    <AssemblyName>Stock.BOJ</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects edition\clsEditionEtatBusinessPlan.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatBudget.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatAssurance.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatConsultation.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatImmobilisation.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatTresorerie.cs" />
+    <Compile Include="BusinessObjects edition\clsEtat.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatClientFournisseur.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatCaisse.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatParametre.cs" />
+    <Compile Include="BusinessObjects edition\clsEtatComptaAnalytique.cs" />
+    <Compile Include="BusinessObjects edition\clsPhaparetatfacture.cs" />
+    <Compile Include="BusinessObjects edition\clsEditionEtatOutilsSecurite.cs" />
+    <Compile Include="BusinessObjects\clsActivite.cs" />
+    <Compile Include="BusinessObjects\clsAgence.cs" />
+    <Compile Include="BusinessObjects\clsBalanceinventaire.cs" />
+    <Compile Include="BusinessObjects\clsBanque.cs" />
+    <Compile Include="BusinessObjects\clsBanqueagence.cs" />
+    <Compile Include="BusinessObjects\clsBienimmobilise.cs" />
+    <Compile Include="BusinessObjects\clsBienimmobiliseamortissement.cs" />
+    <Compile Include="BusinessObjects\clsBienimmobilisefamille.cs" />
+    <Compile Include="BusinessObjects\clsBienimmobiliseparametresourcefinancement.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamcouleur.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamdocument.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamdocumentdetail.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamdocumentdetailfamille.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamformule.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparampolice.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamposte.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparampostedetail.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparampostenature.cs" />
+    <Compile Include="BusinessObjects\clsBusinessplanparamsigne.cs" />
+    <Compile Include="BusinessObjects\clsCliadherantsassurancecasprisencharge.cs" />
+    <Compile Include="BusinessObjects\clsCliparcoeficient.cs" />
+    <Compile Include="BusinessObjects\clsCliadherantayantsdroits.cs" />
+    <Compile Include="BusinessObjects\clsCliadherantsassurance.cs" />
+    <Compile Include="BusinessObjects\clsCliassuranceproduit.cs" />
+    <Compile Include="BusinessObjects\clsClicasprisencharge.cs" />
+    <Compile Include="BusinessObjects\clsClicasprisenchargeadherantperiodicite.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultation.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationantecedant.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationconstante.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationordonnance.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationpreference.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationredaction.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationrendevous.cs" />
+    <Compile Include="BusinessObjects\clsCliconsultationresultat.cs" />
+    <Compile Include="BusinessObjects\clsCliparametrelibelle.cs" />
+    <Compile Include="BusinessObjects\clsCliparametrevaleur.cs" />
+    <Compile Include="BusinessObjects\clsCliparcategorieordonnance.cs" />
+    <Compile Include="BusinessObjects\clsCliparcoeficientcout.cs" />
+    <Compile Include="BusinessObjects\clsCliparcoeficientcoutsupplementaire.cs" />
+    <Compile Include="BusinessObjects\clsCliparmodeadmission.cs" />
+    <Compile Include="BusinessObjects\clsCliparmodesortie.cs" />
+    <Compile Include="BusinessObjects\clsCliparspecialite.cs" />
+    <Compile Include="BusinessObjects\clsClipartitreadherantayantsdroits.cs" />
+    <Compile Include="BusinessObjects\clsClipartypeantecedant.cs" />
+    <Compile Include="BusinessObjects\clsClipartypeconsultattion.cs" />
+    <Compile Include="BusinessObjects\clsClipartypepreference.cs" />
+    <Compile Include="BusinessObjects\clsClipartyperedaction.cs" />
+    <Compile Include="BusinessObjects\clsClipartypejourfacturation.cs" />
+    <Compile Include="BusinessObjects\clsCliparlieufacturation.cs" />
+    <Compile Include="BusinessObjects\clsCommissioncinetpay.cs" />
+    <Compile Include="BusinessObjects\clsCommune.cs" />
+    <Compile Include="BusinessObjects\clsComptapar_plananalytiquefamille.cs" />
+    <Compile Include="BusinessObjects\clsComptapar_sens.cs" />
+    <Compile Include="BusinessObjects\clsComptapar_taux.cs" />
+    <Compile Include="BusinessObjects\clsComptapar_taxe.cs" />
+    <Compile Include="BusinessObjects\clsComptapar_typesaut.cs" />
+    <Compile Include="BusinessObjects\clsCtcontrat.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratayantdroit.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratcapitaux.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratdemandecreation.cs" />
+    <Compile Include="BusinessObjects\clsCtpargarentieprime.cs" />
+    <Compile Include="BusinessObjects\clsCtpargarentieprimerisque.cs" />
+    <Compile Include="BusinessObjects\clsCtparcontratstatutdemande.cs" />
+    <Compile Include="BusinessObjects\clsCtparsituationdossiersinistre.cs" />
+    <Compile Include="BusinessObjects\clsCtsinistrechequephoto.cs" />
+    <Compile Include="BusinessObjects\clsCtsinistrecheque.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratchequephotoreglementcaisse.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratchequereglementcaisse.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratcheque.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratchequephoto.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratcommissionassurance.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratecheancier.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratgarantie.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratprime.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratquestionnaire.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratreduction.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratrendezvousclient.cs" />
+    <Compile Include="BusinessObjects\clsCtcontratsuivieclient.cs" />
+    <Compile Include="BusinessObjects\clsCtparautocategorie.cs" />
+    <Compile Include="BusinessObjects\clsCtparbranche.cs" />
+    <Compile Include="BusinessObjects\clsCtparbranchecategorietarif.cs" />
+    <Compile Include="BusinessObjects\clsCtparcapitaux.cs" />
+    <Compile Include="BusinessObjects\clsCtparcapitauxrisqueassuranceliaison.cs" />
+    <Compile Include="BusinessObjects\clsCtparconditionpermis.cs" />
+    <Compile Include="BusinessObjects\clsCtpardesignation.cs" />
+    <Compile Include="BusinessObjects\clsCtparduree.cs" />
+    <Compile Include="BusinessObjects\clsCtparenergieauto.cs" />
+    <Compile Include="BusinessObjects\clsCtpargarantie.cs" />
+    <Compile Include="BusinessObjects\clsCtpargarantierisqueassuranceliaison.cs" />
+    <Compile Include="BusinessObjects\clsCtpargenreauto.cs" />
+    <Compile Include="BusinessObjects\clsCtparintermediaire.cs" />
+    <Compile Include="BusinessObjects\clsCtparmainforte.cs" />
+    <Compile Include="BusinessObjects\clsCtparnaturesinistre.cs" />
+    <Compile Include="BusinessObjects\clsCtparprimerisqueassuranceliaison.cs" />
+    <Compile Include="BusinessObjects\clsCtparquestionnairedocumentrisqueassuranceliaison.cs" />
+    <Compile Include="BusinessObjects\clsCtparquestionnaireliaisondocument.cs" />
+    <Compile Include="BusinessObjects\clsCtparreduction.cs" />
+    <Compile Include="BusinessObjects\clsCtparresume.cs" />
+    <Compile Include="BusinessObjects\clsCtparrisqueassurance.cs" />
+    <Compile Include="BusinessObjects\clsCtparstatutcontrat.cs" />
+    <Compile Include="BusinessObjects\clsCtparstatutsocioprofessionnel.cs" />
+    <Compile Include="BusinessObjects\clsCtpartarif.cs" />
+    <Compile Include="BusinessObjects\clsCtpartauxauto.cs" />
+    <Compile Include="BusinessObjects\clsCtpartypeaffaire.cs" />
+    <Compile Include="BusinessObjects\clsCtpartypeappartement.cs" />
+    <Compile Include="BusinessObjects\clsCtpartypecontratauto.cs" />
+    <Compile Include="BusinessObjects\clsCtpartypecontratsante.cs" />
+    <Compile Include="BusinessObjects\clsCtpartypeoccupant.cs" />
+    <Compile Include="BusinessObjects\clsCtparusageauto.cs" />
+    <Compile Include="BusinessObjects\clsCtsinistre.cs" />
+    <Compile Include="BusinessObjects\clsCtsinistrephoto.cs" />
+    <Compile Include="BusinessObjects\clsCtsinistresituationdossier.cs" />
+    <Compile Include="BusinessObjects\clsCtsinistresuivie.cs" />
+    <Compile Include="BusinessObjects\clsCtsinitreexpertnomme.cs" />
+    <Compile Include="BusinessObjects\clsDevise.cs" />
+    <Compile Include="BusinessObjects\clsCampangeagricole.cs" />
+    <Compile Include="BusinessObjects\clsFacturationTiers.cs" />
+    <Compile Include="BusinessObjects\clsFacturationTiersReductionEscompte.cs" />
+    <Compile Include="BusinessObjects\clsFacturationTiersTotatale.cs" />
+    <Compile Include="BusinessObjects\clsFormejuridique.cs" />
+    <Compile Include="BusinessObjects\clsHttoken.cs" />
+    <Compile Include="BusinessObjects\clsLettrage.cs" />
+    <Compile Include="BusinessObjects\clsLogiciel.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjet.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjetdetail.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjettypeoperationoperateur.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjettypeoperationprofilweb.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjettypeschemacomptableoperateur.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjettypeschemacomptableprofilweb.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjetweb.cs" />
+    <Compile Include="BusinessObjects\clsMicbudget.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetdetail.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetdetailhisto.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetparampostebudgetaire.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetparampostebudgetairedetail.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetparampostebudgetairenature.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetparamtype.cs" />
+    <Compile Include="BusinessObjects\clsMicbudgetparamtypedetail.cs" />
+    <Compile Include="BusinessObjects\clsMiccomptewebmotpasseoublie.cs" />
+    <Compile Include="BusinessObjects\clsMiccomptewebResultat.cs" />
+    <Compile Include="BusinessObjects\clsMiccomptewebUserNewPassword.cs" />
+    <Compile Include="BusinessObjects\clsMicparametreliste.cs" />
+    <Compile Include="BusinessObjects\clsMicparametrelisteproduitsousproduitvaleur.cs" />
+    <Compile Include="BusinessObjects\clsMobiledetailoperationtontine.cs" />
+    <Compile Include="BusinessObjects\clsMobileSouscription.cs" />
+    <Compile Include="BusinessObjects\clsMouvementcomptableanalytique.cs" />
+    <Compile Include="BusinessObjects\clsOperateurdroitagence.cs" />
+    <Compile Include="BusinessObjects\clsOperateurdroitCompteTresorerie.cs" />
+    <Compile Include="BusinessObjects\clsOperateurdroitdetail.cs" />
+    <Compile Include="BusinessObjects\clsParametreAppelApi.cs" />
+    <Compile Include="BusinessObjects\clsParams.cs" />
+    <Compile Include="BusinessObjects\clsPhachangementchambrehistorisation.cs" />
+    <Compile Include="BusinessObjects\clsPhaecheancier.cs" />
+    <Compile Include="BusinessObjects\clsPhaentrevehicule.cs" />
+    <Compile Include="BusinessObjects\clsPhafamilleoperation.cs" />
+    <Compile Include="BusinessObjects\clsPhainput.cs" />
+    <Compile Include="BusinessObjects\clsPhainputmodedegestion.cs" />
+    <Compile Include="BusinessObjects\clsPhainventaire.cs" />
+    <Compile Include="BusinessObjects\clsPhainventairedetail.cs" />
+    <Compile Include="BusinessObjects\clsPhainventaireraison.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockcommandefacture.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockfiltragedestock.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockfiltragedestockexpiration.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockfiltragedestockm1.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockfiltragedestockm2.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstocklivraison.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockphaparqualite.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockphaparretenue.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockreglementcheque.cs" />
+    <Compile Include="BusinessObjects\clsExercice.cs" />
+    <Compile Include="BusinessObjects\clsJournal.cs" />
+    <Compile Include="BusinessObjects\clsJourneeTravail.cs" />
+    <Compile Include="BusinessObjects\clsMessages.cs" />
+    <Compile Include="BusinessObjects\clsModereglement.cs" />
+    <Compile Include="BusinessObjects\clsMouchard.cs" />
+    <Compile Include="BusinessObjects\clsObjetEnvoi.cs" />
+    <Compile Include="BusinessObjects\clsObjetRetour.cs" />
+    <Compile Include="BusinessObjects\clsOperateur.cs" />
+    <Compile Include="BusinessObjects\clsOperateurDroit.cs" />
+    <Compile Include="BusinessObjects\clsOperateurphoto.cs" />
+    <Compile Include="BusinessObjects\clsParametre.cs" />
+    <Compile Include="BusinessObjects\clsPays.cs" />
+    <Compile Include="BusinessObjects\clsPhaChauffeur.cs" />
+    <Compile Include="BusinessObjects\clsPhaClient.cs" />
+    <Compile Include="BusinessObjects\clsPhaClientPhoto.cs" />
+    <Compile Include="BusinessObjects\clsPhaCommercial.cs" />
+    <Compile Include="BusinessObjects\clsPhaCommercialPhoto.cs" />
+    <Compile Include="BusinessObjects\clsPhaMouvementStock.cs" />
+    <Compile Include="BusinessObjects\clsPhaMouvementStockAccessoire.cs" />
+    <Compile Include="BusinessObjects\clsPhaMouvementStockCommande.cs" />
+    <Compile Include="BusinessObjects\clsPhaMouvementStockCommandeAccessoire.cs" />
+    <Compile Include="BusinessObjects\clsPhaMouvementStockDetail.cs" />
+    <Compile Include="BusinessObjects\clsPhaMouvementStockDetailCommande.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockreglement.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockreglementcommercial.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockreglementnatureoperation.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockreglementnatureoperationtype.cs" />
+    <Compile Include="BusinessObjects\clsPhamouvementstockreglementrepartition.cs" />
+    <Compile Include="BusinessObjects\clsPhanaturefamilleoperation.cs" />
+    <Compile Include="BusinessObjects\clsPhaParArticle.cs" />
+    <Compile Include="BusinessObjects\clsPhaParArticleAccessoire.cs" />
+    <Compile Include="BusinessObjects\clsPhapararticlecompteplancomptable.cs" />
+    <Compile Include="BusinessObjects\clsPhaparassureur.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpathologie.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypetiersnature.cs" />
+    <Compile Include="BusinessObjects\clsPhaplantationPhoto.cs" />
+    <Compile Include="BusinessObjects\clsPhaParArticlePhoto.cs" />
+    <Compile Include="BusinessObjects\clsPhaparcasutilisationtiers.cs" />
+    <Compile Include="BusinessObjects\clsPhaparchassis.cs" />
+    <Compile Include="BusinessObjects\clsPhaparcode.cs" />
+    <Compile Include="BusinessObjects\clsPhaparcontact.cs" />
+    <Compile Include="BusinessObjects\clsPhaParDestinationArticle.cs" />
+    <Compile Include="BusinessObjects\clsPhaparemballage.cs" />
+    <Compile Include="BusinessObjects\clsPhaParEntrepot.cs" />
+    <Compile Include="BusinessObjects\clsPhaParFabricant.cs" />
+    <Compile Include="BusinessObjects\clsPhaParForme.cs" />
+    <Compile Include="BusinessObjects\clsPhaParFournisseur.cs" />
+    <Compile Include="BusinessObjects\clsPhaparingredient.cs" />
+    <Compile Include="BusinessObjects\clsPhaParLibelle.cs" />
+    <Compile Include="BusinessObjects\clsPhaparlocale.cs" />
+    <Compile Include="BusinessObjects\clsPhaParMarque.cs" />
+    <Compile Include="BusinessObjects\clsPhaparmatierepremiere.cs" />
+    <Compile Include="BusinessObjects\clsPhaparmodeinjection.cs" />
+    <Compile Include="BusinessObjects\clsPhaParModel.cs" />
+    <Compile Include="BusinessObjects\clsPhaparmoteur.cs" />
+    <Compile Include="BusinessObjects\clsPhaParNatureOperation.cs" />
+    <Compile Include="BusinessObjects\clsPhaparnaturetiers.cs" />
+    <Compile Include="BusinessObjects\clsPhaparnaturetypearticle.cs" />
+    <Compile Include="BusinessObjects\clsPhaParOperation.cs" />
+    <Compile Include="BusinessObjects\clsPhaParParametre.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpneu.cs" />
+    <Compile Include="BusinessObjects\clsPhaParPrestationService.cs" />
+    <Compile Include="BusinessObjects\clsPhaParPrixPrestation.cs" />
+    <Compile Include="BusinessObjects\clsPhaparprixpromotion.cs" />
+    <Compile Include="BusinessObjects\clsPhaParPrixTypeClient.cs" />
+    <Compile Include="BusinessObjects\clsPhaParPrixTypeFournisseur.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenu.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenudetail.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenuecran.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenuecranmodecalculeparam.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenumenuprincipallibelleparametre.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenumenuprincipalmodedegestion.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenumodegestion.cs" />
+    <Compile Include="BusinessObjects\clsPhaparpupopmenumodegestionlibelleparametre.cs" />
+    <Compile Include="BusinessObjects\clsPhaparqualite.cs" />
+    <Compile Include="BusinessObjects\clsPhaparquantitemaximiniarticleentrepot.cs" />
+    <Compile Include="BusinessObjects\clsPhaParRayon.cs" />
+    <Compile Include="BusinessObjects\clsPhaparretenue.cs" />
+    <Compile Include="BusinessObjects\clsPhaparrib.cs" />
+    <Compile Include="BusinessObjects\clsPhaParTableau.cs" />
+    <Compile Include="BusinessObjects\clsPhapartaxe.cs" />
+    <Compile Include="BusinessObjects\clsPhapartaxestatut.cs" />
+    <Compile Include="BusinessObjects\clsPhaParTypeArticle.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypearticlecompteplancomptable.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypearticlecompteplancomptablemodel.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypearticleoperation.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypearticleoperationlibellecompte.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypearticleoperationparametre.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypeboite.cs" />
+    <Compile Include="BusinessObjects\clsPhaParTypeClient.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypecontact.cs" />
+    <Compile Include="BusinessObjects\clsPhaParTypeFournisseur.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypepersonne.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypepneu.cs" />
+    <Compile Include="BusinessObjects\clsPhaParTypePrestationService.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypequantite.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypequantitedetail.cs" />
+    <Compile Include="BusinessObjects\clsPhapartyperemise.cs" />
+    <Compile Include="BusinessObjects\clsPhapartyperemisedetail.cs" />
+    <Compile Include="BusinessObjects\clsPhapartypetierscompterattacheadditionnel.cs" />
+    <Compile Include="BusinessObjects\clsPhaParUnite.cs" />
+    <Compile Include="BusinessObjects\clsPhaplantation.cs" />
+    <Compile Include="BusinessObjects\clsPharparpresentationproduit.cs" />
+    <Compile Include="BusinessObjects\clsPhaparsectiontiers.cs" />
+    <Compile Include="BusinessObjects\clsOrgProspects.cs" />
+    <Compile Include="BusinessObjects\clsPhatiersgroupe.cs" />
+    <Compile Include="BusinessObjects\clsOrgProspectsPhoto.cs" />
+    <Compile Include="BusinessObjects\clsPhazdecaisse.cs" />
+    <Compile Include="BusinessObjects\clsPha_attributionchambre.cs" />
+    <Compile Include="BusinessObjects\clsPh_fournisseurbon.cs" />
+    <Compile Include="BusinessObjects\clsPieceidentite.cs" />
+    <Compile Include="BusinessObjects\clsPlancomptable.cs" />
+    <Compile Include="BusinessObjects\clsPlancomptablecomptetiersrattache.cs" />
+    <Compile Include="BusinessObjects\clsPlancomptablenaturecompte.cs" />
+    <Compile Include="BusinessObjects\clsPlancomptablenaturecomptemodereglement.cs" />
+    <Compile Include="BusinessObjects\clsPlan_analytique.cs" />
+    <Compile Include="BusinessObjects\clsPlan_rerporting.cs" />
+    <Compile Include="BusinessObjects\clsProfession.cs" />
+    <Compile Include="BusinessObjects\clsProfil.cs" />
+    <Compile Include="BusinessObjects\clsProfildroit.cs" />
+    <Compile Include="BusinessObjects\clsProfildroitagence.cs" />
+    <Compile Include="BusinessObjects\clsProfildroitdetail.cs" />
+    <Compile Include="BusinessObjects\clsProfilweb.cs" />
+    <Compile Include="BusinessObjects\clsProfilwebdroit.cs" />
+    <Compile Include="BusinessObjects\clsProfilwebdroitagence.cs" />
+    <Compile Include="BusinessObjects\clsProfilwebdroitentrepot.cs" />
+    <Compile Include="BusinessObjects\clsProfilwebdroitsaisieentrepot.cs" />
+    <Compile Include="BusinessObjects\clsQuartier.cs" />
+    <Compile Include="BusinessObjects\clsReedition.cs" />
+    <Compile Include="BusinessObjects\clsRegimeimposition.cs" />
+    <Compile Include="BusinessObjects\clsRemorque.cs" />
+    <Compile Include="BusinessObjects\clsService.cs" />
+    <Compile Include="BusinessObjects\clsSexe.cs" />
+    <Compile Include="BusinessObjects\clsSituationmatrimoniale.cs" />
+    <Compile Include="BusinessObjects\clsSmsgateway.cs" />
+    <Compile Include="BusinessObjects\clsSmsin.cs" />
+    <Compile Include="BusinessObjects\clsSmsout.cs" />
+    <Compile Include="BusinessObjects\clsSmsparametretypeoperation.cs" />
+    <Compile Include="BusinessObjects\clsSociete.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparametre.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparamexploitation.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparamformule.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparamnaturepostetresorerie.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparampostetresorerie.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparampostetresoreriedetail.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparamrubriquetresorerie.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieparamtva.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieplantresorerie.cs" />
+    <Compile Include="BusinessObjects\clsTresorerieplantresoreriedetail.cs" />
+    <Compile Include="BusinessObjects\clsTypeamortissement.cs" />
+    <Compile Include="BusinessObjects\clsTypejournal.cs" />
+    <Compile Include="BusinessObjects\clsTypeoperateur.cs" />
+    <Compile Include="BusinessObjects\clsTypevehicule.cs" />
+    <Compile Include="BusinessObjects\clsType_plan.cs" />
+    <Compile Include="BusinessObjects\clsUtilisateursapis.cs" />
+    <Compile Include="BusinessObjects\clsVehicule.cs" />
+    <Compile Include="BusinessObjects\clsVille.cs" />
+    <Compile Include="BusinessObjects\clsCertificatpriseencharge.cs" />
+    <Compile Include="BusinessObjects\clsPhaTiers.cs" />
+    <Compile Include="BusinessObjects\clsPhaParTypeTiers.cs" />
+    <Compile Include="BusinessObjects\clsPhaTiersPhoto.cs" />
+    <Compile Include="BusinessObjects\clsPhaTransporteur.cs" />
+    <Compile Include="BusinessObjects\clsPhaParSection.cs" />
+    <Compile Include="BusinessObjects\clsOperateurdroitphaparentrepot.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjettypeoperationprofil.cs" />
+    <Compile Include="BusinessObjects\clsLogicielobjettypeschemacomptableprofil.cs" />
+    <Compile Include="BusinessObjects\clsProfildroitentrepot.cs" />
+    <Compile Include="BusinessObjects\clsOperateurdroitsaisiephaparentrepot.cs" />
+    <Compile Include="BusinessObjects\clsProfildroitsaisieentrepot.cs" />
+    <Compile Include="BusinessObjects\clsZoneauto.cs" />
+    <Compile Include="BusinessObjects\clsZonemaladie.cs" />
+    <Compile Include="BusinessObjects\clsZonevoyage.cs" />
+    <Compile Include="Enumeres\TypeOperation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock\Stock.Common\Stock.Common.csproj">
+      <Project>{d5880f55-4880-47e5-98d8-db70dfe07872}</Project>
+      <Name>Stock.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

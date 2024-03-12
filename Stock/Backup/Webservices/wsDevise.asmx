@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsDevise.asmx.cs" Class="Stock.WS.wsDevise" %>

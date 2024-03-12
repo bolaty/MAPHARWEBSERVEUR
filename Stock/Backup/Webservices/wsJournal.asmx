@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="wsJournal.asmx.cs" Class="Stock.WS.wsJournal" %>

@@ -1,0 +1,1 @@
+2018-10-10 23:38:30,327 [10] ERROR Zenith.WCF.wsActivite - La procedure ou fonction 'PE_ACTIVITE' attend le parametre '@jsonOutput', qui n'a pas ete fourni.
