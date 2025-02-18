@@ -23,3 +23,4 @@ C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Commo
 C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\bin\Debug\Stock.Common.pdb
 C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.dll
 C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock\Stock.Common\obj\Debug\Stock.Common.csprojResolveAssemblyReference.cache

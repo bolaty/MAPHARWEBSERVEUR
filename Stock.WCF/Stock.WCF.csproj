@@ -596,6 +596,12 @@
       <DependentUpon>TableauGestionAUTO.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Etats\ASSURANCE\TableauGestionCommissions.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TableauGestionCommissions.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Etats\ASSURANCE\TableauGestionMH.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -648,6 +654,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>EtatReglementPrime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\EtatReglementPrimeAnnuler.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EtatReglementPrimeAnnuler.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Etats\PARAMETRE\ENTREPOT.cs">
@@ -732,6 +744,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SituationCompteClient.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Etats\SituationCompteClientAnnuler.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SituationCompteClientAnnuler.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Extensions.cs" />
@@ -2047,6 +2065,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>TableauGestionAUTO.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Etats\ASSURANCE\TableauGestionCommissions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TableauGestionCommissions.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Etats\ASSURANCE\TableauGestionMH.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>TableauGestionMH.cs</LastGenOutput>
@@ -2082,6 +2104,10 @@
     <EmbeddedResource Include="Etats\EtatReglementPrime.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>EtatReglementPrime.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etats\EtatReglementPrimeAnnuler.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EtatReglementPrimeAnnuler.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Etats\PARAMETRE\ENTREPOT.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -2139,6 +2165,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>SituationCompteClient.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Etats\SituationCompteClientAnnuler.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SituationCompteClientAnnuler.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
@@ -2158,11 +2188,10 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2830</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:4066/</IISUrl>
+          <IISUrl>http://localhost:3800/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl>http://localhost:4100/</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

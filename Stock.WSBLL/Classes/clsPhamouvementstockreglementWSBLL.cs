@@ -515,8 +515,18 @@ namespace Stock.WSBLL
         ///<author>Home Technology</author>
         ///
 
+        ///<summary>Cette fonction permet de d'executer une requete DML de mise à jour dans la base de donnees avec ou sans critères (Ordre Critères : AG_CODEAGENCE, SR_DATEPIECE, SR_NUMPIECE, SR_NUMSEQUENCE ) </summary>
+        ///<param name="clsDonnee">Classe d'acces aux donnees</param>
+        ///<param name="clsEc_inscriptionscolaritereglement">clsEc_inscriptionscolaritereglement</param>
+        ///<param name="clsObjetEnvoi">clsObjetEnvoi</param>
+        ///<returns>string</returns>
+        ///<author>Home Technology</author>
+        public string pvgVerificatioSoldeCompteAvecChequeDiffere(clsDonnee clsDonnee, clsPhamouvementstockreglement clsPhamouvementstockreglement, clsObjetEnvoi clsObjetEnvoi)
+        {
+            clsPhamouvementstockreglementWSDAL.pvgVerificatioSoldeCompteAvecChequeDiffere(clsDonnee, clsPhamouvementstockreglement, clsObjetEnvoi.OE_PARAM);
+            return "";
+        }
 
-       
 
 
         public string pvgAjouterComptabilisation(clsDonnee clsDonnee, clsPhamouvementstockreglement clsPhamouvementstockreglement, List<clsPhamouvementstockreglementcheque> clsPhamouvementstockreglementcheques, clsCtcontratchequereglementcaisse clsCtcontratchequereglementcaisse, List<clsCtcontratchequephotoreglementcaisse> clsCtcontratchequephotoreglementcaisses, clsObjetEnvoi clsObjetEnvoi)

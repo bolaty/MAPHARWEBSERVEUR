@@ -68,6 +68,19 @@ namespace Stock.WCF
         ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
         ///<author>Home Technology</author>
         ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsCtcontratcheque.svc/pvgChargerDansDataSetChequeRegler
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodeActivite": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEActivite}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgChargerDansDataSetChequeRegler", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsCtcontratcheque> pvgChargerDansDataSetChequeRegler(List<HT_Stock.BOJ.clsCtcontratcheque> Objet);
+        
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
         //// http://localhost:2723/Service/wsCtcontratcheque.svc/pvgChargerDansDataSetPourCombo
         ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodeActivite": "","Libelle": "", "TYPEOPERATION": ""}]}
         [OperationContract]

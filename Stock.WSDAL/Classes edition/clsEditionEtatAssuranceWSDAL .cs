@@ -41,6 +41,43 @@ namespace Stock.WSDAL
             return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
         }
 
+        public DataSet pvgInsertIntoDatasetEtatAssuranceTableauGestionCommission(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, params string[] vppCritere)
+        {
+
+            vapNomParametre = new string[] { "@AG_CODEAGENCE", "@EN_CODEENTREPOT", "@CA_CODECONTRAT", "@DATEDEBUT", "@DATEFIN", "@OP_CODEOPERATEUREDITION", "@RQ_CODERISQUE", "@TI_IDTIERS", "@TI_IDTIERSCOMMERCIAL", "@PY_CODEPAYS", "@VL_CODEVILLE", "@CO_CODECOMMUNE", "@ZA_CODEZONEAUTO", "@NS_CODENATURESINISTRE", "@TA_CODETYPEAFFAIRES", "@CT_CODESTAUT", "@ZN_CODEZONECOMMERCIAL", "@TI_IDTIERSCLIENT", "@EX_EXERCICE", "@ET_TYPEETAT", "@CODEDECRYPTAGE" };
+            vapValeurParametre = new object[] { clsEditionEtatAssurance.AG_CODEAGENCE.Replace("''", "'"), clsEditionEtatAssurance.EN_CODEENTREPOT.Replace("''", "'"), clsEditionEtatAssurance.CA_CODECONTRAT.Replace("''", "'"), clsEditionEtatAssurance.DATEDEBUT, clsEditionEtatAssurance.DATEFIN, clsEditionEtatAssurance.OP_CODEOPERATEUREDITION, clsEditionEtatAssurance.RQ_CODERISQUE.Replace("''", "'"), clsEditionEtatAssurance.TI_IDTIERS.Replace("''", "'"), clsEditionEtatAssurance.TI_IDTIERSCOMMERCIAL, clsEditionEtatAssurance.PY_CODEPAYS, clsEditionEtatAssurance.VL_CODEVILLE, clsEditionEtatAssurance.CO_CODECOMMUNE, clsEditionEtatAssurance.ZA_CODEZONEAUTO, clsEditionEtatAssurance.NS_CODENATURESINISTRE, clsEditionEtatAssurance.TA_CODETYPEAFFAIRES, clsEditionEtatAssurance.CT_CODESTAUT, clsEditionEtatAssurance.ZN_CODEZONECOMMERCIAL, clsEditionEtatAssurance.TI_IDTIERSCLIENT, clsEditionEtatAssurance.EX_EXERCICE, clsEditionEtatAssurance.ET_TYPEETAT, clsDonnee.vogCleCryptage };
+            this.vapRequete = "EXEC PS_ETATASSURANCETABLEAUGESTIONCOMMISSION  @AG_CODEAGENCE,@EN_CODEENTREPOT, @CA_CODECONTRAT,  @DATEDEBUT,@DATEFIN,@OP_CODEOPERATEUREDITION,@RQ_CODERISQUE,@TI_IDTIERS, @TI_IDTIERSCOMMERCIAL, @PY_CODEPAYS, @VL_CODEVILLE, @CO_CODECOMMUNE, @ZA_CODEZONEAUTO,@NS_CODENATURESINISTRE, @TA_CODETYPEAFFAIRES, @CT_CODESTAUT,@ZN_CODEZONECOMMERCIAL,@TI_IDTIERSCLIENT,@EX_EXERCICE, @ET_TYPEETAT,@CODEDECRYPTAGE ";
+            this.vapCritere = "";
+            SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+            vppSqlCmd.CommandTimeout = 0;
+            return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
+        }
+
+        public DataSet pvgInsertIntoDatasetEtatAssuranceTableauGestion(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, params string[] vppCritere)
+        {
+
+            vapNomParametre = new string[] { "@AG_CODEAGENCE", "@EN_CODEENTREPOT", "@CA_CODECONTRAT", "@DATEDEBUT", "@DATEFIN", "@OP_CODEOPERATEUREDITION", "@RQ_CODERISQUE", "@TI_IDTIERS", "@TI_IDTIERSCOMMERCIAL", "@PY_CODEPAYS", "@VL_CODEVILLE", "@CO_CODECOMMUNE", "@ZA_CODEZONEAUTO", "@NS_CODENATURESINISTRE", "@TA_CODETYPEAFFAIRES", "@CT_CODESTAUT", "@ZN_CODEZONECOMMERCIAL", "@TI_IDTIERSCLIENT", "@EX_EXERCICE", "@ET_TYPEETAT", "@CODEDECRYPTAGE" };
+            vapValeurParametre = new object[] { clsEditionEtatAssurance.AG_CODEAGENCE.Replace("''", "'"), clsEditionEtatAssurance.EN_CODEENTREPOT.Replace("''", "'"), clsEditionEtatAssurance.CA_CODECONTRAT.Replace("''", "'"), clsEditionEtatAssurance.DATEDEBUT, clsEditionEtatAssurance.DATEFIN, clsEditionEtatAssurance.OP_CODEOPERATEUREDITION, clsEditionEtatAssurance.RQ_CODERISQUE.Replace("''", "'"), clsEditionEtatAssurance.TI_IDTIERS.Replace("''", "'"), clsEditionEtatAssurance.TI_IDTIERSCOMMERCIAL, clsEditionEtatAssurance.PY_CODEPAYS, clsEditionEtatAssurance.VL_CODEVILLE, clsEditionEtatAssurance.CO_CODECOMMUNE, clsEditionEtatAssurance.ZA_CODEZONEAUTO, clsEditionEtatAssurance.NS_CODENATURESINISTRE, clsEditionEtatAssurance.TA_CODETYPEAFFAIRES, clsEditionEtatAssurance.CT_CODESTAUT, clsEditionEtatAssurance.ZN_CODEZONECOMMERCIAL, clsEditionEtatAssurance.TI_IDTIERSCLIENT, clsEditionEtatAssurance.EX_EXERCICE, clsEditionEtatAssurance.ET_TYPEETAT, clsDonnee.vogCleCryptage };
+            this.vapRequete = "EXEC PS_ETATASSURANCETABLEAUGESTION  @AG_CODEAGENCE,@EN_CODEENTREPOT, @CA_CODECONTRAT,  @DATEDEBUT,@DATEFIN,@OP_CODEOPERATEUREDITION,@RQ_CODERISQUE,@TI_IDTIERS, @TI_IDTIERSCOMMERCIAL, @PY_CODEPAYS, @VL_CODEVILLE, @CO_CODECOMMUNE, @ZA_CODEZONEAUTO,@NS_CODENATURESINISTRE, @TA_CODETYPEAFFAIRES, @CT_CODESTAUT,@ZN_CODEZONECOMMERCIAL,@TI_IDTIERSCLIENT,@EX_EXERCICE, @ET_TYPEETAT,@CODEDECRYPTAGE ";
+            this.vapCritere = "";
+            SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+            vppSqlCmd.CommandTimeout = 0;
+            return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
+        }
+
+        public DataSet pvgInsertIntoDatasetEtatAssuranceAnnuler(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, params string[] vppCritere)
+        {
+
+            vapNomParametre = new string[] { "@AG_CODEAGENCE", "@EN_CODEENTREPOT", "@CA_CODECONTRAT", "@DATEDEBUT", "@DATEFIN", "@OP_CODEOPERATEUREDITION", "@RQ_CODERISQUE", "@TI_IDTIERS", "@TI_IDTIERSCOMMERCIAL", "@PY_CODEPAYS", "@VL_CODEVILLE", "@CO_CODECOMMUNE", "@ZA_CODEZONEAUTO", "@NS_CODENATURESINISTRE", "@TA_CODETYPEAFFAIRES", "@CT_CODESTAUT", "@ZN_CODEZONECOMMERCIAL", "@TI_IDTIERSCLIENT", "@EX_EXERCICE", "@ET_TYPEETAT", "@CODEDECRYPTAGE" };
+            vapValeurParametre = new object[] { clsEditionEtatAssurance.AG_CODEAGENCE.Replace("''", "'"), clsEditionEtatAssurance.EN_CODEENTREPOT.Replace("''", "'"), clsEditionEtatAssurance.CA_CODECONTRAT.Replace("''", "'"), clsEditionEtatAssurance.DATEDEBUT, clsEditionEtatAssurance.DATEFIN, clsEditionEtatAssurance.OP_CODEOPERATEUREDITION, clsEditionEtatAssurance.RQ_CODERISQUE.Replace("''", "'"), clsEditionEtatAssurance.TI_IDTIERS.Replace("''", "'"), clsEditionEtatAssurance.TI_IDTIERSCOMMERCIAL, clsEditionEtatAssurance.PY_CODEPAYS, clsEditionEtatAssurance.VL_CODEVILLE, clsEditionEtatAssurance.CO_CODECOMMUNE, clsEditionEtatAssurance.ZA_CODEZONEAUTO, clsEditionEtatAssurance.NS_CODENATURESINISTRE, clsEditionEtatAssurance.TA_CODETYPEAFFAIRES, clsEditionEtatAssurance.CT_CODESTAUT, clsEditionEtatAssurance.ZN_CODEZONECOMMERCIAL, clsEditionEtatAssurance.TI_IDTIERSCLIENT, clsEditionEtatAssurance.EX_EXERCICE, clsEditionEtatAssurance.ET_TYPEETAT, clsDonnee.vogCleCryptage };
+            this.vapRequete = "EXEC PS_ETATASSURANCEANNULER  @AG_CODEAGENCE,@EN_CODEENTREPOT, @CA_CODECONTRAT,  @DATEDEBUT,@DATEFIN,@OP_CODEOPERATEUREDITION,@RQ_CODERISQUE,@TI_IDTIERS, @TI_IDTIERSCOMMERCIAL, @PY_CODEPAYS, @VL_CODEVILLE, @CO_CODECOMMUNE, @ZA_CODEZONEAUTO,@NS_CODENATURESINISTRE, @TA_CODETYPEAFFAIRES, @CT_CODESTAUT,@ZN_CODEZONECOMMERCIAL,@TI_IDTIERSCLIENT,@EX_EXERCICE, @ET_TYPEETAT,@CODEDECRYPTAGE ";
+            this.vapCritere = "";
+            SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+            vppSqlCmd.CommandTimeout = 0;
+            return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
+        }
+
+
         public DataSet pvgInsertIntoDatasetEtatSynoptique(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, params string[] vppCritere)
         {
 

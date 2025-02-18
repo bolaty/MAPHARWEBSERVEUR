@@ -853,6 +853,46 @@ namespace Stock.WSDAL
             return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
         }
 
+
+        ///<summary>Cette fonction permet de d'executer une requete DML de mise à jour dans la base de donnees avec ou sans critères (Ordre Critères : AG_CODEAGENCE, MV_DATEPIECE, MS_NUMPIECE, MV_NUMSEQUENCE ) </summary>
+        ///<param name=clsDonnee>Classe d'acces aux donnees</param>
+        ///<param name=clsPhamouvementstockreglement>clsPhamouvementstockreglement</param>
+        ///<param name="vppCritere">critères de la requête scalaire</param>
+        ///<author>Home Technology</author>
+        public void pvgVerificatioSoldeCompteAvecChequeDiffere(clsDonnee clsDonnee, clsPhamouvementstockreglement clsPhamouvementstockreglement, params string[] vppCritere)
+        {
+            //Préparation des paramètres
+            SqlParameter vppParamAG_CODEAGENCE = new SqlParameter("@AG_CODEAGENCE1", SqlDbType.VarChar, 25);
+            vppParamAG_CODEAGENCE.Value = clsPhamouvementstockreglement.AG_CODEAGENCE;
+            SqlParameter vppParamEN_CODEENTREPOT = new SqlParameter("@EN_CODEENTREPOT1", SqlDbType.VarChar, 25);
+            vppParamEN_CODEENTREPOT.Value = clsPhamouvementstockreglement.EN_CODEENTREPOT;
+            SqlParameter vppParamMS_NUMPIECE = new SqlParameter("@MS_NUMPIECE1", SqlDbType.VarChar, 50);
+            vppParamMS_NUMPIECE.Value = clsPhamouvementstockreglement.MS_NUMPIECE;
+            SqlParameter vppParamMV_DATESAISIE = new SqlParameter("@MV_DATESAISIE1", SqlDbType.DateTime);
+            vppParamMV_DATESAISIE.Value = clsPhamouvementstockreglement.MV_DATESAISIE;
+            SqlParameter vppParamMONTANTREGLEMENTDUJOUR = new SqlParameter("@MONTANTREGLEMENTDUJOUR", SqlDbType.Money);
+            vppParamMONTANTREGLEMENTDUJOUR.Value = clsPhamouvementstockreglement.MONTANTVERSEMENT;
+            SqlParameter vppParamOP_CODEOPERATEUR = new SqlParameter("@OP_CODEOPERATEUR1", SqlDbType.VarChar, 50);
+            vppParamOP_CODEOPERATEUR.Value = clsPhamouvementstockreglement.OP_CODEOPERATEUR;
+            SqlParameter vppParamCODECRYPTAGE = new SqlParameter("@CODECRYPTAGE1", SqlDbType.VarChar, 50);
+            vppParamCODECRYPTAGE.Value = clsDonnee.vogCleCryptage;
+
+            //Préparation de la commande
+            this.vapRequete = "EXEC  [dbo].[PS_VERIFICATIONSOLDEAVECLESCHEQUESNONENCORECOMPTABILISER] @AG_CODEAGENCE1,@EN_CODEENTREPOT1,@MS_NUMPIECE1, @MV_DATESAISIE1,@MONTANTREGLEMENTDUJOUR,@OP_CODEOPERATEUR1,'01',@CODECRYPTAGE1";
+            SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+
+            //Ajout des paramètre à la commande
+            vppSqlCmd.Parameters.Add(vppParamAG_CODEAGENCE);
+            vppSqlCmd.Parameters.Add(vppParamEN_CODEENTREPOT);
+            vppSqlCmd.Parameters.Add(vppParamMS_NUMPIECE);
+            vppSqlCmd.Parameters.Add(vppParamMV_DATESAISIE);
+            vppSqlCmd.Parameters.Add(vppParamMONTANTREGLEMENTDUJOUR);
+            vppSqlCmd.Parameters.Add(vppParamOP_CODEOPERATEUR);
+            vppSqlCmd.Parameters.Add(vppParamCODECRYPTAGE);
+            //Ouverture de la connection et exécution de la commande
+            clsDonnee.pvgMiseAJourBaseDeDonnees(vppSqlCmd, vapNomParametre, vapValeurParametre);
+        }
+
         public void pvgUpdateStatutOperation(clsDonnee clsDonnee, clsMobiledetailoperationtontine clsMobiledetailoperationtontine, params string[] vppCritere)
         {
             //Préparation des paramètres

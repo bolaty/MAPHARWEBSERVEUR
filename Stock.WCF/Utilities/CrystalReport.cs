@@ -22,7 +22,22 @@ namespace Stock.WCF.Utilities
 
             int VAL_RAND_MIN = 0;
             int VAL_RAND_MAX = 1000000;
+            string FormatFichier = "PDF";
+            if (vappValeurFormule.Length > 7)
+            {
+                FormatFichier = vappValeurFormule[7];
+                if (vappValeurFormule.Length > 0)
+                {
+                    Array.Resize(ref vappValeurFormule, vappValeurFormule.Length - 1);
+                }
+            }
 
+
+
+            if (FormatFichier == "xls")
+            {
+                FormatFichier = "xls";
+            }
 
 
 
@@ -67,7 +82,7 @@ namespace Stock.WCF.Utilities
             Random random = new Random(); // Création d'une instance de valeur aleatoir                
             int randomNumber = random.Next(VAL_RAND_MIN, VAL_RAND_MAX);  // Génération automatique d'un nombre compris entre 0 et 1000000
 
-            FileName1 = extentionDocument("PDF", randomNumber.ToString(), rd, CHEMIN_ETATS); // Attribution d'un nom au fichier etat
+            FileName1 = extentionDocument(FormatFichier, randomNumber.ToString(), rd, CHEMIN_ETATS); // Attribution d'un nom au fichier etat
 
             URL_ROOT_DOSSIER = URL_ROOT_DOSSIER + FileName1; // Xhemin d'acces du fichier etat
 
@@ -84,11 +99,16 @@ namespace Stock.WCF.Utilities
             int VAL_RAND_MIN = 0;
             int VAL_RAND_MAX = 1000000;
             string FormatFichier = "PDF";
-            FormatFichier = vappValeurFormule[7];
-            if (vappValeurFormule.Length > 0)
+            if (vappValeurFormule.Length > 7)
             {
-                Array.Resize(ref vappValeurFormule, vappValeurFormule.Length - 1);
+                FormatFichier = vappValeurFormule[7];
+                if (vappValeurFormule.Length > 0)
+                {
+                    Array.Resize(ref vappValeurFormule, vappValeurFormule.Length - 1);
+                }
             }
+           
+            
 
             if (FormatFichier == "xls")
             {
@@ -180,12 +200,75 @@ namespace Stock.WCF.Utilities
                     case ".xls":
                     case "xls":
                         fileName += ".xls";
-                        documentRpt.ExportToDisk(ExportFormatType.Text, cheminFichier + fileName);
+                        //documentRpt.ExportToDisk(ExportFormatType.Excel, cheminFichier + fileName);
+                        // Configuration des options d'exportation pour Excel
+                        ExcelFormatOptions excelFormatOptionss = new ExcelFormatOptions
+                        {
+                            ExcelUseConstantColumnWidth = false,
+                            ShowGridLines = true, // ou false selon votre besoin
+                            ExcelTabHasColumnHeadings = true
+                        };
+
+                        ExportOptions exportOptionss = documentRpt.ExportOptions;
+                        exportOptionss.ExportFormatType = ExportFormatType.Excel;
+                        exportOptionss.FormatOptions = excelFormatOptionss;
+
+                        DiskFileDestinationOptions diskFileDestinationOptionss = new DiskFileDestinationOptions
+                        {
+                            DiskFileName = cheminFichier + fileName
+                        };
+                        exportOptionss.ExportDestinationOptions = diskFileDestinationOptionss;
+                        exportOptionss.ExportDestinationType = ExportDestinationType.DiskFile;
+
+                        documentRpt.Export();
                         break;
                     case ".xlsx":
                     case "xlsx":
                         fileName += ".xlsx";
-                        documentRpt.ExportToDisk(ExportFormatType.ExcelWorkbook, cheminFichier + fileName);
+                        // Configuration des options d'exportation pour Excel
+                        ExcelFormatOptions excelFormatOptions = new ExcelFormatOptions
+                        {
+                            ExcelUseConstantColumnWidth = false,
+                            ShowGridLines = false, // ou false selon votre besoin
+                            ExcelTabHasColumnHeadings = true
+                        };
+
+                        ExportOptions exportOptions = documentRpt.ExportOptions;
+                        exportOptions.ExportFormatType = ExportFormatType.ExcelWorkbook;
+                        exportOptions.FormatOptions = excelFormatOptions;
+
+                        DiskFileDestinationOptions diskFileDestinationOptions = new DiskFileDestinationOptions
+                        {
+                            DiskFileName = cheminFichier + fileName
+                        };
+                        exportOptions.ExportDestinationOptions = diskFileDestinationOptions;
+                        exportOptions.ExportDestinationType = ExportDestinationType.DiskFile;
+
+                        documentRpt.Export();
+                        break;
+                    case ".xlsxx":
+                    case "xlsxx":
+                        fileName += ".xls";
+                        // Configuration des options d'exportation pour Excel
+                        ExcelFormatOptions excelFormatOptionsss = new ExcelFormatOptions
+                        {
+                            ExcelUseConstantColumnWidth = false,
+                            ShowGridLines = true, // ou false selon votre besoin
+                            ExcelTabHasColumnHeadings = true
+                        };
+
+                        ExportOptions exportOptionsss = documentRpt.ExportOptions;
+                        exportOptionsss.ExportFormatType = ExportFormatType.ExcelRecord;
+                        exportOptionsss.FormatOptions = excelFormatOptionsss;
+
+                        DiskFileDestinationOptions diskFileDestinationOptionsss = new DiskFileDestinationOptions
+                        {
+                            DiskFileName = cheminFichier + fileName
+                        };
+                        exportOptionsss.ExportDestinationOptions = diskFileDestinationOptionsss;
+                        exportOptionsss.ExportDestinationType = ExportDestinationType.DiskFile;
+
+                        documentRpt.Export();
                         break;
                     case ".pdf":
                     case "pdf":

@@ -424,13 +424,145 @@ namespace Stock.WCF
             }
             return clsCtcontratcheques;
         }
+        // pvgChargerDansDataSetChequeRegler
 
 
-            ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
-            ///<param name="Objet">Collection de clsInput </param>
-            ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
-            ///<author>Home Technology</author>
-            public List<HT_Stock.BOJ.clsCtcontratcheque> pvgChargerDansDataSet(List<HT_Stock.BOJ.clsCtcontratcheque> Objet)
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        public List<HT_Stock.BOJ.clsCtcontratcheque> pvgChargerDansDataSetChequeRegler(List<HT_Stock.BOJ.clsCtcontratcheque> Objet)
+        {
+
+            List<Stock.BOJ.clsObjetRetour> clsObjetRetourDTOs = new List<Stock.BOJ.clsObjetRetour>();
+            List<HT_Stock.BOJ.clsCtcontratcheque> clsCtcontratcheques = new List<HT_Stock.BOJ.clsCtcontratcheque>();
+
+            Stock.BOJ.clsObjetEnvoi clsObjetEnvoi = new Stock.BOJ.clsObjetEnvoi();
+            clsObjetEnvoi.OE_D = ConfigurationManager.AppSettings["OE_D"];
+            clsObjetEnvoi.OE_X = ConfigurationManager.AppSettings["OE_X"];
+            clsDonnee.vogCleCryptage = clsObjetEnvoi.OE_D;
+            clsDonnee.vogUtilisateur = clsObjetEnvoi.OE_X;
+
+
+            //for (int Idx = 0; Idx < Objet.Count; Idx++)
+            //{
+            //    //--TEST DES CHAMPS OBLIGATOIRES
+            //    clsCtcontratcheques = TestChampObligatoireListe(Objet[Idx]);
+            //    //--VERIFICATION DU RESULTAT DU TEST
+            //    if (clsCtcontratcheques[0].clsObjetRetour.SL_RESULTAT == "FALSE") return clsCtcontratcheques;
+            //    //--TEST CONTRAINTE
+            //    clsCtcontratcheques = TestTestContrainteListe(Objet[Idx]);
+            //    //--VERIFICATION DU RESULTAT DU TEST
+            //    if (clsCtcontratcheques[0].clsObjetRetour.SL_RESULTAT == "FALSE") return clsCtcontratcheques;
+            //}
+
+
+            clsObjetEnvoi.OE_PARAM = new string[] { Objet[0].AG_CODEAGENCE, Objet[0].CA_CODECONTRAT,  Objet[0].OP_CODEOPERATEUR, Objet[0].TYPEOPERATION };
+            DataSet DataSet = new DataSet();
+
+            try
+            {
+                clsDonnee.pvgConnectionBase();
+                DataSet = clsCtcontratchequeWSBLL.pvgChargerDansDataSetChequeRegler(clsDonnee, clsObjetEnvoi);
+                clsCtcontratcheques = new List<HT_Stock.BOJ.clsCtcontratcheque>();
+                if (DataSet.Tables[0].Rows.Count > 0)
+                {
+                    foreach (DataRow row in DataSet.Tables[0].Rows)
+                    {
+                        HT_Stock.BOJ.clsCtcontratcheque clsCtcontratcheque = new HT_Stock.BOJ.clsCtcontratcheque();
+                        clsCtcontratcheque.AG_CODEAGENCE = row["AG_CODEAGENCE"].ToString();
+                        clsCtcontratcheque.CH_DATESAISIECHEQUE = (row["CHC_DATESAISIECHEQUE"].ToString() != "") ? DateTime.Parse(row["CHC_DATESAISIECHEQUE"].ToString()).ToShortDateString().Replace("/", "-") : "";
+                        clsCtcontratcheque.CH_DATESAISIECHEQUE = (clsCtcontratcheque.CH_DATESAISIECHEQUE != "01-01-1900") ? clsCtcontratcheque.CH_DATESAISIECHEQUE : "";
+                        
+					     clsCtcontratcheque.CH_IDEXCHEQUE = row["CHC_IDEXCHEQUE"].ToString();
+                         clsCtcontratcheque.EN_CODEENTREPOT = row["EN_CODEENTREPOT"].ToString();
+
+                         clsCtcontratcheque.CH_REFCHEQUE = row["CHC_REFCHEQUE"].ToString();
+
+                        if (row["CHC_VALEURCHEQUE"].ToString() != "")
+                            clsCtcontratcheque.CH_VALEURCHEQUE = Double.Parse(row["CHC_VALEURCHEQUE"].ToString()).ToString();// row["CH_VALEURCHEQUE"].ToString();
+
+                        clsCtcontratcheque.CH_DATEEMISSIONCHEQUE = (row["CHC_DATEEMISSIONCHEQUE"].ToString() != "") ? DateTime.Parse(row["CHC_DATEEMISSIONCHEQUE"].ToString()).ToShortDateString() : "";
+                        clsCtcontratcheque.CH_DATEEMISSIONCHEQUE = (clsCtcontratcheque.CH_DATEEMISSIONCHEQUE != "01/01/1900") ? clsCtcontratcheque.CH_DATEEMISSIONCHEQUE : "";
+
+                        clsCtcontratcheque.CH_NOMTIREUR = row["CHC_NOMTIREUR"].ToString();
+                        clsCtcontratcheque.CH_NOMTIRE = row["CHC_NOMTIRE"].ToString();
+                        
+	
+					    clsCtcontratcheque.CH_NOMDUDEPOSANT = row["CHC_NOMDUDEPOSANT"].ToString();
+                        clsCtcontratcheque.CH_TELEPHONEDEPOSANT = row["CHC_TELEPHONEDEPOSANT"].ToString();
+                        clsCtcontratcheque.CA_DATEEFFET = (row["CHC_DATEEFFET"].ToString() != "") ? DateTime.Parse(row["CHC_DATEEFFET"].ToString()).ToShortDateString() : "";
+                        clsCtcontratcheque.CA_DATEEFFET = (clsCtcontratcheque.CA_DATEEFFET != "01/01/1900") ? clsCtcontratcheque.CA_DATEEFFET : "";
+                        
+					     clsCtcontratcheque.OP_CODEOPERATEUR = row["OP_CODEOPERATEUR"].ToString();
+                       
+                        if (row["CHC_PRIMEAENCAISSER"].ToString() != "")
+                            clsCtcontratcheque.CH_PRIMEAENCAISSER = Double.Parse(row["CHC_PRIMEAENCAISSER"].ToString()).ToString();// 
+                        
+					    
+
+
+                        clsCtcontratcheque.clsObjetRetour = new Common.clsObjetRetour();
+                        clsCtcontratcheque.clsObjetRetour.SL_CODEMESSAGE = "00";
+                        clsCtcontratcheque.clsObjetRetour.SL_RESULTAT = "TRUE";
+                        clsCtcontratcheque.clsObjetRetour.SL_MESSAGE = "Opération réalisée avec succès !!!";
+                        clsCtcontratcheques.Add(clsCtcontratcheque);
+                    }
+                }
+                else
+                {
+                    HT_Stock.BOJ.clsCtcontratcheque clsCtcontratcheque = new HT_Stock.BOJ.clsCtcontratcheque();
+                    clsCtcontratcheque.clsObjetRetour = new Common.clsObjetRetour();
+                    clsCtcontratcheque.clsObjetRetour.SL_CODEMESSAGE = "99";
+                    clsCtcontratcheque.clsObjetRetour.SL_RESULTAT = "FALSE";
+                    clsCtcontratcheque.clsObjetRetour.SL_MESSAGE = "Aucun enregistrement trouvé !!!";
+                    clsCtcontratcheques.Add(clsCtcontratcheque);
+                }
+
+
+
+            }
+            catch (SqlException SQLEx)
+            {
+                HT_Stock.BOJ.clsCtcontratcheque clsCtcontratcheque = new HT_Stock.BOJ.clsCtcontratcheque();
+                clsCtcontratcheque.clsObjetRetour = new Common.clsObjetRetour();
+                clsCtcontratcheque.clsObjetRetour.SL_CODEMESSAGE = "99";
+                clsCtcontratcheque.clsObjetRetour.SL_MESSAGE = SQLEx.Message;
+                clsCtcontratcheque.clsObjetRetour.SL_RESULTAT = "FALSE";
+                //Execution du log
+                Log.Error(SQLEx.Message, null);
+                clsCtcontratcheques = new List<HT_Stock.BOJ.clsCtcontratcheque>();
+                clsCtcontratcheques.Add(clsCtcontratcheque);
+            }
+            catch (Exception SQLEx)
+            {
+                HT_Stock.BOJ.clsCtcontratcheque clsCtcontratcheque = new HT_Stock.BOJ.clsCtcontratcheque();
+                clsCtcontratcheque.clsObjetRetour = new Common.clsObjetRetour();
+                clsCtcontratcheque.clsObjetRetour.SL_CODEMESSAGE = "99";
+                clsCtcontratcheque.clsObjetRetour.SL_MESSAGE = SQLEx.Message;
+                clsCtcontratcheque.clsObjetRetour.SL_RESULTAT = "FALSE";
+                //Execution du log
+                Log.Error(SQLEx.Message, null);
+                clsCtcontratcheques = new List<HT_Stock.BOJ.clsCtcontratcheque>();
+                clsCtcontratcheques.Add(clsCtcontratcheque);
+            }
+
+
+            finally
+            {
+                clsDonnee.pvgDeConnectionBase();
+            }
+            return clsCtcontratcheques;
+        }
+
+
+
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        public List<HT_Stock.BOJ.clsCtcontratcheque> pvgChargerDansDataSet(List<HT_Stock.BOJ.clsCtcontratcheque> Objet)
             {
 
             List<Stock.BOJ.clsObjetRetour> clsObjetRetourDTOs = new List<Stock.BOJ.clsObjetRetour>();

@@ -409,12 +409,28 @@ namespace Stock.WSDAL
 			return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre,true);
 		}
 
-		///<summaryCette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete  (Ordre Critères : AG_CODEAGENCE, CH_DATESAISIECHEQUE, CH_IDEXCHEQUE, AB_CODEAGENCEBANCAIRE, OP_CODEOPERATEUR ) </summary>
-		///<param name=clsDonnee>Classe d'acces aux donnees</param>
-		///<param name="vppCritere">critères de la requête scalaire</param>
-		///<returns>Un DataSet comme valeur du résultat de la requete</returns>
-		///<author>Home Technology</author>
-		public DataSet pvgChargerDansDataSetPourCombo(clsDonnee clsDonnee, params string[] vppCritere)
+        ///<summary>Cette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete (Ordre Critères : AG_CODEAGENCE, CH_DATESAISIECHEQUE, CH_IDEXCHEQUE, AB_CODEAGENCEBANCAIRE, OP_CODEOPERATEUR ) </summary>
+        ///<param name=clsDonnee>Classe d'acces aux donnees</param>
+        ///<param name="vppCritere">critères de la requête scalaire</param>
+        ///<returns>Un DataSet comme valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        public DataSet pvgChargerDansDataSetChequeRegler(clsDonnee clsDonnee, params string[] vppCritere)
+        {
+            //Objet[0].CA_CODECONTRAT, Objet[0].CH_REFCHEQUE , Objet[0].AB_CODEAGENCEBANCAIRE, Objet[0].MONTANT1, Objet[0].MONTANT2
+            vapNomParametre = new string[] { "@CODECRYPTAGE", "@AG_CODEAGENCE", "@CA_CODECONTRAT", "@OP_CODEOPERATEUREDITION", "@TYPEOPERATION" };
+            vapValeurParametre = new object[] { clsDonnee.vogCleCryptage, vppCritere[0], vppCritere[1], vppCritere[2], vppCritere[3]};
+            this.vapRequete = "EXEC PS_CTCONTRATCHEQUEREGLEMENTCHEQUECAISSE @AG_CODEAGENCE,@CA_CODECONTRAT,@OP_CODEOPERATEUREDITION,@TYPEOPERATION,@CODECRYPTAGE ";
+            this.vapCritere = "";
+            SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);
+            return clsDonnee.pvgRemplirDataset(vppSqlCmd, vapNomParametre, vapValeurParametre, true);
+        }
+
+        ///<summaryCette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete  (Ordre Critères : AG_CODEAGENCE, CH_DATESAISIECHEQUE, CH_IDEXCHEQUE, AB_CODEAGENCEBANCAIRE, OP_CODEOPERATEUR ) </summary>
+        ///<param name=clsDonnee>Classe d'acces aux donnees</param>
+        ///<param name="vppCritere">critères de la requête scalaire</param>
+        ///<returns>Un DataSet comme valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        public DataSet pvgChargerDansDataSetPourCombo(clsDonnee clsDonnee, params string[] vppCritere)
 		{
 			pvpChoixCritere(clsDonnee ,vppCritere);
 			this.vapRequete = "SELECT CH_IDEXCHEQUE , CH_REFCHEQUE FROM dbo.FT_CTCONTRATCHEQUE(@CODECRYPTAGE) " + this.vapCritere;

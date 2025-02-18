@@ -48,6 +48,7 @@ namespace HT_Stock.BOJ
 		private string _TI_NUMTIERSASSUREUR = "";
 		private string _TI_DENOMINATIONASSUREUR = "";
 		private string _TI_NUMEROASSUREUR = "";
+		private string _TA_LIBLLETYPEAFFAIRES = "";
 
 		#endregion
 
@@ -234,6 +235,12 @@ namespace HT_Stock.BOJ
         set { _TI_NUMEROASSUREUR = value; }
         } 
 
+        public string TA_LIBLLETYPEAFFAIRES
+        {
+        get { return _TA_LIBLLETYPEAFFAIRES; }
+        set { _TA_LIBLLETYPEAFFAIRES = value; }
+        } 
+
         #endregion
 
         #region INSTANCIATEURS
@@ -280,7 +287,7 @@ namespace HT_Stock.BOJ
 			this.TI_NUMTIERSASSUREUR = clsCtcontratchequephoto.TI_NUMTIERSASSUREUR;  
 			this.TI_DENOMINATIONASSUREUR = clsCtcontratchequephoto.TI_DENOMINATIONASSUREUR;  
 			this.TI_NUMEROASSUREUR = clsCtcontratchequephoto.TI_NUMEROASSUREUR;  
-
+			this.TA_LIBLLETYPEAFFAIRES = clsCtcontratchequephoto.TA_LIBLLETYPEAFFAIRES;  
         }
 
         #endregion

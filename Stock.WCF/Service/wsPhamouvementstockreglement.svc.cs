@@ -593,8 +593,8 @@ namespace Stock.WCF
 
                 if (string.IsNullOrEmpty(Objet[Idx].MV_REFERENCEPIECE))
                     Objet[Idx].MV_REFERENCEPIECE = "";
-                    //--TEST DES CHAMPS OBLIGATOIRES
-                    clsPhamouvementstockreglements = TestChampObligatoireInsert(Objet[Idx]);
+                //--TEST DES CHAMPS OBLIGATOIRES
+                clsPhamouvementstockreglements = TestChampObligatoireInsert(Objet[Idx]);
                 //--VERIFICATION DU RESULTAT DU TEST
                 if (clsPhamouvementstockreglements[0].clsObjetRetour.SL_RESULTAT == "FALSE") return clsPhamouvementstockreglements;
                 //--TEST CONTRAINTE
@@ -604,6 +604,7 @@ namespace Stock.WCF
             }
             //clsObjetEnvoi.OE_PARAM = new string[] {};
             HT_Stock.BOJ.clsObjetRetour clsObjetRetour = new HT_Stock.BOJ.clsObjetRetour();
+            HT_Stock.BOJ.clsObjetRetour clsObjetRetourTEST = new HT_Stock.BOJ.clsObjetRetour();
             try
             {
                 clsDonnee.pvgConnectionBase();
@@ -637,8 +638,8 @@ namespace Stock.WCF
                     clsPhamouvementstockreglement.MS_NUMPIECE = clsPhamouvementstockreglementDTO.MS_NUMPIECE.ToString();// MS_NUMPIECE;
                     vlpMS_NUMPIECE = clsPhamouvementstockreglementDTO.MS_NUMPIECE.ToString();// MS_NUMPIECE;
                     clsPhamouvementstockreglement.MV_ANNULATIONPIECE = "N";
-                    clsPhamouvementstockreglement.MV_DATEPIECE =DateTime.Parse(clsPhamouvementstockreglementDTO.MV_DATESAISIE.ToString());// Stock.TOOLS.clsDeclaration.vagObjetEnvoi.JT_DATEJOURNEETRAVAIL;
-                    clsPhamouvementstockreglement.MV_DATESAISIE =DateTime.Parse(clsPhamouvementstockreglementDTO.MV_DATESAISIE.ToString());// Stock.TOOLS.clsDeclaration.vagObjetEnvoi.JT_DATEJOURNEETRAVAIL;
+                    clsPhamouvementstockreglement.MV_DATEPIECE = DateTime.Parse(clsPhamouvementstockreglementDTO.MV_DATESAISIE.ToString());// Stock.TOOLS.clsDeclaration.vagObjetEnvoi.JT_DATEJOURNEETRAVAIL;
+                    clsPhamouvementstockreglement.MV_DATESAISIE = DateTime.Parse(clsPhamouvementstockreglementDTO.MV_DATESAISIE.ToString());// Stock.TOOLS.clsDeclaration.vagObjetEnvoi.JT_DATEJOURNEETRAVAIL;
 
                     clsPhamouvementstockreglement.CH_DATEDEBUTCOUVERTURE = DateTime.Parse(clsPhamouvementstockreglementDTO.CH_DATEDEBUTCOUVERTURE.ToString());
                     clsPhamouvementstockreglement.CH_DATEFINCOUVERTURE = DateTime.Parse(clsPhamouvementstockreglementDTO.CH_DATEFINCOUVERTURE.ToString());
@@ -657,10 +658,10 @@ namespace Stock.WCF
                     clsPhamouvementstockreglement.MONTANTREMISE = 0;
                     clsPhamouvementstockreglement.MONTANTTVA = 0;
                     clsPhamouvementstockreglement.MONTANTAIRSI = 0;
-                    clsPhamouvementstockreglement.MONTANTVERSEMENT =double.Parse( clsPhamouvementstockreglementDTO.MONTANTVERSEMENT.ToString());// double.Parse(gridView1.GetDataRow(0)["SR_MONTANTCREDIT"].ToString());
+                    clsPhamouvementstockreglement.MONTANTVERSEMENT = double.Parse(clsPhamouvementstockreglementDTO.MONTANTVERSEMENT.ToString());// double.Parse(gridView1.GetDataRow(0)["SR_MONTANTCREDIT"].ToString());
                     vlpMONTANTVERSEMENT = clsPhamouvementstockreglement.MONTANTVERSEMENT;
                     clsPhamouvementstockreglement.MONTANTTRANSPORT = 0;
-                    clsPhamouvementstockreglement.MONTANTFACTURETTC =double.Parse( clsPhamouvementstockreglementDTO.MONTANTFACTURETTC.ToString());// double.Parse(gridView1.GetDataRow(0)["MONTANTAREGLERASSUREUR"].ToString());
+                    clsPhamouvementstockreglement.MONTANTFACTURETTC = double.Parse(clsPhamouvementstockreglementDTO.MONTANTFACTURETTC.ToString());// double.Parse(gridView1.GetDataRow(0)["MONTANTAREGLERASSUREUR"].ToString());
                     clsPhamouvementstockreglement.RESTEMONTANTFACTURE = 0;
                     clsPhamouvementstockreglement.MONTANTIMPAYER = 0;
                     clsPhamouvementstockreglement.MS_UTILISERSUPLUS = 0;
@@ -668,7 +669,7 @@ namespace Stock.WCF
                     clsPhamouvementstockreglement.FB_IDFOURNISSEUR = clsPhamouvementstockreglementDTO.FB_IDFOURNISSEUR.ToString();// TI_IDTIERSASSUREUR;
                     clsPhamouvementstockreglement.DT_NUMEROTRANSACTION = clsPhamouvementstockreglementDTO.DT_NUMEROTRANSACTION.ToString();// TI_IDTIERSASSUREUR;
 
-                    clsPhamouvementstockreglement.TYPEOPERATION =1;
+                    clsPhamouvementstockreglement.TYPEOPERATION = 1;
 
                     vlpAG_CODEAGENCE = clsPhamouvementstockreglementDTO.AG_CODEAGENCE.ToString();
                     vlpMV_DATESAISIE = DateTime.Parse(clsPhamouvementstockreglementDTO.MV_DATESAISIE.ToString()).ToShortDateString();
@@ -707,37 +708,37 @@ namespace Stock.WCF
                     //=====
 
 
-                    Stock.BOJ.clsCtcontratchequereglementcaisse clsCtcontratchequereglementcaisse=new BOJ.clsCtcontratchequereglementcaisse();
-                    if(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse!=null)
-                    if(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CA_CODECONTRAT!="")
-                    {
-                        clsCtcontratchequereglementcaisse.AG_CODEAGENCE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.AG_CODEAGENCE;
-                        clsCtcontratchequereglementcaisse.CHC_DATESAISIECHEQUE =DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATESAISIECHEQUE);
-                        clsCtcontratchequereglementcaisse.EN_CODEENTREPOT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.EN_CODEENTREPOT;
-                        clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIRE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIRE;
-                        clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIREASSUREUR = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIREASSUREUR;
-                        clsCtcontratchequereglementcaisse.CA_CODECONTRAT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CA_CODECONTRAT;
-                        clsCtcontratchequereglementcaisse.CHC_IDEXCHEQUE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_IDEXCHEQUE;
-                        clsCtcontratchequereglementcaisse.CHC_REFCHEQUE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_REFCHEQUE;
+                    Stock.BOJ.clsCtcontratchequereglementcaisse clsCtcontratchequereglementcaisse = new BOJ.clsCtcontratchequereglementcaisse();
+                    if (clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse != null)
+                        if (clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CA_CODECONTRAT != "")
+                        {
+                            clsCtcontratchequereglementcaisse.AG_CODEAGENCE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.AG_CODEAGENCE;
+                            clsCtcontratchequereglementcaisse.CHC_DATESAISIECHEQUE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATESAISIECHEQUE);
+                            clsCtcontratchequereglementcaisse.EN_CODEENTREPOT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.EN_CODEENTREPOT;
+                            clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIRE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIRE;
+                            clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIREASSUREUR = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.AB_CODEAGENCEBANCAIREASSUREUR;
+                            clsCtcontratchequereglementcaisse.CA_CODECONTRAT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CA_CODECONTRAT;
+                            clsCtcontratchequereglementcaisse.CHC_IDEXCHEQUE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_IDEXCHEQUE;
+                            clsCtcontratchequereglementcaisse.CHC_REFCHEQUE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_REFCHEQUE;
                             vlpCHC_REFCHEQUE = clsCtcontratchequereglementcaisse.CHC_REFCHEQUE;
-                        clsCtcontratchequereglementcaisse.CHC_VALEURCHEQUE =double.Parse( clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_VALEURCHEQUE);
-                        clsCtcontratchequereglementcaisse.CHC_PRIMEAENCAISSER = double.Parse( clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_PRIMEAENCAISSER);
-                        clsCtcontratchequereglementcaisse.CHC_DATEANNULATIONCHEQUE = DateTime.Parse("01/01/1900");
-                        clsCtcontratchequereglementcaisse.CHC_DATEEMISSIONCHEQUE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEEMISSIONCHEQUE);
-                        clsCtcontratchequereglementcaisse.CHC_DATEVALIDATIONCHEQUE = DateTime.Parse("01/01/1900");
-                        clsCtcontratchequereglementcaisse.CHC_NOMTIREUR = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_NOMTIREUR;
-                        clsCtcontratchequereglementcaisse.CHC_NOMTIRE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_NOMTIRE;
-                        clsCtcontratchequereglementcaisse.CHC_DATERECEPTIONCHEQUE =DateTime.Parse( clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATERECEPTIONCHEQUE);
+                            clsCtcontratchequereglementcaisse.CHC_VALEURCHEQUE = double.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_VALEURCHEQUE);
+                            clsCtcontratchequereglementcaisse.CHC_PRIMEAENCAISSER = double.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_PRIMEAENCAISSER);
+                            clsCtcontratchequereglementcaisse.CHC_DATEANNULATIONCHEQUE = DateTime.Parse("01/01/1900");
+                            clsCtcontratchequereglementcaisse.CHC_DATEEMISSIONCHEQUE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEEMISSIONCHEQUE);
+                            clsCtcontratchequereglementcaisse.CHC_DATEVALIDATIONCHEQUE = DateTime.Parse("01/01/1900");
+                            clsCtcontratchequereglementcaisse.CHC_NOMTIREUR = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_NOMTIREUR;
+                            clsCtcontratchequereglementcaisse.CHC_NOMTIRE = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_NOMTIRE;
+                            clsCtcontratchequereglementcaisse.CHC_DATERECEPTIONCHEQUE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATERECEPTIONCHEQUE);
 
-                        clsCtcontratchequereglementcaisse.CHC_DATEDEBUTCOUVERTURE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEDEBUTCOUVERTURE);
-                        clsCtcontratchequereglementcaisse.CHC_DATEFINCOUVERTURE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEFINCOUVERTURE);
+                            clsCtcontratchequereglementcaisse.CHC_DATEDEBUTCOUVERTURE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEDEBUTCOUVERTURE);
+                            clsCtcontratchequereglementcaisse.CHC_DATEFINCOUVERTURE = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEFINCOUVERTURE);
 
-                        clsCtcontratchequereglementcaisse.CHC_NOMDUDEPOSANT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_NOMDUDEPOSANT;
-                        clsCtcontratchequereglementcaisse.CHC_TELEPHONEDEPOSANT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_TELEPHONEDEPOSANT;
-                        clsCtcontratchequereglementcaisse.CHC_DATEEFFET = DateTime.Parse( clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEEFFET);
-                        clsCtcontratchequereglementcaisse.OP_CODEOPERATEUR =clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.OP_CODEOPERATEUR;
-                        clsCtcontratchequereglementcaisse.TYPEOPERATION =int.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.TYPEOPERATION);
-                    }
+                            clsCtcontratchequereglementcaisse.CHC_NOMDUDEPOSANT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_NOMDUDEPOSANT;
+                            clsCtcontratchequereglementcaisse.CHC_TELEPHONEDEPOSANT = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_TELEPHONEDEPOSANT;
+                            clsCtcontratchequereglementcaisse.CHC_DATEEFFET = DateTime.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.CHC_DATEEFFET);
+                            clsCtcontratchequereglementcaisse.OP_CODEOPERATEUR = clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.OP_CODEOPERATEUR;
+                            clsCtcontratchequereglementcaisse.TYPEOPERATION = int.Parse(clsPhamouvementstockreglementDTO.clsCtcontratchequereglementcaisse.TYPEOPERATION);
+                        }
 
 
                     //=====
@@ -748,7 +749,7 @@ namespace Stock.WCF
                             BOJ.clsCtcontratchequephotoreglementcaisse clsCtcontratchequephotoreglementcaisse = new BOJ.clsCtcontratchequephotoreglementcaisse();
                             clsCtcontratchequephotoreglementcaisse.AG_CODEAGENCE = clsCtcontratchequephotoreglementcaisseDTO.AG_CODEAGENCE;
                             clsCtcontratchequephotoreglementcaisse.CHC_IDEXCHEQUE = clsCtcontratchequephotoreglementcaisseDTO.CHC_IDEXCHEQUE;
-                            clsCtcontratchequephotoreglementcaisse.CHC_DATESAISIECHEQUE =DateTime.Parse(clsCtcontratchequephotoreglementcaisseDTO.CHC_DATESAISIECHEQUE);
+                            clsCtcontratchequephotoreglementcaisse.CHC_DATESAISIECHEQUE = DateTime.Parse(clsCtcontratchequephotoreglementcaisseDTO.CHC_DATESAISIECHEQUE);
                             clsCtcontratchequephotoreglementcaisse.CHC_CHEMINPHOTOCHEQUE = clsCtcontratchequephotoreglementcaisseDTO.CHC_CHEMINPHOTOCHEQUE;
                             clsCtcontratchequephotoreglementcaisse.CHC_LIBELLEPHOTOCHEQUE = clsCtcontratchequephotoreglementcaisseDTO.CHC_LIBELLEPHOTOCHEQUE;
 
@@ -758,8 +759,8 @@ namespace Stock.WCF
 
                     //=====
 
-
-                    clsObjetRetour.SetValue(true, clsPhamouvementstockreglementWSBLL.pvgAjouterComptabilisation(clsDonnee, clsPhamouvementstockreglement, clsPhamouvementstockreglementcheques,  clsCtcontratchequereglementcaisse,  clsCtcontratchequephotoreglementcaisses, clsObjetEnvoi), clsMessagesWSBLL.pvgTableLibelle(clsDonnee, "GNE0069").MS_LIBELLEMESSAGE);
+                    clsObjetRetourTEST.SetValue(true, clsPhamouvementstockreglementWSBLL.pvgVerificatioSoldeCompteAvecChequeDiffere(clsDonnee, clsPhamouvementstockreglement, clsObjetEnvoi), clsMessagesWSBLL.pvgTableLibelle(clsDonnee, "GNE0069").MS_LIBELLEMESSAGE);
+                    clsObjetRetour.SetValue(true, clsPhamouvementstockreglementWSBLL.pvgAjouterComptabilisation(clsDonnee, clsPhamouvementstockreglement, clsPhamouvementstockreglementcheques, clsCtcontratchequereglementcaisse, clsCtcontratchequephotoreglementcaisses, clsObjetEnvoi), clsMessagesWSBLL.pvgTableLibelle(clsDonnee, "GNE0069").MS_LIBELLEMESSAGE);
 
                 }
                 clsPhamouvementstockreglements = new List<HT_Stock.BOJ.clsPhamouvementstockreglement>();
@@ -771,10 +772,10 @@ namespace Stock.WCF
                     vlpBordereau = clsObjetRetour.OR_STRING;
                     if (vlpBordereau != "")
                     {
-                        clsObjetEnvoi.OE_PARAM = new string[] {vlpAG_CODEAGENCE, DateTime.Parse(vlpMV_DATESAISIE.ToString()).ToShortDateString(), vlpBordereau };
+                        clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, DateTime.Parse(vlpMV_DATESAISIE.ToString()).ToShortDateString(), vlpBordereau };
                         //
                         string vlpNumero = clsPhamouvementstockreglementWSBLL.pvgNumeroBordereau(clsDonnee, clsObjetEnvoi);
-                         clsPhamouvementstockreglement.NUMEROBORDEREAUREGLEMENT = vlpNumero;
+                        clsPhamouvementstockreglement.NUMEROBORDEREAUREGLEMENT = vlpNumero;
 
 
                         string TE_CODESMSTYPEOPERATION = "";
@@ -788,77 +789,77 @@ namespace Stock.WCF
                         }
 
                         string TI_NUMTIERS = "";
-                                string TI_DENOMINATION = "";
+                        string TI_DENOMINATION = "";
 
-                                string TI_TELEPHONE = "";
-                                string EN_CODEENTREPOT = "";
+                        string TI_TELEPHONE = "";
+                        string EN_CODEENTREPOT = "";
 
-                                DataSet DataSet = new DataSet();
-                                clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, vlpTI_NUMTIERS };
-                                clsPhatiersWSBLL clsPhatiersWSBLL = new clsPhatiersWSBLL();
-                                DataSet = clsPhatiersWSBLL.pvgChargerDansDataSetAssureAvecCodeClient(clsDonnee, clsObjetEnvoi);
-                                foreach (DataRow row in DataSet.Tables[0].Rows)
-                                {
-                                    TI_NUMTIERS = row["TI_NUMTIERS"].ToString();
-                                    TI_DENOMINATION = row["TI_DENOMINATION"].ToString();
-                                    TI_TELEPHONE = row["TI_TELEPHONE"].ToString();
-                                    EN_CODEENTREPOT = row["EN_CODEENTREPOT"].ToString();
-                                    vlpTI_IDTIERS = row["TI_IDTIERS"].ToString();
+                        DataSet DataSet = new DataSet();
+                        clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, vlpTI_NUMTIERS };
+                        clsPhatiersWSBLL clsPhatiersWSBLL = new clsPhatiersWSBLL();
+                        DataSet = clsPhatiersWSBLL.pvgChargerDansDataSetAssureAvecCodeClient(clsDonnee, clsObjetEnvoi);
+                        foreach (DataRow row in DataSet.Tables[0].Rows)
+                        {
+                            TI_NUMTIERS = row["TI_NUMTIERS"].ToString();
+                            TI_DENOMINATION = row["TI_DENOMINATION"].ToString();
+                            TI_TELEPHONE = row["TI_TELEPHONE"].ToString();
+                            EN_CODEENTREPOT = row["EN_CODEENTREPOT"].ToString();
+                            vlpTI_IDTIERS = row["TI_IDTIERS"].ToString();
 
-                                }
+                        }
 
-                                DataSet DataSetCT = new DataSet();
-                                clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, Objet[0].MS_NUMPIECE };
-                                clsCtcontratWSBLL clsCtcontratWSBLL = new clsCtcontratWSBLL();
-                                DataSetCT = clsCtcontratWSBLL.pvgChargerDansDataSetPARID(clsDonnee, clsObjetEnvoi);
-                                foreach (DataRow row in DataSetCT.Tables[0].Rows)
-                                {
-                                    vlpCA_NUMPOLICE = row["CA_NUMPOLICE"].ToString();
-                                  
-                                }
+                        DataSet DataSetCT = new DataSet();
+                        clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, Objet[0].MS_NUMPIECE };
+                        clsCtcontratWSBLL clsCtcontratWSBLL = new clsCtcontratWSBLL();
+                        DataSetCT = clsCtcontratWSBLL.pvgChargerDansDataSetPARID(clsDonnee, clsObjetEnvoi);
+                        foreach (DataRow row in DataSetCT.Tables[0].Rows)
+                        {
+                            vlpCA_NUMPOLICE = row["CA_NUMPOLICE"].ToString();
 
-                            clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, Objet[0].MS_NUMPIECE, TI_NUMTIERS, vlpMV_DATESAISIE, "2", vlpOP_CODEOPERATEUR };
-                            DataSet DataSetRE = new DataSet();
-                            DataSetRE = clsPhamouvementstockreglementWSBLL.pvgMouvementResumeReglement(clsDonnee, clsObjetEnvoi);
+                        }
 
-                            foreach (DataRow row in DataSetRE.Tables[0].Rows)
-                            {
-                                clsPhamouvementstockreglement.RESTEAREGLER = (row["RESTEAREGLER"].ToString() != "") ? double.Parse(row["RESTEAREGLER"].ToString()) : 0;// row["RESTEAREGLER"].ToString();
+                        clsObjetEnvoi.OE_PARAM = new string[] { vlpAG_CODEAGENCE, Objet[0].MS_NUMPIECE, TI_NUMTIERS, vlpMV_DATESAISIE, "2", vlpOP_CODEOPERATEUR };
+                        DataSet DataSetRE = new DataSet();
+                        DataSetRE = clsPhamouvementstockreglementWSBLL.pvgMouvementResumeReglement(clsDonnee, clsObjetEnvoi);
 
-                            }
+                        foreach (DataRow row in DataSetRE.Tables[0].Rows)
+                        {
+                            clsPhamouvementstockreglement.RESTEAREGLER = (row["RESTEAREGLER"].ToString() != "") ? double.Parse(row["RESTEAREGLER"].ToString()) : 0;// row["RESTEAREGLER"].ToString();
 
-                           
+                        }
 
 
 
-                            BOJ.clsParams clsParams = new BOJ.clsParams();
-                                if (TI_TELEPHONE != "")
-                                {
-
-                                    clsSmsoutWSBLL clsSmsoutWSBLL = new clsSmsoutWSBLL();
-                                    //if (CL_CONTACT.Length == 10)
-                                    //    CL_CONTACT = "00225" + CL_CONTACT;
-                                    string CL_IDCLIENT = "";
-                                    string SL_MESSAGECLIENT = "PO:" + vlpCA_NUMPOLICE + "#SO:" + clsPhamouvementstockreglement.RESTEAREGLER + "#RF:" + vlpCHC_REFCHEQUE + "#MT:" + vlpMONTANTVERSEMENT.ToString();// clsParams.SMSTEXT;
-                                    string SL_RESULTATAPI = "";
-                                    string SL_MESSAGEAPI = "";
-                                    string SL_MESSAGE = "";
-
-                                    //clsParams = clsSmsoutWSBLL.pvgTraitementSms(clsDonnee, clsMiccomptewebmotpasseoublieListe[0].AG_CODEAGENCE, clsMiccomptewebmotpasseoublieListe[0].PV_CODEPOINTVENTE, clsMiccomptewebmotpasseoublieListe[0].CO_CODECOMPTE, clsMiccomptewebmotpasseoublieListe[0].OB_NOMOBJET, clsMiccomptewebmotpasseoublieDTO.CL_CONTACT, clsMiccomptewebmotpasseoublieListe[0].OP_CODEOPERATEUR, clsMiccomptewebmotpasseoublieListe[0].RP_DATE, "", CL_IDCLIENT, "", clsMiccomptewebmotpasseoublieListe[0].SL_MESSAGECLIENT, "0024", "0", "01/01/1900", "0", "0", "N", "0", clsMiccomptewebmotpasseoublieListe[0].SL_LIBELLE1, clsMiccomptewebmotpasseoublieListe[0].SL_LIBELLE2);
-
-                                    //clsDonnee clsDonnee, string AG_CODEAGENCE, string PV_CODEPOINTVENTE, string CO_CODECOMPTE, string OB_NOMOBJET, string SM_TELEPHONE, string OP_CODEOPERATEUR, DateTime SM_DATEPIECE, string MB_IDTIERS, string CL_IDCLIENT, string EJ_IDEPARGNANTJOURNALIER, string SMSTEXT, string TE_CODESMSTYPEOPERATION, string SM_NUMSEQUENCE, string SM_DATEEMISSIONSMS, string MC_NUMPIECE, string MC_NUMSEQUENCE, string SM_STATUT, string TYPEOPERATION, string SL_LIBELLE1, string SL_LIBELLE2
-                                    clsParams = clsSmsoutWSBLL.pvgTraitementSms(clsDonnee, vlpAG_CODEAGENCE, vlpEN_CODEENTREPOT, "compte", "FrmClientPhysique", TI_TELEPHONE, vlpOP_CODEOPERATEUR, DateTime.Parse(vlpMV_DATESAISIE.ToString()), "", vlpTI_IDTIERS, "", SL_MESSAGECLIENT, TE_CODESMSTYPEOPERATION, "0", DateTime.Parse(vlpMV_DATESAISIE.ToString()).ToShortDateString(), "0", "", "N", "0", "", "");
 
 
-                                    SL_RESULTATAPI = clsParams.SL_RESULTAT;
-                                    SL_MESSAGEAPI = clsParams.SL_MESSAGE;
-                                    if (clsParams.SL_RESULTAT == "FALSE") SL_MESSAGE = SL_MESSAGE + " " + SL_MESSAGEAPI;
+                        BOJ.clsParams clsParams = new BOJ.clsParams();
+                        if (TI_TELEPHONE != "")
+                        {
+
+                            clsSmsoutWSBLL clsSmsoutWSBLL = new clsSmsoutWSBLL();
+                            //if (CL_CONTACT.Length == 10)
+                            //    CL_CONTACT = "00225" + CL_CONTACT;
+                            string CL_IDCLIENT = "";
+                            string SL_MESSAGECLIENT = "PO:" + vlpCA_NUMPOLICE + "#SO:" + clsPhamouvementstockreglement.RESTEAREGLER + "#RF:" + vlpCHC_REFCHEQUE + "#MT:" + vlpMONTANTVERSEMENT.ToString();// clsParams.SMSTEXT;
+                            string SL_RESULTATAPI = "";
+                            string SL_MESSAGEAPI = "";
+                            string SL_MESSAGE = "";
+
+                            //clsParams = clsSmsoutWSBLL.pvgTraitementSms(clsDonnee, clsMiccomptewebmotpasseoublieListe[0].AG_CODEAGENCE, clsMiccomptewebmotpasseoublieListe[0].PV_CODEPOINTVENTE, clsMiccomptewebmotpasseoublieListe[0].CO_CODECOMPTE, clsMiccomptewebmotpasseoublieListe[0].OB_NOMOBJET, clsMiccomptewebmotpasseoublieDTO.CL_CONTACT, clsMiccomptewebmotpasseoublieListe[0].OP_CODEOPERATEUR, clsMiccomptewebmotpasseoublieListe[0].RP_DATE, "", CL_IDCLIENT, "", clsMiccomptewebmotpasseoublieListe[0].SL_MESSAGECLIENT, "0024", "0", "01/01/1900", "0", "0", "N", "0", clsMiccomptewebmotpasseoublieListe[0].SL_LIBELLE1, clsMiccomptewebmotpasseoublieListe[0].SL_LIBELLE2);
+
+                            //clsDonnee clsDonnee, string AG_CODEAGENCE, string PV_CODEPOINTVENTE, string CO_CODECOMPTE, string OB_NOMOBJET, string SM_TELEPHONE, string OP_CODEOPERATEUR, DateTime SM_DATEPIECE, string MB_IDTIERS, string CL_IDCLIENT, string EJ_IDEPARGNANTJOURNALIER, string SMSTEXT, string TE_CODESMSTYPEOPERATION, string SM_NUMSEQUENCE, string SM_DATEEMISSIONSMS, string MC_NUMPIECE, string MC_NUMSEQUENCE, string SM_STATUT, string TYPEOPERATION, string SL_LIBELLE1, string SL_LIBELLE2
+                            clsParams = clsSmsoutWSBLL.pvgTraitementSms(clsDonnee, vlpAG_CODEAGENCE, vlpEN_CODEENTREPOT, "compte", "FrmClientPhysique", TI_TELEPHONE, vlpOP_CODEOPERATEUR, DateTime.Parse(vlpMV_DATESAISIE.ToString()), "", vlpTI_IDTIERS, "", SL_MESSAGECLIENT, TE_CODESMSTYPEOPERATION, "0", DateTime.Parse(vlpMV_DATESAISIE.ToString()).ToShortDateString(), "0", "", "N", "0", "", "");
+
+
+                            SL_RESULTATAPI = clsParams.SL_RESULTAT;
+                            SL_MESSAGEAPI = clsParams.SL_MESSAGE;
+                            if (clsParams.SL_RESULTAT == "FALSE") SL_MESSAGE = SL_MESSAGE + " " + SL_MESSAGEAPI;
 
 
 
-                                }
-                            
-                        
+                        }
+
+
                         //=====
 
 
@@ -920,7 +921,6 @@ namespace Stock.WCF
             }
             return clsPhamouvementstockreglements;
         }
-
         ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
         ///<param name="Objet">Collection de clsInput </param>
         ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>

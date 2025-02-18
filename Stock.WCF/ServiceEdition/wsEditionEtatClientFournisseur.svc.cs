@@ -438,84 +438,214 @@ namespace Stock.WCF
     clsEditionEtatClientFournisseurs = new List<HT_Stock.BOJ.clsEditionEtatClientFournisseur>();
     if (DataSet.Tables[0].Rows.Count > 0)
     {
-    foreach (DataRow row in DataSet.Tables[0].Rows)
-    {
-        HT_Stock.BOJ.clsEditionEtatClientFournisseur clsEditionEtatClientFournisseur = new HT_Stock.BOJ.clsEditionEtatClientFournisseur();
-        clsEditionEtatClientFournisseur.CL_IDCLIENT = row["CL_IDCLIENT"].ToString();
-        clsEditionEtatClientFournisseur.AG_CODEAGENCE = row["AG_CODEAGENCE"].ToString();
-        clsEditionEtatClientFournisseur.SX_CODESEXE = row["SX_CODESEXE"].ToString();
-        clsEditionEtatClientFournisseur.SM_CODESITUATIONMATRIMONIALE = row["SM_CODESITUATIONMATRIMONIALE"].ToString();
-        clsEditionEtatClientFournisseur.PF_CODEPROFESSION = row["PF_CODEPROFESSION"].ToString();
-        clsEditionEtatClientFournisseur.AC_CODEACTIVITE = row["AC_CODEACTIVITE"].ToString();
-        clsEditionEtatClientFournisseur.TP_CODETYPECLIENT = row["TP_CODETYPECLIENT"].ToString();
-        clsEditionEtatClientFournisseur.TP_LIBELLE = row["TP_LIBELLE"].ToString();
-        clsEditionEtatClientFournisseur.OP_CODEOPERATEUR = row["OP_CODEOPERATEUR"].ToString();
-        clsEditionEtatClientFournisseur.CL_NUMCLIENT = row["CL_NUMCLIENT"].ToString();
-        clsEditionEtatClientFournisseur.CL_DATENAISSANCE = (row["CL_DATENAISSANCE"].ToString() != "") ? DateTime.Parse(row["CL_DATENAISSANCE"].ToString()).ToShortDateString() : "01/01/1900";//DateTime.Parse( row["CL_DATENAISSANCE"].ToString()).ToShortDateString();
-                        clsEditionEtatClientFournisseur.CL_DENOMINATION = row["CL_DENOMINATION"].ToString();
-        clsEditionEtatClientFournisseur.CL_DESCRIPTIONCLIENT = row["CL_DESCRIPTIONCLIENT"].ToString();
-        clsEditionEtatClientFournisseur.CL_ADRESSEPOSTALE = row["CL_ADRESSEPOSTALE"].ToString();
-        clsEditionEtatClientFournisseur.CL_ADRESSEGEOGRAPHIQUE = row["CL_ADRESSEGEOGRAPHIQUE"].ToString();
-        clsEditionEtatClientFournisseur.CL_TELEPHONE = row["CL_TELEPHONE"].ToString();
-        clsEditionEtatClientFournisseur.CL_FAX = row["CL_FAX"].ToString();
-        clsEditionEtatClientFournisseur.CL_SITEWEB = row["CL_SITEWEB"].ToString();
-        clsEditionEtatClientFournisseur.CL_EMAIL = row["CL_EMAIL"].ToString();
-        clsEditionEtatClientFournisseur.CL_GERANT = row["CL_GERANT"].ToString();
-        clsEditionEtatClientFournisseur.CL_STATUT = row["CL_STATUT"].ToString();
-        clsEditionEtatClientFournisseur.CL_DATESAISIE = (row["CL_DATESAISIE"].ToString() != "") ? DateTime.Parse(row["CL_DATESAISIE"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["CL_DATESAISIE"].ToString()).ToShortDateString();
-        clsEditionEtatClientFournisseur.CL_DATEDEPART = (row["CL_DATEDEPART"].ToString() != "") ? DateTime.Parse(row["CL_DATEDEPART"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["CL_DATEDEPART"].ToString()).ToShortDateString();
-                        clsEditionEtatClientFournisseur.CL_ASDI = row["CL_ASDI"].ToString();
-        clsEditionEtatClientFournisseur.CL_TVA = row["CL_TVA"].ToString();
-        clsEditionEtatClientFournisseur.CL_STATUTDOUTEUX = (row["CL_STATUTDOUTEUX"].ToString() != "") ? double.Parse(row["CL_STATUTDOUTEUX"].ToString()) : 0;//row["CL_STATUTDOUTEUX"].ToString();
-                        clsEditionEtatClientFournisseur.CL_PLAFONDCREDIT = (row["CL_PLAFONDCREDIT"].ToString() != "") ? double.Parse(row["CL_PLAFONDCREDIT"].ToString()): 0;// double.Parse(row["CL_PLAFONDCREDIT"].ToString()).ToString();
-        clsEditionEtatClientFournisseur.CL_NUMCPTECONTIBUABLE = row["CL_NUMCPTECONTIBUABLE"].ToString();
-        clsEditionEtatClientFournisseur.TI_IDTIERS = row["TI_IDTIERS"].ToString();
-        clsEditionEtatClientFournisseur.TP_CODETYPETIERS = row["TP_CODETYPETIERS"].ToString();
-        clsEditionEtatClientFournisseur.PL_CODENUMCOMPTE = row["PL_CODENUMCOMPTE"].ToString();
-        clsEditionEtatClientFournisseur.TI_NUMTIERS = row["TI_NUMTIERS"].ToString();
-        clsEditionEtatClientFournisseur.TI_DATENAISSANCE = (row["TI_DATENAISSANCE"].ToString() != "") ? DateTime.Parse(row["TI_DATENAISSANCE"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["TI_DATENAISSANCE"].ToString()).ToShortDateString();
-                        clsEditionEtatClientFournisseur.TI_DENOMINATION = row["TI_DENOMINATION"].ToString();
-        clsEditionEtatClientFournisseur.TI_DESCRIPTIONTIERS = row["TI_DESCRIPTIONTIERS"].ToString();
-        clsEditionEtatClientFournisseur.TI_ADRESSEPOSTALE = row["TI_ADRESSEPOSTALE"].ToString();
-        clsEditionEtatClientFournisseur.TI_ADRESSEGEOGRAPHIQUE = row["TI_ADRESSEGEOGRAPHIQUE"].ToString();
-        clsEditionEtatClientFournisseur.TI_TELEPHONE = row["TI_TELEPHONE"].ToString();
-        clsEditionEtatClientFournisseur.TI_FAX = row["TI_FAX"].ToString();
-        clsEditionEtatClientFournisseur.TI_SITEWEB = row["TI_SITEWEB"].ToString();
-        clsEditionEtatClientFournisseur.TI_EMAIL = row["TI_EMAIL"].ToString();
-        clsEditionEtatClientFournisseur.TI_GERANT = row["TI_GERANT"].ToString();
-        clsEditionEtatClientFournisseur.TI_STATUT = row["TI_STATUT"].ToString();
-        clsEditionEtatClientFournisseur.TI_DATESAISIE = (row["TI_DATESAISIE"].ToString() != "") ? DateTime.Parse(row["TI_DATESAISIE"].ToString()).ToShortDateString() : "01/01/1900";//  DateTime.Parse(row["TI_DATESAISIE"].ToString()).ToShortDateString();
-                        clsEditionEtatClientFournisseur.TI_DATEDEPART = (row["TI_DATEDEPART"].ToString() != "") ? DateTime.Parse(row["TI_DATEDEPART"].ToString()).ToShortDateString() : "01/01/1900";//  DateTime.Parse(row["TI_DATEDEPART"].ToString()).ToShortDateString();
-                        clsEditionEtatClientFournisseur.TI_ASDI = row["TI_ASDI"].ToString();
-        clsEditionEtatClientFournisseur.TI_TVA = row["TI_TVA"].ToString();
-        clsEditionEtatClientFournisseur.TI_STATUTDOUTEUX = row["TI_STATUTDOUTEUX"].ToString();
-        clsEditionEtatClientFournisseur.TI_PLAFONDCREDIT = (row["TI_PLAFONDCREDIT"].ToString() != "") ? double.Parse(row["TI_PLAFONDCREDIT"].ToString()): 0;//double.Parse( row["TI_PLAFONDCREDIT"].ToString()).ToString();
-                        clsEditionEtatClientFournisseur.TI_NUMCPTECONTIBUABLE = row["TI_NUMCPTECONTIBUABLE"].ToString();
-        clsEditionEtatClientFournisseur.TI_TAUXREMISE = row["TI_TAUXREMISE"].ToString();
-        clsEditionEtatClientFournisseur.TI_SOLDE = (row["TI_SOLDE"].ToString() != "") ? double.Parse(row["TI_SOLDE"].ToString()): 0;// double.Parse(row["TI_SOLDE"].ToString()).ToString();
-                        clsEditionEtatClientFournisseur.TI_CHIFFREAFFAIRE = (row["TI_CHIFFREAFFAIRE"].ToString() != "") ? double.Parse(row["TI_CHIFFREAFFAIRE"].ToString()) : 0;// double.Parse(row["TI_CHIFFREAFFAIRE"].ToString()).ToString();
-                        clsEditionEtatClientFournisseur.FR_CODEFOURNISSEUR = row["FR_CODEFOURNISSEUR"].ToString();
-        clsEditionEtatClientFournisseur.TF_CODETYPEFOURNISSEUR = row["TF_CODETYPEFOURNISSEUR"].ToString();
-        clsEditionEtatClientFournisseur.TF_LIBELLE = row["TF_LIBELLE"].ToString();
-        clsEditionEtatClientFournisseur.FR_MATRICULE = row["FR_MATRICULE"].ToString();
-        clsEditionEtatClientFournisseur.FR_DENOMINATION = row["FR_DENOMINATION"].ToString();
-        clsEditionEtatClientFournisseur.FR_SIEGE = row["FR_SIEGE"].ToString();
-        clsEditionEtatClientFournisseur.FR_ADRESSEPOSTALE = row["FR_ADRESSEPOSTALE"].ToString();
-        clsEditionEtatClientFournisseur.FR_ADRESSEGEOGRAPHIQUE = row["FR_ADRESSEGEOGRAPHIQUE"].ToString();
-        clsEditionEtatClientFournisseur.FR_TELEPHONE = row["FR_TELEPHONE"].ToString();
-        clsEditionEtatClientFournisseur.FR_SITEWEB = row["FR_SITEWEB"].ToString();
-        clsEditionEtatClientFournisseur.FR_EMAIL = row["FR_EMAIL"].ToString();
-        clsEditionEtatClientFournisseur.FR_GERANT = row["FR_GERANT"].ToString();
-        clsEditionEtatClientFournisseur.FR_STATUT = row["FR_STATUT"].ToString();
-        clsEditionEtatClientFournisseur.CO_CODECOMMUNE = row["CO_CODECOMMUNE"].ToString();
-        clsEditionEtatClientFournisseur.CO_LIBELLE = row["CO_LIBELLE"].ToString();
-        clsEditionEtatClientFournisseur.SX_LIBELLE = row["SX_LIBELLE"].ToString();
-        clsEditionEtatClientFournisseur.clsObjetRetour = new Common.clsObjetRetour();
-        clsEditionEtatClientFournisseur.clsObjetRetour.SL_CODEMESSAGE ="00";
-        clsEditionEtatClientFournisseur.clsObjetRetour.SL_RESULTAT = "TRUE";
-        clsEditionEtatClientFournisseur.clsObjetRetour.SL_MESSAGE ="Opération réalisée avec succès !!!";
-        clsEditionEtatClientFournisseurs.Add(clsEditionEtatClientFournisseur);
-    }
+        if (Objet[0].ET_TYPEETAT == "LTI") {
+
+                        foreach (DataRow row in DataSet.Tables[0].Rows)
+                        {
+                            // Vérifiez si l'objet avec ce TI_IDTIERS existe déjà dans la liste
+                            string tiIdTiers = row["TI_IDTIERS"].ToString();
+                            string tiCODERISQUE = row["RQ_CODERISQUE"].ToString();
+                            var existingClient = clsEditionEtatClientFournisseurs.FirstOrDefault(client => client.TI_IDTIERS == tiIdTiers);
+
+                            // Si l'objet n'existe pas, créez un nouveau et ajoutez-le à la liste
+                            if (existingClient == null)
+                            {
+
+                                HT_Stock.BOJ.clsEditionEtatClientFournisseur clsEditionEtatClientFournisseur = new HT_Stock.BOJ.clsEditionEtatClientFournisseur();
+                                clsEditionEtatClientFournisseur.CL_IDCLIENT = row["CL_IDCLIENT"].ToString();
+                                clsEditionEtatClientFournisseur.AG_CODEAGENCE = row["AG_CODEAGENCE"].ToString();
+                                clsEditionEtatClientFournisseur.SX_CODESEXE = row["SX_CODESEXE"].ToString();
+                                clsEditionEtatClientFournisseur.SM_CODESITUATIONMATRIMONIALE = row["SM_CODESITUATIONMATRIMONIALE"].ToString();
+                                clsEditionEtatClientFournisseur.PF_CODEPROFESSION = row["PF_CODEPROFESSION"].ToString();
+                                clsEditionEtatClientFournisseur.AC_CODEACTIVITE = row["AC_CODEACTIVITE"].ToString();
+                                clsEditionEtatClientFournisseur.TP_CODETYPECLIENT = row["TP_CODETYPECLIENT"].ToString();
+                                clsEditionEtatClientFournisseur.TP_LIBELLE = row["TP_LIBELLE"].ToString();
+                                clsEditionEtatClientFournisseur.OP_CODEOPERATEUR = row["OP_CODEOPERATEUR"].ToString();
+                                clsEditionEtatClientFournisseur.CL_NUMCLIENT = row["CL_NUMCLIENT"].ToString();
+                                clsEditionEtatClientFournisseur.CL_DATENAISSANCE = (row["CL_DATENAISSANCE"].ToString() != "") ? DateTime.Parse(row["CL_DATENAISSANCE"].ToString()).ToShortDateString() : "01/01/1900";//DateTime.Parse( row["CL_DATENAISSANCE"].ToString()).ToShortDateString();
+                                clsEditionEtatClientFournisseur.CL_DENOMINATION = row["CL_DENOMINATION"].ToString();
+                                clsEditionEtatClientFournisseur.CL_DESCRIPTIONCLIENT = row["CL_DESCRIPTIONCLIENT"].ToString();
+                                clsEditionEtatClientFournisseur.CL_ADRESSEPOSTALE = row["CL_ADRESSEPOSTALE"].ToString();
+                                clsEditionEtatClientFournisseur.CL_ADRESSEGEOGRAPHIQUE = row["CL_ADRESSEGEOGRAPHIQUE"].ToString();
+                                clsEditionEtatClientFournisseur.CL_TELEPHONE = row["CL_TELEPHONE"].ToString();
+                                clsEditionEtatClientFournisseur.CL_FAX = row["CL_FAX"].ToString();
+                                clsEditionEtatClientFournisseur.CL_SITEWEB = row["CL_SITEWEB"].ToString();
+                                clsEditionEtatClientFournisseur.CL_EMAIL = row["CL_EMAIL"].ToString();
+                                clsEditionEtatClientFournisseur.CL_GERANT = row["CL_GERANT"].ToString();
+                                clsEditionEtatClientFournisseur.CL_STATUT = row["CL_STATUT"].ToString();
+                                clsEditionEtatClientFournisseur.CL_DATESAISIE = (row["CL_DATESAISIE"].ToString() != "") ? DateTime.Parse(row["CL_DATESAISIE"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["CL_DATESAISIE"].ToString()).ToShortDateString();
+                                clsEditionEtatClientFournisseur.CL_DATEDEPART = (row["CL_DATEDEPART"].ToString() != "") ? DateTime.Parse(row["CL_DATEDEPART"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["CL_DATEDEPART"].ToString()).ToShortDateString();
+                                clsEditionEtatClientFournisseur.CL_ASDI = row["CL_ASDI"].ToString();
+                                clsEditionEtatClientFournisseur.CL_TVA = row["CL_TVA"].ToString();
+                                clsEditionEtatClientFournisseur.CL_STATUTDOUTEUX = (row["CL_STATUTDOUTEUX"].ToString() != "") ? double.Parse(row["CL_STATUTDOUTEUX"].ToString()) : 0;//row["CL_STATUTDOUTEUX"].ToString();
+                                clsEditionEtatClientFournisseur.CL_PLAFONDCREDIT = (row["CL_PLAFONDCREDIT"].ToString() != "") ? double.Parse(row["CL_PLAFONDCREDIT"].ToString()) : 0;// double.Parse(row["CL_PLAFONDCREDIT"].ToString()).ToString();
+                                clsEditionEtatClientFournisseur.CL_NUMCPTECONTIBUABLE = row["CL_NUMCPTECONTIBUABLE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_IDTIERS = row["TI_IDTIERS"].ToString();
+                                clsEditionEtatClientFournisseur.TP_CODETYPETIERS = row["TP_CODETYPETIERS"].ToString();
+                                clsEditionEtatClientFournisseur.PL_CODENUMCOMPTE = row["PL_CODENUMCOMPTE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_NUMTIERS = row["TI_NUMTIERS"].ToString();
+                                clsEditionEtatClientFournisseur.TI_DATENAISSANCE = (row["TI_DATENAISSANCE"].ToString() != "") ? DateTime.Parse(row["TI_DATENAISSANCE"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["TI_DATENAISSANCE"].ToString()).ToShortDateString();
+                                clsEditionEtatClientFournisseur.TI_DENOMINATION = row["TI_DENOMINATION"].ToString();
+                                clsEditionEtatClientFournisseur.TI_DESCRIPTIONTIERS = row["TI_DESCRIPTIONTIERS"].ToString();
+                                clsEditionEtatClientFournisseur.TI_ADRESSEPOSTALE = row["TI_ADRESSEPOSTALE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_ADRESSEGEOGRAPHIQUE = row["TI_ADRESSEGEOGRAPHIQUE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_TELEPHONE = row["TI_TELEPHONE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_FAX = row["TI_FAX"].ToString();
+                                clsEditionEtatClientFournisseur.TI_SITEWEB = row["TI_SITEWEB"].ToString();
+                                clsEditionEtatClientFournisseur.TI_EMAIL = row["TI_EMAIL"].ToString();
+                                clsEditionEtatClientFournisseur.TI_GERANT = row["TI_GERANT"].ToString();
+                                clsEditionEtatClientFournisseur.TI_STATUT = row["TI_STATUT"].ToString();
+                                clsEditionEtatClientFournisseur.TI_DATESAISIE = (row["TI_DATESAISIE"].ToString() != "") ? DateTime.Parse(row["TI_DATESAISIE"].ToString()).ToShortDateString() : "01/01/1900";//  DateTime.Parse(row["TI_DATESAISIE"].ToString()).ToShortDateString();
+                                clsEditionEtatClientFournisseur.TI_DATEDEPART = (row["TI_DATEDEPART"].ToString() != "") ? DateTime.Parse(row["TI_DATEDEPART"].ToString()).ToShortDateString() : "01/01/1900";//  DateTime.Parse(row["TI_DATEDEPART"].ToString()).ToShortDateString();
+                                if (row["RQ_CODERISQUE"].ToString() == "04")
+                                {
+                                    clsEditionEtatClientFournisseur.TI_ASDI = "RV";
+                                }
+                                else
+                                {
+                                    clsEditionEtatClientFournisseur.TI_ASDI = "RD";
+                                }
+                                //clsEditionEtatClientFournisseur.TI_ASDI = row["RQ_CODERISQUE"].ToString(); //row["TI_ASDI"].ToString();
+                                clsEditionEtatClientFournisseur.TI_TVA = row["VL_LIBELLE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_STATUTDOUTEUX = row["TI_STATUTDOUTEUX"].ToString();
+                                clsEditionEtatClientFournisseur.TI_PLAFONDCREDIT = (row["TI_PLAFONDCREDIT"].ToString() != "") ? double.Parse(row["TI_PLAFONDCREDIT"].ToString()) : 0;//double.Parse( row["TI_PLAFONDCREDIT"].ToString()).ToString();
+                                clsEditionEtatClientFournisseur.TI_NUMCPTECONTIBUABLE = row["TI_NUMCPTECONTIBUABLE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_TAUXREMISE = row["TI_TAUXREMISE"].ToString();
+                                clsEditionEtatClientFournisseur.TI_SOLDE = (row["TI_SOLDE"].ToString() != "") ? double.Parse(row["TI_SOLDE"].ToString()) : 0;// double.Parse(row["TI_SOLDE"].ToString()).ToString();
+                                clsEditionEtatClientFournisseur.TI_CHIFFREAFFAIRE = (row["TI_CHIFFREAFFAIRE"].ToString() != "") ? double.Parse(row["TI_CHIFFREAFFAIRE"].ToString()) : 0;// double.Parse(row["TI_CHIFFREAFFAIRE"].ToString()).ToString();
+                                clsEditionEtatClientFournisseur.FR_CODEFOURNISSEUR = row["FR_CODEFOURNISSEUR"].ToString();
+                                clsEditionEtatClientFournisseur.TF_CODETYPEFOURNISSEUR = row["TF_CODETYPEFOURNISSEUR"].ToString();
+                                clsEditionEtatClientFournisseur.TF_LIBELLE = row["TF_LIBELLE"].ToString();
+                                clsEditionEtatClientFournisseur.FR_MATRICULE = row["FR_MATRICULE"].ToString();
+                                clsEditionEtatClientFournisseur.FR_DENOMINATION = row["FR_DENOMINATION"].ToString();
+                                clsEditionEtatClientFournisseur.FR_SIEGE = row["FR_SIEGE"].ToString();
+                                clsEditionEtatClientFournisseur.FR_ADRESSEPOSTALE = row["FR_ADRESSEPOSTALE"].ToString();
+                                clsEditionEtatClientFournisseur.FR_ADRESSEGEOGRAPHIQUE = row["FR_ADRESSEGEOGRAPHIQUE"].ToString();
+                                clsEditionEtatClientFournisseur.FR_TELEPHONE = row["FR_TELEPHONE"].ToString();
+                                clsEditionEtatClientFournisseur.FR_SITEWEB = row["FR_SITEWEB"].ToString();
+                                clsEditionEtatClientFournisseur.FR_EMAIL = row["FR_EMAIL"].ToString();
+                                clsEditionEtatClientFournisseur.FR_GERANT = row["FR_GERANT"].ToString();
+                                clsEditionEtatClientFournisseur.FR_STATUT = row["FR_STATUT"].ToString();
+                                clsEditionEtatClientFournisseur.CO_CODECOMMUNE = row["CO_CODECOMMUNE"].ToString();
+                                clsEditionEtatClientFournisseur.CO_LIBELLE = row["PF_LIBELLE"].ToString();// row["CO_LIBELLE"].ToString();
+                                clsEditionEtatClientFournisseur.SX_LIBELLE = row["SX_LIBELLE"].ToString();
+                                clsEditionEtatClientFournisseur.clsObjetRetour = new Common.clsObjetRetour();
+                                clsEditionEtatClientFournisseur.clsObjetRetour.SL_CODEMESSAGE = "00";
+                                clsEditionEtatClientFournisseur.clsObjetRetour.SL_RESULTAT = "TRUE";
+                                clsEditionEtatClientFournisseur.clsObjetRetour.SL_MESSAGE = "Opération réalisée avec succès !!!";
+                                clsEditionEtatClientFournisseurs.Add(clsEditionEtatClientFournisseur);
+
+
+
+                            }
+                            else 
+                            {
+                                foreach (var client in clsEditionEtatClientFournisseurs)
+                                {
+                                    // Vérifie si le client existe déjà et que le tiCODERISQUE est "04"
+                                    if (client.TI_IDTIERS == tiIdTiers)
+                                    {
+                                        // Mettre à jour le TI_STATUT à "RV"
+                                        client.TI_STATUT = "RD";
+                                    }
+                                }
+                            }/*else if (existingClient != null && tiCODERISQUE == "04")
+                            {
+                                foreach (var client in clsEditionEtatClientFournisseurs)
+                                {
+                                    // Vérifie si le client existe déjà et que le tiCODERISQUE est "04"
+                                    if (client.TI_IDTIERS == tiIdTiers && tiCODERISQUE == "04")
+                                    {
+                                        // Mettre à jour le TI_STATUT à "RV"
+                                        client.TI_STATUT = "RV";
+                                    }
+                                }
+                            }*/
+
+                        }
+                    }
+                    else
+                    {
+                        foreach (DataRow row in DataSet.Tables[0].Rows)
+                        {
+                            HT_Stock.BOJ.clsEditionEtatClientFournisseur clsEditionEtatClientFournisseur = new HT_Stock.BOJ.clsEditionEtatClientFournisseur();
+                            clsEditionEtatClientFournisseur.CL_IDCLIENT = row["CL_IDCLIENT"].ToString();
+                            clsEditionEtatClientFournisseur.AG_CODEAGENCE = row["AG_CODEAGENCE"].ToString();
+                            clsEditionEtatClientFournisseur.SX_CODESEXE = row["SX_CODESEXE"].ToString();
+                            clsEditionEtatClientFournisseur.SM_CODESITUATIONMATRIMONIALE = row["SM_CODESITUATIONMATRIMONIALE"].ToString();
+                            clsEditionEtatClientFournisseur.PF_CODEPROFESSION = row["PF_CODEPROFESSION"].ToString();
+                            clsEditionEtatClientFournisseur.AC_CODEACTIVITE = row["AC_CODEACTIVITE"].ToString();
+                            clsEditionEtatClientFournisseur.TP_CODETYPECLIENT = row["TP_CODETYPECLIENT"].ToString();
+                            clsEditionEtatClientFournisseur.TP_LIBELLE = row["TP_LIBELLE"].ToString();
+                            clsEditionEtatClientFournisseur.OP_CODEOPERATEUR = row["OP_CODEOPERATEUR"].ToString();
+                            clsEditionEtatClientFournisseur.CL_NUMCLIENT = row["CL_NUMCLIENT"].ToString();
+                            clsEditionEtatClientFournisseur.CL_DATENAISSANCE = (row["CL_DATENAISSANCE"].ToString() != "") ? DateTime.Parse(row["CL_DATENAISSANCE"].ToString()).ToShortDateString() : "01/01/1900";//DateTime.Parse( row["CL_DATENAISSANCE"].ToString()).ToShortDateString();
+                            clsEditionEtatClientFournisseur.CL_DENOMINATION = row["CL_DENOMINATION"].ToString();
+                            clsEditionEtatClientFournisseur.CL_DESCRIPTIONCLIENT = row["CL_DESCRIPTIONCLIENT"].ToString();
+                            clsEditionEtatClientFournisseur.CL_ADRESSEPOSTALE = row["CL_ADRESSEPOSTALE"].ToString();
+                            clsEditionEtatClientFournisseur.CL_ADRESSEGEOGRAPHIQUE = row["CL_ADRESSEGEOGRAPHIQUE"].ToString();
+                            clsEditionEtatClientFournisseur.CL_TELEPHONE = row["CL_TELEPHONE"].ToString();
+                            clsEditionEtatClientFournisseur.CL_FAX = row["CL_FAX"].ToString();
+                            clsEditionEtatClientFournisseur.CL_SITEWEB = row["CL_SITEWEB"].ToString();
+                            clsEditionEtatClientFournisseur.CL_EMAIL = row["CL_EMAIL"].ToString();
+                            clsEditionEtatClientFournisseur.CL_GERANT = row["CL_GERANT"].ToString();
+                            clsEditionEtatClientFournisseur.CL_STATUT = row["CL_STATUT"].ToString();
+                            clsEditionEtatClientFournisseur.CL_DATESAISIE = (row["CL_DATESAISIE"].ToString() != "") ? DateTime.Parse(row["CL_DATESAISIE"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["CL_DATESAISIE"].ToString()).ToShortDateString();
+                            clsEditionEtatClientFournisseur.CL_DATEDEPART = (row["CL_DATEDEPART"].ToString() != "") ? DateTime.Parse(row["CL_DATEDEPART"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["CL_DATEDEPART"].ToString()).ToShortDateString();
+                            clsEditionEtatClientFournisseur.CL_ASDI = row["CL_ASDI"].ToString();
+                            clsEditionEtatClientFournisseur.CL_TVA = row["CL_TVA"].ToString();
+                            clsEditionEtatClientFournisseur.CL_STATUTDOUTEUX = (row["CL_STATUTDOUTEUX"].ToString() != "") ? double.Parse(row["CL_STATUTDOUTEUX"].ToString()) : 0;//row["CL_STATUTDOUTEUX"].ToString();
+                            clsEditionEtatClientFournisseur.CL_PLAFONDCREDIT = (row["CL_PLAFONDCREDIT"].ToString() != "") ? double.Parse(row["CL_PLAFONDCREDIT"].ToString()) : 0;// double.Parse(row["CL_PLAFONDCREDIT"].ToString()).ToString();
+                            clsEditionEtatClientFournisseur.CL_NUMCPTECONTIBUABLE = row["CL_NUMCPTECONTIBUABLE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_IDTIERS = row["TI_IDTIERS"].ToString();
+                            clsEditionEtatClientFournisseur.TP_CODETYPETIERS = row["TP_CODETYPETIERS"].ToString();
+                            clsEditionEtatClientFournisseur.PL_CODENUMCOMPTE = row["PL_CODENUMCOMPTE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_NUMTIERS = row["TI_NUMTIERS"].ToString();
+                            clsEditionEtatClientFournisseur.TI_DATENAISSANCE = (row["TI_DATENAISSANCE"].ToString() != "") ? DateTime.Parse(row["TI_DATENAISSANCE"].ToString()).ToShortDateString() : "01/01/1900";// DateTime.Parse(row["TI_DATENAISSANCE"].ToString()).ToShortDateString();
+                            clsEditionEtatClientFournisseur.TI_DENOMINATION = row["TI_DENOMINATION"].ToString();
+                            clsEditionEtatClientFournisseur.TI_DESCRIPTIONTIERS = row["TI_DESCRIPTIONTIERS"].ToString();
+                            clsEditionEtatClientFournisseur.TI_ADRESSEPOSTALE = row["TI_ADRESSEPOSTALE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_ADRESSEGEOGRAPHIQUE = row["TI_ADRESSEGEOGRAPHIQUE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_TELEPHONE = row["TI_TELEPHONE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_FAX = row["TI_FAX"].ToString();
+                            clsEditionEtatClientFournisseur.TI_SITEWEB = row["TI_SITEWEB"].ToString();
+                            clsEditionEtatClientFournisseur.TI_EMAIL = row["TI_EMAIL"].ToString();
+                            clsEditionEtatClientFournisseur.TI_GERANT = row["TI_GERANT"].ToString();
+                            clsEditionEtatClientFournisseur.TI_STATUT = row["TI_STATUT"].ToString();
+                            clsEditionEtatClientFournisseur.TI_DATESAISIE = (row["TI_DATESAISIE"].ToString() != "") ? DateTime.Parse(row["TI_DATESAISIE"].ToString()).ToShortDateString() : "01/01/1900";//  DateTime.Parse(row["TI_DATESAISIE"].ToString()).ToShortDateString();
+                            clsEditionEtatClientFournisseur.TI_DATEDEPART = (row["TI_DATEDEPART"].ToString() != "") ? DateTime.Parse(row["TI_DATEDEPART"].ToString()).ToShortDateString() : "01/01/1900";//  DateTime.Parse(row["TI_DATEDEPART"].ToString()).ToShortDateString();
+                            clsEditionEtatClientFournisseur.TI_ASDI = row["TI_ASDI"].ToString();
+                            clsEditionEtatClientFournisseur.TI_TVA = row["VL_LIBELLE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_STATUTDOUTEUX = row["TI_STATUTDOUTEUX"].ToString();
+                            clsEditionEtatClientFournisseur.TI_PLAFONDCREDIT = (row["TI_PLAFONDCREDIT"].ToString() != "") ? double.Parse(row["TI_PLAFONDCREDIT"].ToString()) : 0;//double.Parse( row["TI_PLAFONDCREDIT"].ToString()).ToString();
+                            clsEditionEtatClientFournisseur.TI_NUMCPTECONTIBUABLE = row["TI_NUMCPTECONTIBUABLE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_TAUXREMISE = row["TI_TAUXREMISE"].ToString();
+                            clsEditionEtatClientFournisseur.TI_SOLDE = (row["TI_SOLDE"].ToString() != "") ? double.Parse(row["TI_SOLDE"].ToString()) : 0;// double.Parse(row["TI_SOLDE"].ToString()).ToString();
+                            clsEditionEtatClientFournisseur.TI_CHIFFREAFFAIRE = (row["TI_CHIFFREAFFAIRE"].ToString() != "") ? double.Parse(row["TI_CHIFFREAFFAIRE"].ToString()) : 0;// double.Parse(row["TI_CHIFFREAFFAIRE"].ToString()).ToString();
+                            clsEditionEtatClientFournisseur.FR_CODEFOURNISSEUR = row["FR_CODEFOURNISSEUR"].ToString();
+                            clsEditionEtatClientFournisseur.TF_CODETYPEFOURNISSEUR = row["TF_CODETYPEFOURNISSEUR"].ToString();
+                            clsEditionEtatClientFournisseur.TF_LIBELLE = row["TF_LIBELLE"].ToString();
+                            clsEditionEtatClientFournisseur.FR_MATRICULE = row["FR_MATRICULE"].ToString();
+                            clsEditionEtatClientFournisseur.FR_DENOMINATION = row["FR_DENOMINATION"].ToString();
+                            clsEditionEtatClientFournisseur.FR_SIEGE = row["FR_SIEGE"].ToString();
+                            clsEditionEtatClientFournisseur.FR_ADRESSEPOSTALE = row["FR_ADRESSEPOSTALE"].ToString();
+                            clsEditionEtatClientFournisseur.FR_ADRESSEGEOGRAPHIQUE = row["FR_ADRESSEGEOGRAPHIQUE"].ToString();
+                            clsEditionEtatClientFournisseur.FR_TELEPHONE = row["FR_TELEPHONE"].ToString();
+                            clsEditionEtatClientFournisseur.FR_SITEWEB = row["FR_SITEWEB"].ToString();
+                            clsEditionEtatClientFournisseur.FR_EMAIL = row["FR_EMAIL"].ToString();
+                            clsEditionEtatClientFournisseur.FR_GERANT = row["FR_GERANT"].ToString();
+                            clsEditionEtatClientFournisseur.FR_STATUT = row["FR_STATUT"].ToString();
+                            clsEditionEtatClientFournisseur.CO_CODECOMMUNE = row["CO_CODECOMMUNE"].ToString();
+                            clsEditionEtatClientFournisseur.CO_LIBELLE = row["CO_LIBELLE"].ToString();
+                            clsEditionEtatClientFournisseur.SX_LIBELLE = row["SX_LIBELLE"].ToString();
+                            clsEditionEtatClientFournisseur.clsObjetRetour = new Common.clsObjetRetour();
+                            clsEditionEtatClientFournisseur.clsObjetRetour.SL_CODEMESSAGE = "00";
+                            clsEditionEtatClientFournisseur.clsObjetRetour.SL_RESULTAT = "TRUE";
+                            clsEditionEtatClientFournisseur.clsObjetRetour.SL_MESSAGE = "Opération réalisée avec succès !!!";
+                            clsEditionEtatClientFournisseurs.Add(clsEditionEtatClientFournisseur);
+                        }
+                    }
+        
     }
     else
     {

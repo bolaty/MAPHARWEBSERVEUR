@@ -34,6 +34,19 @@ namespace Stock.WCF
         ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
         ///<author>Home Technology</author>
         ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsEditionEtatAssurance.svc/pvgInsertIntoDatasetEtatAssurance
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodeEditionEtatAssurance": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEEditionEtatAssurance}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgInsertIntoDatasetEtatAssuranceTableauGestionCommission", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsEditionEtatAssurance> pvgInsertIntoDatasetEtatAssuranceTableauGestionCommission(List<HT_Stock.BOJ.clsEditionEtatAssurance> Objet);
+
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
         //// http://localhost:2723/Service/wsEditionEtatAssurance.svc/pvgInsertIntoDatasetEtatAssuranceAppercu
         ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodeEditionEtatAssurance": "","Libelle": "", "TYPEOPERATION": ""}]}
         [OperationContract]
@@ -52,6 +65,33 @@ namespace Stock.WCF
         //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEEditionEtatAssurance}/{TYPEOPERATION}")]
         [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgInsertIntoDatasetEtatAssuranceEncaissementCheque", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
         List<HT_Stock.BOJ.clsEditionEtatAssurance> pvgInsertIntoDatasetEtatAssuranceEncaissementCheque(List<HT_Stock.BOJ.clsEditionEtatAssurance> Objet);
+
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsEditionEtatAssurance.svc/pvgInsertIntoDatasetEtatAssuranceAnnuler
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodeEditionEtatAssurance": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEEditionEtatAssurance}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgInsertIntoDatasetEtatAssuranceAnnuler", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsEditionEtatAssurance> pvgInsertIntoDatasetEtatAssuranceAnnuler(List<HT_Stock.BOJ.clsEditionEtatAssurance> Objet);
+
+
+        ///<summary>Cette fonction permet de d'executer une requete SELECT dans la base de donnees </summary>
+        ///<param name="Objet">Collection de clsInput </param>
+        ///<returns>Une collection de clsInput valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        ///  PARAMETRES DE TEST POSTMAN
+        //// http://localhost:2723/Service/wsEditionEtatAssurance.svc/pvgInsertIntoDatasetEtatAssuranceReglementAnnuler
+        ///  {"Objet" :[{"CodeAgence": "","CodeOperateur": "","CodeEditionEtatAssurance": "","Libelle": "", "TYPEOPERATION": ""}]}
+        [OperationContract]
+        //[WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Wrapped, UriTemplate = "pvgSelectListe/{PO_CODEEditionEtatAssurance}/{TYPEOPERATION}")]
+        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json, UriTemplate = "pvgInsertIntoDatasetEtatAssuranceReglementAnnuler", ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.WrappedRequest)]
+        List<HT_Stock.BOJ.clsEditionEtatAssurance> pvgInsertIntoDatasetEtatAssuranceReglementAnnuler(List<HT_Stock.BOJ.clsEditionEtatAssurance> Objet);
+
 
 
 

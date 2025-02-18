@@ -163,12 +163,24 @@ namespace Stock.WSBLL
 			return clsCtcontratchequeWSDAL.pvgChargerDansDataSet(clsDonnee, clsObjetEnvoi.OE_PARAM);
 		}
 
-		///<summaryCette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete  (Ordre Critères : AG_CODEAGENCE, CH_DATESAISIECHEQUE, CH_IDEXCHEQUE, AB_CODEAGENCEBANCAIRE, OP_CODEOPERATEUR ) </summary>
+        ///<summary>Cette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete (Ordre Critères : AG_CODEAGENCE, CH_DATESAISIECHEQUE, CH_IDEXCHEQUE, AB_CODEAGENCEBANCAIRE, OP_CODEOPERATEUR ) </summary>
 		///<param name=clsDonnee>Classe d'acces aux donnees</param>
 		///<param name="clsObjetEnvoi">clsObjetEnvoi</param>
 		///<returns>Un DataSet comme valeur du résultat de la requete</returns>
 		///<author>Home Technology</author>
-		public DataSet pvgChargerDansDataSetPourCombo(clsDonnee clsDonnee,clsObjetEnvoi clsObjetEnvoi)
+		public DataSet pvgChargerDansDataSetChequeRegler(clsDonnee clsDonnee, clsObjetEnvoi clsObjetEnvoi)
+        {
+            return clsCtcontratchequeWSDAL.pvgChargerDansDataSetChequeRegler(clsDonnee, clsObjetEnvoi.OE_PARAM);
+        }
+
+        
+
+        ///<summaryCette fonction permet d'executer une requete select dans la base de donnees et de remplir un Dataset avec le resultat de la requete  (Ordre Critères : AG_CODEAGENCE, CH_DATESAISIECHEQUE, CH_IDEXCHEQUE, AB_CODEAGENCEBANCAIRE, OP_CODEOPERATEUR ) </summary>
+        ///<param name=clsDonnee>Classe d'acces aux donnees</param>
+        ///<param name="clsObjetEnvoi">clsObjetEnvoi</param>
+        ///<returns>Un DataSet comme valeur du résultat de la requete</returns>
+        ///<author>Home Technology</author>
+        public DataSet pvgChargerDansDataSetPourCombo(clsDonnee clsDonnee,clsObjetEnvoi clsObjetEnvoi)
 		{
 			return clsCtcontratchequeWSDAL.pvgChargerDansDataSetPourCombo(clsDonnee, clsObjetEnvoi.OE_PARAM);
 		}

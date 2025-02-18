@@ -718,7 +718,7 @@ namespace Stock.WCF
                 clsCtcontratchequephoto.BQ_SIGLE = row["BQ_SIGLE"].ToString();
                 clsCtcontratchequephoto.TI_NUMTIERSASSUREUR = row["TI_NUMTIERSASSUREUR"].ToString();
                 clsCtcontratchequephoto.TI_DENOMINATIONASSUREUR = row["TI_DENOMINATIONASSUREUR"].ToString();
-                    
+                clsCtcontratchequephoto.TA_LIBLLETYPEAFFAIRES = row["TA_LIBLLETYPEAFFAIRES"].ToString();                    
                         
                     //private string _TI_NUMTIERS = "";
                     //private string _AB_LIBELLE = "";

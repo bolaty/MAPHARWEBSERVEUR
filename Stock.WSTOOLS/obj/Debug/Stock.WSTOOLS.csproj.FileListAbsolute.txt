@@ -57,3 +57,4 @@ C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\Newtonsoft.Json.
 C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\bin\Debug\log4net.xml
 C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.dll
 C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.pdb
+C:\MAPHARPROJETDU28022022\ProjetServeur\Stock.WSTOOLS\obj\Debug\Stock.WSTOOLS.csprojResolveAssemblyReference.cache

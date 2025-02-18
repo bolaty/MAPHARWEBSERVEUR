@@ -18,6 +18,23 @@ namespace Stock.WSBLL
         {
             return clsEditionEtatAssuranceWSDAL.pvgInsertIntoDatasetEtatAssurance(clsDonnee, clsEditionEtatAssurance, clsObjetEnvoi.OE_PARAM);
         }
+
+        public DataSet pvgInsertIntoDatasetEtatAssuranceTableauGestionCommission(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, clsObjetEnvoi clsObjetEnvoi)
+        {
+            return clsEditionEtatAssuranceWSDAL.pvgInsertIntoDatasetEtatAssuranceTableauGestionCommission(clsDonnee, clsEditionEtatAssurance, clsObjetEnvoi.OE_PARAM);
+        }
+
+        public DataSet pvgInsertIntoDatasetEtatAssuranceTableauGestion(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, clsObjetEnvoi clsObjetEnvoi)
+        {
+            return clsEditionEtatAssuranceWSDAL.pvgInsertIntoDatasetEtatAssuranceTableauGestion(clsDonnee, clsEditionEtatAssurance, clsObjetEnvoi.OE_PARAM);
+        }
+
+
+        public DataSet pvgInsertIntoDatasetEtatAssuranceAnnuler(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, clsObjetEnvoi clsObjetEnvoi)
+        {
+            return clsEditionEtatAssuranceWSDAL.pvgInsertIntoDatasetEtatAssuranceAnnuler(clsDonnee, clsEditionEtatAssurance, clsObjetEnvoi.OE_PARAM);
+        }
+
         public DataSet pvgInsertIntoDatasetEtatSynoptique(clsDonnee clsDonnee, clsEditionEtatAssurance clsEditionEtatAssurance, clsObjetEnvoi clsObjetEnvoi)
         {
             return clsEditionEtatAssuranceWSDAL.pvgInsertIntoDatasetEtatSynoptique(clsDonnee, clsEditionEtatAssurance, clsObjetEnvoi.OE_PARAM);

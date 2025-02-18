@@ -398,7 +398,7 @@ namespace Stock.WSDAL
 
 
         vapNomParametre = new string[] { "@CODECRYPTAGE", "@AG_CODEAGENCE",  "@CA_CODECONTRAT", "@OP_CODEOPERATEUREDITION", "@CH_DATESAISIECHEQUE1", "@CH_DATESAISIECHEQUE2", "@RQ_CODERISQUE", "@TA_CODETYPEAFFAIRES", "@TYPEOPERATION" };
-        vapValeurParametre = new object[] { clsDonnee.vogCleCryptage, vppCritere[0], vppCritere[1], vppCritere[2], vppCritere[3], vppCritere[4], vppCritere[5], vppCritere[6], vppCritere[7]  };
+        vapValeurParametre = new object[] { clsDonnee.vogCleCryptage, vppCritere[0], vppCritere[1], vppCritere[2], vppCritere[3], vppCritere[4], vppCritere[5].Replace("''", "'"), vppCritere[6], vppCritere[7]  };
         this.vapRequete = "EXEC PS_ETATCTCONTRATCHEQUE @AG_CODEAGENCE,@CA_CODECONTRAT,@OP_CODEOPERATEUREDITION,@CH_DATESAISIECHEQUE1,@CH_DATESAISIECHEQUE2, @RQ_CODERISQUE, @TA_CODETYPEAFFAIRES, @TYPEOPERATION,@CODECRYPTAGE ";
         this.vapCritere = "";
         SqlCommand vppSqlCmd = new SqlCommand(this.vapRequete, clsDonnee.vogObjetConnexionLocal, clsDonnee.vogObjetTransactionLocal);

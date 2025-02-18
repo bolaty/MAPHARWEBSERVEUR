@@ -134,7 +134,54 @@ namespace HT_Stock.BOJ
         private double _AFFAIRENOUVELLE = 0;
         private string _TVH_LIBELE = "";    
         private string _TI_IDTIERSCLIENT = ""; 
-        private string _EX_EXERCICE = ""; 
+        private string _EX_EXERCICE = "";
+
+
+        private double _TOTALFACTURE = 0;
+        private double _TOTALFACTUREREGLE = 0;
+
+        private double _TOTALFACTURERESTANTAREGLE = 0;
+        private double _TOTALPRIMESPOLICE = 0;
+        private double _TOTALPRIMEREGLES = 0;
+        private double _TOTALRESTAPAYER = 0;
+
+
+
+
+        public double TOTALFACTURE
+        {
+            get { return _TOTALFACTURE; }
+            set { _TOTALFACTURE = value; }
+        }
+        public double TOTALFACTUREREGLE
+        {
+            get { return _TOTALFACTUREREGLE; }
+            set { _TOTALFACTUREREGLE = value; }
+        }
+        public double TOTALFACTURERESTANTAREGLE
+        {
+            get { return _TOTALFACTURERESTANTAREGLE; }
+            set { _TOTALFACTURERESTANTAREGLE = value; }
+        }
+
+
+        public double TOTALPRIMESPOLICE
+        {
+            get { return _TOTALPRIMESPOLICE; }
+            set { _TOTALPRIMESPOLICE = value; }
+        }
+        public double TOTALPRIMEREGLES
+        {
+            get { return _TOTALPRIMEREGLES; }
+            set { _TOTALPRIMEREGLES = value; }
+        }
+        public double TOTALRESTAPAYER
+        {
+            get { return _TOTALRESTAPAYER; }
+            set { _TOTALRESTAPAYER = value; }
+        }
+
+
         public string RQ_LIBELLERISQUE
         {
             get { return _RQ_LIBELLERISQUE; }
@@ -661,6 +708,15 @@ namespace HT_Stock.BOJ
             TVH_LIBELE = clsEditionEtatAssurance.TVH_LIBELE;
             TI_IDTIERSCLIENT = clsEditionEtatAssurance.TI_IDTIERSCLIENT;
             EX_EXERCICE = clsEditionEtatAssurance.EX_EXERCICE;
+
+
+
+            TOTALFACTURE = clsEditionEtatAssurance.TOTALFACTURE;
+            TOTALFACTUREREGLE = clsEditionEtatAssurance.TOTALFACTUREREGLE;
+            TOTALFACTURERESTANTAREGLE = clsEditionEtatAssurance.TOTALFACTURERESTANTAREGLE;
+            TOTALPRIMESPOLICE = clsEditionEtatAssurance.TOTALPRIMESPOLICE;
+            TOTALPRIMEREGLES = clsEditionEtatAssurance.TOTALPRIMEREGLES;
+            TOTALRESTAPAYER = clsEditionEtatAssurance.TOTALRESTAPAYER;
             //clsEditionEtatAssurance.MONTANTCOMMISSION_A_PAYER = row["MONTANTCOMMISSION_A_PAYER"].ToString();
             //clsEditionEtatAssurance.MONTANTCOMMISSIONPAYER = row["MONTANTCOMMISSIONPAYER"].ToString();
             //clsEditionEtatAssurance.MONTANTCOMMISSION_RESTANT_A_PAYER = row["MONTANTCOMMISSION_RESTANT_A_PAYER"].ToString();

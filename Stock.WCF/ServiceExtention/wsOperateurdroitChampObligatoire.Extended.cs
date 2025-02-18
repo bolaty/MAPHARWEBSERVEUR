@@ -154,20 +154,20 @@ namespace Stock.WCF
                 return clsOperateurdroits;
 
             }
-            if (string.IsNullOrEmpty(Objet.OB_CODEOBJET))
-            {
-                clsOperateurdroit.clsObjetRetour = new Common.clsObjetRetour();
-                clsMessagesWSBLL clsMessagesWSBLL = new clsMessagesWSBLL();
-                clsMessages.MS_CODEMESSAGE = Common.clsDeclaration.CODE_TYPE_OP_REQUIS;
-                clsObjetEnvoi.OE_PARAM = new string[] { "ST0001" };
-                clsMessages = clsMessagesWSBLL.pvgTableLibelle(clsDonnee, clsObjetEnvoi);
-                clsOperateurdroit.clsObjetRetour.SL_CODEMESSAGE = clsMessages.MS_CODEMESSAGE;
-                clsOperateurdroit.clsObjetRetour.SL_RESULTAT = Common.clsDeclaration.ERROR_RESULTAT;
-                clsOperateurdroit.clsObjetRetour.SL_MESSAGE = clsMessages.MS_LIBELLEMESSAGE + ", OB_CODEOBJET";
-                clsOperateurdroits.Add(clsOperateurdroit);
-                return clsOperateurdroits;
+            //if (string.IsNullOrEmpty(Objet.OB_CODEOBJET))
+            //{
+            //    clsOperateurdroit.clsObjetRetour = new Common.clsObjetRetour();
+            //    clsMessagesWSBLL clsMessagesWSBLL = new clsMessagesWSBLL();
+            //    clsMessages.MS_CODEMESSAGE = Common.clsDeclaration.CODE_TYPE_OP_REQUIS;
+            //    clsObjetEnvoi.OE_PARAM = new string[] { "ST0001" };
+            //    clsMessages = clsMessagesWSBLL.pvgTableLibelle(clsDonnee, clsObjetEnvoi);
+            //    clsOperateurdroit.clsObjetRetour.SL_CODEMESSAGE = clsMessages.MS_CODEMESSAGE;
+            //    clsOperateurdroit.clsObjetRetour.SL_RESULTAT = Common.clsDeclaration.ERROR_RESULTAT;
+            //    clsOperateurdroit.clsObjetRetour.SL_MESSAGE = clsMessages.MS_LIBELLEMESSAGE + ", OB_CODEOBJET";
+            //    clsOperateurdroits.Add(clsOperateurdroit);
+            //    return clsOperateurdroits;
 
-            }
+            //}
             if (string.IsNullOrEmpty(Objet.LO_CODELOGICIEL))
             {
                 clsOperateurdroit.clsObjetRetour = new Common.clsObjetRetour();
