@@ -492,7 +492,7 @@ namespace Stock.WCF
 					    clsCtcontratcheque.CH_NOMDUDEPOSANT = row["CHC_NOMDUDEPOSANT"].ToString();
                         clsCtcontratcheque.CH_TELEPHONEDEPOSANT = row["CHC_TELEPHONEDEPOSANT"].ToString();
                         clsCtcontratcheque.CA_DATEEFFET = (row["CHC_DATEEFFET"].ToString() != "") ? DateTime.Parse(row["CHC_DATEEFFET"].ToString()).ToShortDateString() : "";
-                        clsCtcontratcheque.CA_DATEEFFET = (clsCtcontratcheque.CA_DATEEFFET != "01/01/1900") ? clsCtcontratcheque.CA_DATEEFFET : "";
+                        clsCtcontratcheque.CA_DATEEFFET = (clsCtcontratcheque.CA_DATEEFFET != "01/01/1900") ? clsCtcontratcheque.CA_DATEEFFET : "01/01/1900";
                         
 					     clsCtcontratcheque.OP_CODEOPERATEUR = row["OP_CODEOPERATEUR"].ToString();
                        
